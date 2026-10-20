@@ -2,7 +2,7 @@
 
 **Reviewed against:** Business Case – Chief of Staff to the CFO & Global Corporate Governance (Nu scope PDF, reporting to Rob Livingston, 30 min presentation + 30 min Q&A)
 **Deck reviewed:** `CFO_Chief_of_Staff__Corporate_Governance_Strategy.pptx` (20 slides: 15 core, 1 divider, 3 appendix, 1 close)
-**Method:** Nubank Business Case Architect skill (quality gates, red team, Nu fact base as of 20 Oct 2026). Every slide rendered and inspected; all arithmetic recomputed in code; file validated against the OOXML schema.
+**Method:** PitWall gates (reconstructed from the FC27-Editor-Turbo repo; see `PITWALL/METHOD.md`) on top of the Nubank Business Case Architect skill (quality gates, red team, Nu fact base as of 20 Oct 2026). Every slide rendered and inspected; all arithmetic recomputed in code; file validated against the OOXML schema. Gate results and the capability scan: `PITWALL/briefs/deck-v1-gates.md` and `PITWALL/evidence/2026-10-20/TEST_01.md`. Decisions only the pit wall can take: `PITWALL/board/pitwall-decisions.md`.
 **Fact base:** Nu Q2'26 (quarter ended 30 Jun 2026). Q3'26 results were not yet published on the review date.
 
 ---
