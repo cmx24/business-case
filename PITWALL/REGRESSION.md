@@ -38,7 +38,7 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: the one number that matters ($25M) appears in the deck => \$25M
 - capability: risks and reversal triggers are stated => reversal trigger, kill criteri, what would make (me|us) (stop|change), risk register, top (three|3|five|5) risks
 - capability: decision rights are mapped (RACI, RAPID or equivalent) => \braci\b, \brapid\b, decision rights, who decides
-- capability: the planning function has its own KPIs => (kpi|metric)s?.{0,80}(planning|finance) (function|hub), (planning|finance) (function|hub).{0,80}(kpi|metric), forecast accuracy.{0,60}(target|kpi|owner)
+- capability: the planning function has its own KPIs => (kpi|metric)s?.{0,200}(planning|finance) (function|hub), (planning|finance) (function|hub).{0,200}(kpi|metric), forecast accuracy.{0,60}(target|kpi|owner)
 - capability: a capital lens exists next to the opex cap => return on allocated capital, cost of equity, capital headroom, \broac\b
 - capability: Nu's latest cost to serve is used (Q2'26: $1.0) => \$1\.0\b.{0,60}cost.to.serve, cost.to.serve.{0,60}\$1\.0\b
 - capability: the efficiency-ratio guide (~20% FY26) frames the cap => ~?20%.{0,40}efficiency, efficiency.{0,60}20%

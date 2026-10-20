@@ -90,3 +90,14 @@ from the slides; that any of the eight board decisions has been taken.
 | G4 Panel readiness | FAIL | Dry run not run (B8). Everything else passes. |
 
 Ship rule unchanged: the file goes to Renata only when G4 passes on the same sha256.
+
+## Status after the v3 build (copied from TEST_03.md, 2026-10-20 ~12:00 EDT)
+
+v3 adds four parallel checks (web fact-freshness, unanchored red-team review, fresh-eyes visual QA, talk track with timing) and their fixes.
+
+| Gate | Status on v3 (`deck/CFO_CoS_deck_v3.pptx`) | Remaining blocker |
+|---|---|---|
+| G1 Scope | PASS | Section B: the personal example remains the candidate's (B5). |
+| G2 Facts and arithmetic | PASS | Every Nu fact web-verified; the OCC date corrected to 29 Jan 2026; Q3'26 results due 12 Nov 2026 (re-pull then). |
+| G3 Decision logic | PASS | Red-team blockers closed: one clock (FY27 fiscal calendar, A10), the A6 valve stated in the ask, in-housing specifics on slide 8. |
+| G4 Panel readiness | FAIL | Dry run still not run (B8). Talk track measures 26-27 minutes at 130 wpm, which is an estimate, not a measurement. |

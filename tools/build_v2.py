@@ -158,7 +158,7 @@ s = S[0]
 set_text(sh(s, "TextBox 6"), "Chief of Staff to the CFO: a planning engine, a Board rhythm and an HQ charter")
 set_text(sh(s, "TextBox 7"), "Case resolution, 60 days into the role. Prepared by Cassio Modelli for the Nu panel, October 2026. "
          "Nu figures are from public Q2'26 filings; my assumptions are listed on slide 3.")
-set_text(sh(s, "TextBox 11"), "Bring planning in-house and fund $60M of growth asks inside a $25M cost cap.")
+set_text(sh(s, "TextBox 11"), "Bring planning in-house and answer $60M of growth asks inside a $25M cost cap.")
 set_text(sh(s, "TextBox 14"), "Settle two opposing capital views and get the Board book out on time.")
 set_text(sh(s, "TextBox 17"), "Lead legal, tax and campus terms across jurisdictions without line authority.")
 set_text(sh(s, "TextBox 8"), "Four deliverables: (1) Planning and prioritization engine  (2) C-suite alignment and Board rhythm  "
@@ -169,18 +169,19 @@ notes(s, "Takeaway: three live problems, four deliverables, one ask at the end. 
 
 # ============================================================ 2. Executive summary and ask
 s = S[1]
-set_text(sh(s, "TextBox 7"), "Fund $25M now through two business-case gates, lock the Board plan 16 days out, and charter the HQ project this week")
+set_text(sh(s, "TextBox 7"), "Fund FY27's $25M through two business-case gates, lock the Board plan 16 days out, and charter the HQ project this week")
 set_text(sh(s, "TextBox 9"), "$25M in two gates")
-set_text(sh(s, "TextBox 10"), "Every ask gets a business case; $15M released now, $10M at the first gate. No flat haircuts.")
+set_text(sh(s, "TextBox 10"), "Every ask gets a business case; $15M at FY27 start, $10M at Q1 close on indicators. No flat haircuts.")
 set_text(sh(s, "TextBox 12"), "T-16 lock, T-7 book")
 set_text(sh(s, "TextBox 13"), "One options memo settles the capital dispute at T-16; the Board book ships at T-7 with written Q&A.")
 set_text(sh(s, "TextBox 15"), "4 gates, 120 days")
 set_text(sh(s, "TextBox 16"), "Tax substance, grant terms, officer liability and lease, each with an owner and an exit test.")
-set_text(sh(s, "TextBox 18"), "Rigor inside the squads")
+set_text(sh(s, "TextBox 17"), "DELIVERABLE 4 // LEADERSHIP")
+set_text(sh(s, "TextBox 18"), "Rigor in the squads")
 set_text(sh(s, "TextBox 19"), "I work inside the business units with the numbers, not above them with a veto.")
 set_text(sh(s, "TextBox 20"), "THE ASK")
-set_text(sh(s, "TextBox 21"), "Approve the $25M two-gate funding model, the T-16 / T-7 Board calendar, and the HQ project charter. "
-         "I report against all three at Day 90.")
+set_text(sh(s, "TextBox 21"), "Approve the $25M FY27 cap in two gates, with a CFO- and IR-gated valve of up to $15M that is not in plan; "
+         "the T-16 / T-7 Board calendar; and the HQ project charter. I report on all three at Day 90.", size=15)
 notes(s, "Takeaway: three decisions, each with a number. "
          "Hardest question: 'Why $25M and not a reallocation inside the existing base?' Answer: the cap is the CFO's constraint from the "
          "FY26 efficiency-ratio guide of about 20%; the model reallocates inside it every quarter, which is the point.")
@@ -201,6 +202,7 @@ rows = [
     ["A7", "Board meeting in 4 weeks; Investor Day 8 Dec 2026. The Board approves the international capital plan before the Investor Day narrative is locked.", "FACT (dates) + ASSUMPTION (sequence)", "Case brief; Nu IR"],
     ["A8", "The HQ jurisdiction is open. Nu's revenue is above the EUR 750M Pillar Two threshold; the 2026 transitional substance carve-out is 9.4% of payroll and 7.4% of tangible assets.", "FACT (rule) + ASSUMPTION (site)", "OECD GloBE rules; Q2'26 revenue"],
     ["A9", "Option scores and weights on slide 6 are my judgment; third-party benchmarks are directional, never load-bearing.", "ASSUMPTION", "Slide 6; ledger"],
+    ["A10", "The cap is the FY27 growth-opex envelope: gate 1 opens at FY27 start (1 Jan 2027), gate 2 at Q1 close (31 Mar) on Q1 indicators, the A6 valve at H1 close. The hub needs 6-8 people.", "ASSUMPTION (fiscal calendar, sizing)", "Nu reports on a calendar fiscal year; sizing is mine"],
 ]
 # table currently has 1 header + 5 body rows (6); add rows to reach 1 + 9
 while len(t.rows) < 1 + len(rows):
@@ -215,10 +217,10 @@ widths = [0.5, 7.5, 1.7, 2.3]
 for c, w in enumerate(widths):
     t.columns[c].width = Inches(w)
 for r in range(len(t.rows)):
-    t.rows[r].height = Inches(0.46 if r else 0.38)
+    t.rows[r].height = Inches(0.44 if r else 0.36)
 tbl_shape = [x for x in assump.shapes if x.has_table][0]
-tbl_shape.top = Inches(1.4)
-tbl_shape.height = Inches(0.38 + 0.46 * len(rows))
+tbl_shape.top = Inches(1.3)
+tbl_shape.height = Inches(0.36 + 0.44 * len(rows))
 # remove the decorative separator rectangles cloned from the scenario slide (they no longer line up)
 for x in list(assump.shapes):
     if x.shape_type == 1 and x.name.startswith("Rectangle"):
@@ -228,14 +230,14 @@ sh(assump, "TextBox 28").top = Inches(6.62)
 set_text(sh(assump, "TextBox 28"), [[("Week one: ", True), ("the real MTeam positions; the Board and committee calendar; who owns the planning model today; local-CFO decision rights in Mexico and Colombia; the HQ project's current state; today's planning cycle time and forecast accuracy.", False)]], size=11)
 notes(assump, "Takeaway: facts and assumptions are kept apart on purpose; the brief asked for it and the CFO will test it. "
       "Hardest question: 'Which assumption, if wrong, breaks the plan?' Answer: A4. If the dispute is about regulatory capital by entity, "
-      "slide 11 becomes the main event and the opex split is secondary.")
+      "slide 12 becomes the main event and the opex split is secondary.")
 
 # ============================================================ 4. Scale challenge (old 3)
 s = S[2]
 set_text(sh(s, "TextBox 5"), "03 // WHY THE CAP MATTERS AT NU'S SCALE")
 set_text(sh(s, "TextBox 6"), "The $35M gap is small against a ~$23B revenue base; the precedent and the FY26 efficiency guide are what matter")
 set_text(sh(s, "TextBox 8"), "THE GAP")
-set_text(sh(s, "TextBox 10"), "$60M of asks vs a $25M cost cap: about 15 bps of annualized revenue, under 1% of opex")
+set_text(sh(s, "TextBox 10"), "$60M of asks vs a $25M cost cap: about 15 bps of annualized revenue, under 1% of ~$4.6B opex")
 set_text(sh(s, "TextBox 11"), "1. Keep the efficiency ratio near 20% [1]")
 set_text(sh(s, "TextBox 12"), "Q2'26 came in at 19.5% (17.6% in Q1), with international expansion named as one driver. Management expects about 20% for FY26. Unvetted overhead is what moves that number the wrong way.")
 set_text(sh(s, "TextBox 13"), "2. Protect the cost-to-serve edge [1]")
@@ -253,7 +255,7 @@ set_text(sh(s, "TextBox 5" if any(x.name == "TextBox 5" for x in s.shapes) else 
 title = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Use Nu")][0]
 set_text(title, "Budgets should be underwritten like credit lines: start small, gate on data, raise fast when the cohort proves out")
 box = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Why This Fits")][0]
-set_text(box, [[("Why this fits Nu: ", True), ("in credit, Nu starts customers on small limits and raises them on repayment behavior. Applying the same logic to budgets replaces one annual negotiation with quarterly evidence. It is also the discipline the CFO ran for 18 years at Capital One, so the model will be read in that light.", False)]])
+set_text(box, [[("Why this fits Nu: ", True), ("in credit, Nu starts customers on small limits and raises them on repayment behavior. Applying the same logic to budgets replaces one annual negotiation with quarterly evidence. It is Nu's own test-and-learn discipline, applied to Nu's own money.", False)]])
 for x in s.shapes:
     if not x.has_text_frame:
         continue
@@ -346,12 +348,12 @@ s = S[6]
 set_text(sh(s, "TextBox 3"), "07 // DELIVERABLE 1: THE OPERATING MODEL AND THE RELEASE RULE")
 set_text(sh(s, "TextBox 4"), "Hub-and-spoke: one model and one calendar centrally, finance partners inside each market and vertical")
 set_text(sh(s, "TextBox 7"), "One source of truth, local speed")
-set_text(sh(s, "TextBox 11"), [[("Central planning hub: ", True), ("owns targets, the single model, the case template and the Board pack. Its KPIs: cycle time under 40 days, forecast accuracy, 100% of spend with an approved case.", False)]])
-set_text(sh(s, "TextBox 13"), [[("Embedded finance partners: ", True), ("sit inside the country and vertical squads, build the cases with the GMs, and own the indicator read-outs at each gate.", False)]])
-set_text(sh(s, "TextBox 9"), "Two gates inside the cap, one rule above it")
-set_text(sh(s, "TextBox 15"), [[("Gate 1, $15M now: ", True), ("released on approval to the vetted cases ($10.5M core markets, $4.5M new bets).", False)]])
-set_text(sh(s, "TextBox 17"), [[("Gate 2, $10M at quarter close: ", True), ("completes the $25M cap; released to units whose indicators (activation, 30-day retention, CAC and unit cost vs plan) hold.", False)]])
-set_text(sh(s, "TextBox 19"), [[("Above the cap, rule A6: ", True), ("up to $15M in H2, only from H1 profit above plan, sized to stay inside the FY26 guide, with CFO and IR sign-off. Not in the base plan.", False)]])
+set_text(sh(s, "TextBox 11"), [[("Central planning hub (6-8 people, A10): ", True), ("takes the annual cycle and the single model in-house from the business units; reads Nu's data platform, not spreadsheets. KPIs: cycle time under 40 days, forecast accuracy, 100% of spend with an approved case.", False)]], size=12.5)
+set_text(sh(s, "TextBox 13"), [[("Embedded finance partners: ", True), ("solid line to the hub, dotted line to the GM; in place by Day 95. They build the cases with the GMs and own the indicator read-outs at each gate.", False)]], size=12.5)
+set_text(sh(s, "TextBox 9"), "Two gates inside the cap, one valve above it")
+set_text(sh(s, "TextBox 15"), [[("Gate 1, $15M at FY27 start (1 Jan): ", True), ("released to the vetted cases ($10.5M core markets, $4.5M new bets).", False)]], size=12.5)
+set_text(sh(s, "TextBox 17"), [[("Gate 2, $10M at Q1 close (31 Mar): ", True), ("completes the $25M cap; released to units whose Q1 indicators (activation, 30-day retention, CAC and unit cost vs plan) hold.", False)]], size=12.5)
+set_text(sh(s, "TextBox 19"), [[("The A6 valve: ", True), ("up to $15M in H2, only from H1 profit above plan, sized to stay inside the efficiency guide, with CFO and IR sign-off. Not in the base plan; disclosed as upside spend, not a change to guidance.", False)]], size=12.5)
 set_text(sh(s, "TextBox 5"), "Sources: Nu Q2'26 release (efficiency ratio 19.5%; FY26 guide ~20% per the call). Cycle-time target is mine; the directional benchmark for central planning hubs (Hackett Group) is in the ledger and not load-bearing.")
 notes(s, "Takeaway: the cap is hard; anything above it is a rule with a formula, not a hope. "
       "Hardest question: 'Rule A6 is a loophole GMs will game.' Answer: it is funded only from profit that is already in the bank, sized "
@@ -374,12 +376,13 @@ set_text(cell(tbl, 1, 2), "Finance partners join the country and vertical stand-
 set_text(cell(tbl, 1, 3), "Finance partner. Output: a business case in the standard template, co-signed by the GM.")
 set_text(cell(tbl, 2, 2), "I meet each GM privately to stress-test assumptions and design the staged option before it is seen by the CFO.")
 set_text(cell(tbl, 2, 3), "Me. Output: no surprises at the T-16 lock; every ask has a conditional-yes path.")
+set_text(cell(tbl, 3, 0), [[("3. HQ pod", True), (" (Deliverable 3)", False)]])
 set_text(cell(tbl, 3, 2), "Legal, Tax, Workplace and People leads around one decision log with 48-hour escalation to the CFO.")
 set_text(cell(tbl, 3, 3), "Me (chair). Output: the gate pack for the next HQ gate, with owner and exit test.")
 set_text(cell(tbl, 4, 2), "Read the four indicators per unit against plan and release or hold the next stage.")
 set_text(cell(tbl, 4, 3), "CFO decides on my recommendation. Output: release memo, published to the GMs the same day.")
 foot = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Data & Implications")][0]
-set_text(foot, "Decision roles follow a RAPID-style split: finance partners recommend, GMs provide input, I agree the pack, the CFO decides, the hub performs.")
+set_text(foot, "Decision roles follow a RAPID-style split: finance partners recommend, GMs provide input, I assemble the pack, the CFO decides, the hub performs.")
 foot.top = Inches(6.95)
 notes(s, "Takeaway: four meetings, each with an owner and an output; nothing else is added to the calendar. "
       "Hardest question: 'How many people is this?' Answer: the hub is small (model, template, pack); the partners are the finance people "
@@ -389,49 +392,62 @@ notes(s, "Takeaway: four meetings, each with an owner and an output; nothing els
 s = S[7]
 set_text([x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("07 //")][0], "09 // DELIVERABLE 2: SETTLING THE TWO VIEWS")
 title = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Settle")][0]
-set_text(title, "Core markets and new bets are judged on different indicators, so both executives can sign the Q1 lock")
+set_text(title, "Core markets and new bets are judged on different indicators, so both executives can sign the FY27 opex lock")
 for x in s.shapes:
     if not x.has_text_frame:
         continue
     tx = x.text_frame.text
-    if tx.startswith("Nu filings show mature"):
-        set_text(x, "Mature cohorts earn well above the $17.1 group monthly ARPAC and the group runs at 33% ROE (Q2'26), so proven markets get the first and largest release [1].")
+    if tx.startswith("HORIZON 2"):
+        set_text(x, "HORIZON 2 & 3: NEW BETS (NEW VERTICALS AND MARKETS)")
+    elif tx.startswith("70% of Q1"):
+        set_text(x, "70% of the gate-1 release ($10.5M)")
+    elif tx.startswith("30% of Q1"):
+        set_text(x, "30% of the gate-1 release ($4.5M)")
+    elif tx.startswith("Nu filings show mature"):
+        set_text(x, "Mature cohorts reach ~$31 of monthly ARPAC at eight years vs $17.1 for the group, at 33% ROE (Q2'26). Proven markets get the first, largest release [1].")
     elif tx.startswith("HBR's Three-Horizons"):
         set_text(x, "A new bet judged on mature-market profit in its first quarter always loses. New bets are graded on activation, retention and unit cost until a cohort can show payback.")
     elif tx.startswith("Full-Year Path: $16.5M"):
-        set_text(x, "Full year: $16.5M inside the cap + up to $5.0M under rule A6.")
+        set_text(x, "Full year: $16.5M in the cap + up to $5.0M (rule A6)", size=13)
+        x.text_frame.word_wrap = True
     elif tx.startswith("Full-Year Path: $8.5M"):
-        set_text(x, "Full year: $8.5M inside the cap + up to $10.0M under rule A6.")
+        set_text(x, "Full year: $8.5M in the cap + up to $10.0M (rule A6)", size=13)
+        x.text_frame.word_wrap = True
     elif tx.startswith("Why Both Executives Agree"):
-        set_text(x, [[("Why both can sign: ", True), ("core markets get 70% of the first release to protect the year; new bets get a protected $4.5M start plus first claim on up to $14M across gate 2 and rule A6 once indicators hold. I write the one-page options memo; the CFO recommends; the CEO decides; the Board chair gets the pre-read. (Assumption A4: the dispute is about this envelope.)", False)]])
+        set_text(x, [[("Why both can sign: ", True), ("core markets get 70% of the first release to protect the year; new bets get a protected $4.5M start plus first claim on up to $14M across gate 2 and the A6 valve, if it opens. I write the one-page options memo; the CFO recommends; the CEO decides; the Board chair gets the pre-read. This is opex (A4); equity for Mexico and the US charter is the Board's own decision, next slide but one.", False)]], size=12.5)
     elif tx.startswith("Data & Implications"):
-        set_text(x, "Sources: [1] Nu Q2'26 release (ARPAC $17.1; ROE 33%); Nu cohort disclosures in earnings materials (mature-cohort ARPAC above the group average). The horizon split follows the three-horizons framing (Baghai, Coley and White), used here as a frame, not as evidence.")
+        set_text(x, "Sources: [1] Nu Q2'26 release (ARPAC $17.1; ROE 33%); Q1'26 earnings presentation cohort slide ($30.8 monthly ARPAC at 96 months since origination vs $15.9 total). The horizon split follows the three-horizons framing (Baghai, Coley and White), used here as a frame, not as evidence.")
 notes(s, "Takeaway: the fix for two opposing executives is a shared yardstick, not a compromise number. "
-      "Hardest question: 'What if the dispute is really about capital for Mexico and the US?' Answer: then slide 11 is the decision and "
+      "Hardest question: 'What if the dispute is really about capital for Mexico and the US?' Answer: then slide 12 is the decision and "
       "this slide only sets the opex envelope; I check which it is in week one (A4).")
 
 # ============================================================ 11. (new) Capital lens, cloned from the 3-card slide (old 11)
 cap_s = clone_slide(S[10])
-set_text(sh(cap_s, "TextBox 4"), "10 // DELIVERABLE 2: THE CAPITAL QUESTION THE BOARD WILL ACTUALLY ASK")
-set_text(sh(cap_s, "TextBox 5"), "Capital allocation across entities is a different decision from the opex cap; it needs its own ranking and owner")
+set_text(sh(cap_s, "TextBox 4"), "11 // DELIVERABLE 2: THE CAPITAL QUESTION THE BOARD WILL ACTUALLY ASK")
+set_text(sh(cap_s, "TextBox 5"), "Equity by entity is the Board's larger decision than the opex cap; it gets its own ranking, yardstick and owner")
 set_text(sh(cap_s, "TextBox 7"), "1. WHAT IS ON THE TABLE [1]")
 set_text(sh(cap_s, "TextBox 8"), "Four uses of equity")
-set_text(sh(cap_s, "TextBox 9"), [[("Brazil deepening; Nu Mexico as a licensed bank since July 2026 ($4.2B planned to 2030); the US de novo charter, to be capitalized within 12 months of the January 2026 OCC approval; and the buyback of up to $1.0B announced in June 2026.", False)]])
+set_text(sh(cap_s, "TextBox 9"), [[("Brazil deepening; Nu Mexico, authorized as a bank in July 2026 and operating as one since August ($4.2B planned to 2030); the US de novo charter, to be capitalized within 12 months of the 29 January 2026 OCC approval; and the buyback of up to $1.0B announced in June 2026.", False)]])
 set_text(sh(cap_s, "TextBox 10"), "2. THE YARDSTICK")
 set_text(sh(cap_s, "TextBox 11"), "Return on allocated capital")
 set_text(sh(cap_s, "TextBox 12"), [[("Rank each use by after-tax return on incremental allocated equity against that market's cost of equity, with capital headroom by entity under a downside case. A use that beats its cost of equity creates value even if it dilutes the 33% group ROE; the buyback is the bar every growth use must clear.", False)]])
 set_text(sh(cap_s, "TextBox 13"), "3. WHO DECIDES, AND WHEN")
 set_text(sh(cap_s, "TextBox 14"), "Before Investor Day")
 set_text(sh(cap_s, "TextBox 15"), [[("The CFO recommends the ranking, the CEO decides, the Board approves at this meeting, so the Investor Day narrative (8 Dec 2026) rests on an approved plan. My job: one page per use with the same four lines (return, capital, headroom, risk), and the chair's pre-read at T-9.", False)]])
-set_text(sh(cap_s, "TextBox 6"), "Sources: [1] Nu Q2'26 release (ROE 33%); Nu announcements: Mexico banking authorization (10 Jul 2026) and $4.2B plan to 2030; OCC conditional approval of Nubank N.A. (27 Jan 2026); buyback of up to $1.0B (4 Jun 2026); Investor Day 8 Dec 2026. Cost-of-equity figures are to be set with Treasury (ASSUMPTION).")
+set_text(sh(cap_s, "TextBox 6"), "Sources: [1] Nu Q2'26 release (ROE 33%); Nu announcements: Mexico banking authorization (10 Jul 2026, operations as a bank from 6 Aug) and $4.2B plan to 2030; OCC conditional approval of Nubank N.A. (29 Jan 2026); buyback of up to $1.0B (4 Jun 2026); Investor Day 8 Dec 2026. Cost-of-equity figures are to be set with Treasury (ASSUMPTION).")
 notes(cap_s, "Takeaway: show the panel you know the Board topic is capital, not a $25M opex line. "
       "Hardest question: 'Where should the next dollar of equity go?' Answer: wherever return on allocated capital beats the local cost of "
       "equity by the widest margin after the downside; today that case is strongest in Brazil deepening and Mexico, with the US sized to its "
-      "100 bps envelope until its credit models mature.")
+      "100 bps envelope until its credit models mature. "
+      "Recent context to have ready: on 30 Sep 2026 Nu said it is not pursuing a transaction with Monzo and that its capital allocation "
+      "framework is unchanged; the buyback runs 4 Jun 2026 to 3 Jun 2027; Q3'26 results are due 12 Nov 2026, before Investor Day. "
+      "Board question: 'You want the ranking approved but show no return or cost-of-equity figures.' Answer: the Board approves the "
+      "yardstick and the Mexico and US capitalization sequence at this meeting; Treasury's numbers are in the pack by T-16 and the ranking "
+      "page is the one I present.")
 
 # ============================================================ 12. Board rhythm (old 9)
 s = S[8]
-set_text([x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("08 //")][0], "11 // DELIVERABLE 2: THE 28-DAY BOARD RHYTHM")
+set_text([x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("08 //")][0], "12 // DELIVERABLE 2: THE 28-DAY BOARD RHYTHM")
 title = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Our Governance Team")][0]
 set_text(title, "The Board book ships at T-7 with written Q&A, after a T-16 executive lock and a T-10 input freeze")
 for x in s.shapes:
@@ -446,36 +462,39 @@ for x in s.shapes:
         set_text(x, "Inputs freeze at T-10 for single-pen editing; committee chairs pre-briefed at T-9; book on the portal at T-7.")
     elif tx.startswith("Answer routine data questions"):
         set_text(x, "Directors' data questions answered in writing by T-3, so the live session is spent on the capital plan, not read-outs.")
+    elif tx.startswith("80% Strategy"):
+        set_text(x, "Strategy, not read-outs")
     elif tx.startswith("Statutory Entity Rule"):
-        set_text(x, [[("Why this meeting matters more than most: ", True), ("it is the last Board before Investor Day (8 Dec 2026). The capital plan approved here is the one the market hears. Statutory governance for the expanding entity set is on slide 13.", False)]])
+        set_text(x, [[("Why this meeting matters more than most: ", True), ("it is the last Board before Investor Day (8 Dec 2026). The capital plan approved here is the one the market hears. Statutory governance for the expanding entity set is on slide 14.", False)]])
     elif tx.startswith("Data & Implications"):
         set_text(x, "Sources: Nu IR calendar (Investor Day 8 Dec 2026). The T-7 book and written-Q&A practice follows common director guidance (e.g. NACD); the time-split figures often quoted for it are directional and not used here.")
 notes(s, "Takeaway: a Board rhythm is a calendar with owners, not a sprint metaphor. "
+      "Dates around it: Q3'26 results 12 Nov 2026; Investor Day 8 Dec 2026 (announced 2 Sep, first ever, New York). "
       "Hardest question: 'Materials are already late. What do you cut?' Answer: the outline is locked today; anything not in it goes to "
       "the appendix or the next meeting; the capital plan and statutory items are the two things that cannot slip.")
 
 # ============================================================ 13. Statutory governance (old 17, Appendix A) promoted and corrected
 s = S[16]
-set_text([x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("APPENDIX A")][0], "12 // DELIVERABLE 2: STATUTORY GOVERNANCE ACROSS NEW ENTITIES")
+set_text([x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("APPENDIX A")][0], "13 // DELIVERABLE 2: STATUTORY GOVERNANCE ACROSS NEW ENTITIES")
 title = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Clear Rules")][0]
-set_text(title, "A new entity is opened when a license or tax substance requires it, never for scale alone; officers and signing follow the stage")
+set_text(title, "The model: open an entity only when a license or tax substance requires it; officers and signing follow the stage")
 tbl = [x for x in s.shapes if x.has_table][0].table
 set_text(cell(tbl, 0, 0), "Stage")
 set_text(cell(tbl, 0, 1), "Trigger for a local entity")
 set_text(cell(tbl, 0, 2), "Operating setup")
 set_text(cell(tbl, 0, 3), "Officers, signing and insurance")
 set_text(cell(tbl, 1, 0), [[("1. Market test", True), (" (new countries)", False)]])
-set_text(cell(tbl, 1, 1), "No local license needed, no taxable presence created; served from an existing licensed entity or a partner bank (as the US is today, via Lead Bank).", size=11)
+set_text(cell(tbl, 1, 1), "No local license needed, no taxable presence created; served from an existing licensed entity or a partner bank.", size=11)
 set_text(cell(tbl, 1, 2), "No local entity. Cross-border or partner model.", size=11)
 set_text(cell(tbl, 1, 3), [[("Central signing only. No local director.", True), (" Prevents an accidental permanent establishment.", False)]], size=11)
 set_text(cell(tbl, 2, 0), [[("2. Licensed scale-up", True), (" (US charter, new verticals)", False)]], size=11)
 set_text(cell(tbl, 2, 1), "A regulator requires a local licensed entity (deposits, lending, custody), or substance rules require local payroll and assets.", size=11)
 set_text(cell(tbl, 2, 2), "Dedicated licensed entity with its own capital plan and headroom.", size=11)
 set_text(cell(tbl, 2, 3), [[("Fit-and-proper directors;", True), (" two central officers plus one local leader; dual signature above a set limit; D&O bound before activation.", False)]], size=11)
-set_text(cell(tbl, 3, 0), [[("3. Core hub", True), (" (Brazil, Mexico, Colombia, HQ)", False)]], size=11)
+set_text(cell(tbl, 3, 0), [[("3. Core hub", True), (" (Mexico as a bank since Aug 2026; Colombia; the HQ)", False)]], size=11)
 set_text(cell(tbl, 3, 1), "Full banking or fintech license in force; local CFO in place (already so in Mexico and Colombia).", size=11)
 set_text(cell(tbl, 3, 2), "Full licensed entity; regional campus where the HQ decision lands.", size=11)
-set_text(cell(tbl, 3, 3), [[("Audit and Risk Committee oversight;", True), (" dual signature above $250k; director liability insurance; annual review of powers of attorney.", False)]], size=11)
+set_text(cell(tbl, 3, 3), [[("Audit and Risk Committee oversight;", True), (" dual signature above limits set by category; director liability insurance; annual review of powers of attorney.", False)]], size=11)
 set_text(cell(tbl, 1, 0), [[("1. Market test", True), (" (new countries)", False)]], size=11)
 for c, w in enumerate([1.9, 3.7, 2.5, 3.9]):
     tbl.columns[c].width = Inches(w)
@@ -488,7 +507,7 @@ for x in list(s.shapes):
     if x.shape_type == 1 and x.name.startswith("Rectangle"):
         x._element.getparent().remove(x._element)
 foot = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Data & Implications")][0]
-set_text(foot, "Sources: Nu announcements (US launch via Lead Bank, 10 Sep 2026; OCC conditional approval, 27 Jan 2026; Mexico bank authorization, 10 Jul 2026; local finance leadership in Mexico and Colombia per the CFO appointment release). Signing limits are proposals (ASSUMPTION).")
+set_text(foot, "Sources: Nu announcements (US launch via Lead Bank, 10 Sep 2026; OCC conditional approval, 29 Jan 2026; Mexico bank authorization, 10 Jul 2026; local finance leadership in Mexico and Colombia per the CFO appointment release). Signing limits are proposals (ASSUMPTION).")
 foot.top = Inches(6.75)
 notes(s, "Takeaway: for a bank the entity question is a licensing question first. "
       "Hardest question: 'Would you be a statutory director of the HQ entity?' Answer: no. Statutory officers must pass fit-and-proper "
@@ -496,7 +515,7 @@ notes(s, "Takeaway: for a bank the entity question is a licensing question first
 
 # ============================================================ 14. GM pushback playbook (old 13) moved to D2
 s = S[12]
-set_text(sh(s, "TextBox 6"), "13 // DELIVERABLE 2: WHEN A SENIOR GM PUSHES BACK")
+set_text(sh(s, "TextBox 6"), "10 // DELIVERABLE 2: WHEN A SENIOR GM PUSHES BACK")
 set_text(sh(s, "TextBox 7"), "When a senior GM pushes back: validate the goal privately, move to criteria, offer a conditional yes, co-present the result")
 set_text(sh(s, "TextBox 10"), "STEP 1 // DE-ESCALATE")
 set_text(sh(s, "TextBox 11"), "Separate the person from the numbers")
@@ -538,18 +557,21 @@ for x in s.shapes:
     elif tx.startswith("The Data: Site Selection"):
         set_text(x, [[("The risk: ", True), ("municipal grants carry headcount clawbacks that bite when hiring pace or hybrid work changes.", False)], [("My action: ", True), ("proportional scaling (85% of headcount keeps 85% of the grant) and a 24-month grace period. Legal owns the gate; exit test: no cliff-edge clawback in the signed term sheet.", False)]], size=12)
     elif tx.startswith("3. SHIELD"):
-        set_text(x, "3. OFFICERS AND SIGNING (GATE 3, D+90) [3]")
+        set_text(x, "3. OFFICERS (GATE 3, D+90) [3]")
     elif tx.startswith("Dual Control"):
         set_text(x, "Fit-and-proper officers, D&O", size=14)
     elif tx.startswith("The Data: Civil-"):
-        set_text(x, [[("The risk: ", True), ("statutory directors carry personal liability for tax and labor filings; early commercial signing can create a taxable presence before the entity is ready.", False)], [("My action: ", True), ("officers who pass the regulator's test, dual signature above $250k, D&O bound before activation. Legal and People own the gate. Gate 4 (D+120): the lease; Workplace owns it.", False)]], size=12)
+        set_text(x, [[("The risk: ", True), ("statutory directors carry personal liability for tax and labor filings; early commercial signing can create a taxable presence before the entity is ready.", False)], [("My action: ", True), ("officers who pass the regulator's test, dual signature above category limits, D&O bound before activation. Legal and People own the gate. Gate 4 (D+120): the lease.", False)]], size=12)
     elif tx.startswith("4-Stage Execution Gate"):
-        set_text(x, [[("Leading it as an interim across non-finance teams: ", True), ("one weekly pod (Legal, Tax, People, Workplace), one decision log, 48-hour escalation to the CFO, and a five-item risk register reviewed at every gate: group tax residence, clawback, officer liability, site politics, key-person dependence on me. Jurisdiction is open (A8).", False)]], size=12.5)
+        set_text(x, [[("Leading it as an interim across non-finance teams: ", True), ("one weekly pod (Legal, Tax, People, Workplace), one decision log, 48-hour escalation to the CFO, and a five-item risk register reviewed at every gate: tax residence, clawback, officer liability, site politics, key-person dependence on me. Jurisdiction is open (A8).", False)]], size=12.5)
     elif tx.startswith("Data & Implications"):
         set_text(x, "Sources: [1] OECD GloBE Model Rules, Art. 5.3 and the Art. 9.2 transitional rates for 2026. [2] Location-incentive practice (e.g. Deloitte, Site Selection) is directional. [3] Cross-border director-liability guidance (e.g. NACD, Baker McKenzie) is directional. No savings figure is claimed until a site is chosen.")
 notes(s, "Takeaway: the HQ is a governance project before it is a real-estate project. "
       "Hardest question: 'What is the dollar value of the incentives?' Answer: none is claimed yet; it depends on the site, and any figure "
-      "before gate 1 would be a guess. The exit test at gate 1 produces the number.")
+      "before gate 1 would be a guess. The exit test at gate 1 produces the number. "
+      "Tax question: 'Nu Holdings is Cayman-incorporated; does a corporate HQ move the place of effective management, and which "
+      "jurisdiction collects the Pillar Two top-up?' Answer: gate 1's exit test includes a tax-residence opinion; the carve-out only bites "
+      "where a qualified domestic minimum top-up tax applies (Brazil has one since 2025), so it is a site-selection input, not a saving.")
 
 # ============================================================ 16. D4 one slide (old 11), first person
 s = S[10]
@@ -562,8 +584,8 @@ set_text(sh(s, "TextBox 10"), "2. NO PUBLIC AMBUSHES")
 set_text(sh(s, "TextBox 11"), "Fix the numbers privately")
 set_text(sh(s, "TextBox 12"), [[("The rule: ", True), ("model gaps are closed one-to-one before anything reaches the CFO or the Board. Credibility with senior people comes from never surprising them in a room.", False)], [("In practice: ", True), ("the bi-weekly GM one-to-ones and the T-16 lock exist for this.", False)]])
 set_text(sh(s, "TextBox 13"), "3. HANDS-ON RIGOR")
-set_text(sh(s, "TextBox 14"), "Own the formulas and the clauses")
-set_text(sh(s, "TextBox 15"), [[("The rule: ", True), ("strategic influence at this level is only trusted when the hands-on FP&A and governance rigor is mine. I build and check the model and read the clauses myself; I do not delegate the parts that can embarrass the CFO.", False)], [("What I would not touch: ", True), ("local-CFO decision rights in Mexico and Colombia, credit-model governance, and the IR calendar.", False)]])
+set_text(sh(s, "TextBox 14"), "Own the model and the clauses")
+set_text(sh(s, "TextBox 15"), [[("The rule: ", True), ("strategic influence is only trusted when the hands-on FP&A and governance rigor is mine. I build and check the model and read the clauses myself; I do not delegate what can embarrass the CFO.", False)], [("What I would not touch: ", True), ("local-CFO decision rights in Mexico and Colombia, credit-model governance, the IR calendar.", False)]])
 set_text(sh(s, "TextBox 6"), "Sources: the fair-process principle follows Kim and Mauborgne (HBR). The rest is how I work; examples from my own record are in the speaker notes and are the first thing I would share in Q&A.")
 notes(s, "Takeaway: three rules, each tied to a mechanism on an earlier slide. "
       "Examples to give in Q&A [Pit wall: insert three from your career, one per rule: the situation, your role, the decision, the result].")
@@ -571,7 +593,7 @@ notes(s, "Takeaway: three rules, each tied to a mechanism on an earlier slide. "
 # ============================================================ 17. Scenarios and reversal triggers (old 14)
 s = S[13]
 set_text(sh(s, "TextBox 26"), "16 // RISKS, SCENARIOS AND REVERSAL TRIGGERS")
-set_text(sh(s, "TextBox 27"), "If H1 misses, funding holds at $15M automatically; if it beats, up to $15M more is released inside the efficiency guide")
+set_text(sh(s, "TextBox 27"), "If Q1 indicators miss, gate 2 is held; the A6 valve opens only on an H1 profit beat, inside the efficiency guide")
 tbl = [x for x in s.shapes if x.has_table][0].table
 set_text(cell(tbl, 0, 0), "Dimension")
 set_text(cell(tbl, 0, 1), "Downside (market slows)")
@@ -579,7 +601,7 @@ set_text(cell(tbl, 0, 2), "Base plan")
 set_text(cell(tbl, 0, 3), "Upside (H1 beats plan)")
 SZ = 11
 set_text(cell(tbl, 1, 0), [[("1. Funded spend vs the $25M cap", True)]], size=SZ)
-set_text(cell(tbl, 1, 1), [[("$15.0M (gate 2 held)", False)]], size=SZ)
+set_text(cell(tbl, 1, 1), [[("$15.0M (gate 2 held at Q1 close)", False)]], size=SZ)
 set_text(cell(tbl, 1, 2), [[("$25.0M ($15M gate 1 + $10M gate 2)", False)]], size=SZ)
 set_text(cell(tbl, 1, 3), [[("$25.0M", False)]], size=SZ)
 set_text(cell(tbl, 2, 0), [[("2. Release above the cap (rule A6)", True)]], size=SZ)
@@ -595,14 +617,14 @@ set_text(cell(tbl, 4, 1), [[("GMs game the indicators: finance partners own the 
 set_text(cell(tbl, 4, 2), [[("Board book slips: outline locked today; anything outside it goes to the appendix", False)]], size=SZ)
 set_text(cell(tbl, 4, 3), [[("HQ: tax residence, clawback, officer liability, site politics, key-person risk", False)]], size=SZ)
 set_text(cell(tbl, 5, 0), [[("5. What I report at Day 90", True)]], size=SZ)
-set_text(cell(tbl, 5, 1), [[("Gate-2 decision per unit, with the indicators", False)]], size=SZ)
+set_text(cell(tbl, 5, 1), [[("First monthly indicator read-outs per unit (gate 2 decided at Q1 close)", False)]], size=SZ)
 set_text(cell(tbl, 5, 2), [[("Board delivered at T-0; capital plan approved; cycle-time and forecast baselines", False)]], size=SZ)
 set_text(cell(tbl, 5, 3), [[("HQ gates 1 and 2 cleared; gate 3 pack ready", False)]], size=SZ)
 for r in range(len(tbl.rows)):
-    tbl.rows[r].height = Inches(0.5 if r == 0 else 0.8)
+    tbl.rows[r].height = Inches(0.5 if r == 0 else 0.78)
 tshape = [x for x in s.shapes if x.has_table][0]
-tshape.top = Inches(1.7)
-tshape.height = Inches(0.5 + 0.8 * 5)
+tshape.top = Inches(1.88)
+tshape.height = Inches(0.5 + 0.78 * 5)
 for x in list(s.shapes):
     if x.shape_type == 1 and x.name.startswith("Rectangle"):
         x._element.getparent().remove(x._element)
@@ -610,7 +632,12 @@ set_text(sh(s, "TextBox 28"), [[("For the Board: ", True), ("funding above $15M 
 sh(s, "TextBox 28").top = Inches(6.55)
 notes(s, "Takeaway: the downside is handled by the rule, not by a meeting. "
       "Hardest question: 'What would make you stop?' Answer: two of four indicators below plan for a unit, the efficiency ratio above the "
-      "guide for the company, or credit cost above plan for rule A6. All three are observable at quarter close.")
+      "guide for the company, or credit cost above plan for rule A6. All three are observable at quarter close. "
+      "Context a short-seller would raise: NPL 90+ rose 35 bps to 6.9% in Q2'26 (management called it seasonal); the Brazil election "
+      "runoff is 25 Oct 2026; sell-side is split (JPMorgan raised its target in October, Itau BBA downgraded on consumer-credit risk). "
+      "Short-seller question: 'The A6 valve spends H1 beats instead of letting them reach net income; is that not the padding you claim to "
+      "remove?' Answer: it is capped, formula-sized inside the ~20% guide, CFO- and IR-signed, and disclosed as upside spend, not a change "
+      "to guidance; and it only exists in the year the beat exists.")
 
 # ============================================================ 18. 90-day plan (old 15)
 s = S[14]
@@ -622,15 +649,18 @@ set_text(sh(s, "TextBox 17"), [[("Day 88 (T-0): ", True), ("Board delivered; $15
 set_text(sh(s, "TextBox 19"), [[("Day 95: ", True), ("hub stood up; finance partners embedded in each market and vertical.", False)]])
 set_text(sh(s, "TextBox 21"), [[("Day 105: ", True), ("squad clinics running; $12M case track under way.", False)]])
 set_text(sh(s, "TextBox 23"), [[("Day 120 (HQ D+60): ", True), ("gate 2 cleared: proportional grant terms, 24-month grace.", False)]])
-set_text(sh(s, "TextBox 25"), [[("Day 125: ", True), ("indicator read-out per unit; $10M gate 2 released at quarter close.", False)]])
-set_text(sh(s, "TextBox 27"), [[("Day 150 (HQ D+90): ", True), ("gate 3 cleared (officers, D&O).", False)]])
-set_text(sh(s, "TextBox 29"), [[("Day 150: ", True), ("Day-90 report to the CFO; gate 4 (lease) at Day 180.", False)]])
+set_text(sh(s, "TextBox 25"), [[("Day 133 (1 Jan): ", True), ("FY27 starts; $15M gate 1 opens to the vetted cases.", False)]])
+set_text(sh(s, "TextBox 27"), [[("Day 150 (HQ D+90): ", True), ("gate 3 cleared; Day-90 report to the CFO.", False)]])
+set_text(sh(s, "TextBox 29"), [[("Beyond: ", True), ("gate 2 at Q1 close (31 Mar); HQ gate 4 at D+120.", False)]])
+set_text(sh(s, "TextBox 17"), [[("Day 88 (T-0): ", True), ("Board approves the FY27 plan; gate-1 allocation memo published.", False)]])
 set_text(sh(s, "TextBox 7"), "Lock the Board and gate 1")
 set_text(sh(s, "TextBox 9"), "Stand up the hub; HQ gate 2")
-set_text(sh(s, "TextBox 11"), "Gate-2 release; HQ gate 3")
-notes(s, "Takeaway: one clock. Tenure days on this slide; HQ gates are D+n from the charter signed today (Day 60). "
-      "Hardest question: 'Gate 2 at Day 125 is only 37 days after the first release.' Answer: Day 125 is the indicator read-out; the "
-      "release itself happens at quarter close, and the indicators are ones that show in a quarter.")
+set_text(sh(s, "TextBox 11"), "FY27 opens; HQ gate 3")
+set_text(sh(s, "TextBox 5"), "Days 61-150 (today to mid-January): Board approved by Day 88, hub in place by Day 95, FY27 gate 1 open on 1 January")
+notes(s, "Takeaway: one clock. Tenure days on this slide (today is Day 60, 20 Oct 2026); HQ gates are D+n from the charter signed today; "
+      "funding gates follow the FY27 fiscal calendar (A10). "
+      "Hardest question: 'Why does the first release wait until January?' Answer: because the cap is FY27's envelope; the Board approves the "
+      "plan on Day 88, the cases are vetted in December, and nobody is asked to prove a Q1 indicator in 37 days.")
 
 # ============================================================ 19. Closing = the ask (old 20)
 s = S[19]
@@ -639,9 +669,9 @@ for x in s.shapes:
         continue
     tx = x.text_frame.text
     if tx.startswith("Ready to Launch"):
-        set_text(x, "The ask: approve $25M in two gates, the T-16 / T-7 Board calendar, and the HQ charter. I report back at Day 90.")
+        set_text(x, "The ask: approve the $25M FY27 cap in two gates with the A6 valve stated, the T-16 / T-7 Board calendar, and the HQ charter. I report back at Day 90.", size=34)
     elif tx.startswith("Thank you"):
-        set_text(x, "KPIs at Day 90: 100% of funded spend with an approved case; Board book at T-7; HQ gates 1 and 2 cleared. Stop rules: two of four indicators below plan, or the efficiency ratio above the FY26 guide.")
+        set_text(x, "KPIs at Day 90: 100% of gate-1 spend with an approved case; Board book at T-7; HQ gates 1 and 2 cleared. Stop rules: two of four indicators below plan, or the efficiency ratio above the FY26 guide.")
         x.text_frame.word_wrap = True
         x.left = Inches(1.5)
         x.width = Inches(10.33)
@@ -652,7 +682,7 @@ notes(s, "Close on the decision, not on thanks. Then open Q&A with the assumptio
 s = S[15]
 for x in s.shapes:
     if x.has_text_frame and x.text_frame.text.startswith("Appendix A"):
-        set_text(x, "Appendix A: Sources and assumptions ledger   |   Appendix B: Option scores and weight sensitivity   |   Research assisted by AI tools; every number and recommendation was checked by me.")
+        set_text(x, ["Appendix A: Sources and assumptions ledger   |   Appendix B: Option scores and weight sensitivity"])
 notes(s, "Divider. Not presented; the two appendix pages are backup for Q&A.")
 s = S[17]
 set_text([x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("APPENDIX B")][0], "APPENDIX A // SOURCES AND ASSUMPTIONS LEDGER")
@@ -672,8 +702,8 @@ set_text(cell(tbl, 1, 2), [[("138.9M customers; ARPAC $17.1; cost to serve $1.0;
 set_text(cell(tbl, 1, 3), [[("Slides 4, 5, 8, 10, 17: the cap, the planning principle, the 70/30 release.", False)]], size=LZ)
 set_text(cell(tbl, 2, 0), [[("2. Corporate events", True)]], size=LZ)
 set_text(cell(tbl, 2, 1), [[("Nu announcements; OCC; Nu IR", True), (" | FACT", False)]], size=LZ)
-set_text(cell(tbl, 2, 2), [[("Mexico bank authorization 10 Jul 2026, $4.2B plan to 2030; OCC conditional approval 27 Jan 2026 (capitalize within 12 months); US launch via Lead Bank 10 Sep 2026; buyback up to $1.0B (Jun 2026); CFO appointed 13 Jul 2026; Investor Day 8 Dec 2026.", False)]], size=LZ)
-set_text(cell(tbl, 2, 3), [[("Slides 11, 12, 13: the capital question and the Board calendar.", False)]], size=LZ)
+set_text(cell(tbl, 2, 2), [[("Mexico bank authorization 10 Jul 2026 (bank operations from 6 Aug), $4.2B plan to 2030; OCC conditional approval 29 Jan 2026 (capitalize within 12 months); US launch via Lead Bank 10 Sep 2026; buyback up to $1.0B (4 Jun 2026); CFO since 13 Jul 2026; Q3'26 results 12 Nov 2026; Investor Day 8 Dec 2026.", False)]], size=LZ)
+set_text(cell(tbl, 2, 3), [[("Slides 12, 13, 14: the capital question and the Board calendar.", False)]], size=LZ)
 set_text(cell(tbl, 3, 0), [[("3. HQ tax rules", True)]], size=LZ)
 set_text(cell(tbl, 3, 1), [[("OECD GloBE Model Rules", True), (" | FACT (rule); ASSUMPTION (site)", False)]], size=LZ)
 set_text(cell(tbl, 3, 2), [[("EUR 750M threshold; 15% minimum; 2026 transitional carve-out 9.4% of payroll and 7.4% of tangible assets (Art. 9.2).", False)]], size=LZ)
@@ -693,7 +723,7 @@ for x in list(s.shapes):
     if x.shape_type == 1 and x.name.startswith("Rectangle"):
         x._element.getparent().remove(x._element)
 foot = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Independent Audit")][0]
-set_text(foot, "My estimates (A3, A5, A6, A9) are on slide 3 with their basis. Research assisted by AI tools; every figure, calculation and recommendation was checked by me.")
+set_text(foot, "My assumptions (A3-A6, A9, A10) are on slide 3 with their basis. Research assisted by AI tools; every figure, calculation and recommendation was checked by me.")
 foot.top = Inches(6.65)
 notes(s, "Backup. If asked about any number, this is the page.")
 
@@ -709,11 +739,12 @@ notes(appb, "Backup for the options slide.")
 delete_slide(S[18])
 
 # ============================================================ Reorder
-order = [S[0], S[1], assump, S[2], S[3], S[4], S[5], S[6], S[11], S[7], cap_s, S[8], S[16], S[12], S[9], S[10], S[13], S[14], S[19], S[15], S[17], appb]
+order = [S[0], S[1], assump, S[2], S[3], S[4], S[5], S[6], S[11], S[7], S[12], cap_s, S[8], S[16], S[9], S[10], S[13], S[14], S[19], S[15], S[17], appb]
 for idx, sl in enumerate(order):
     move_slide(sl, idx)
 
-# ============================================================ Titles and headings always wrap (the source boxes had wrap off)
+# ============================================================ Titles and headings always wrap (the source boxes had wrap off);
+# slide titles stay inside the 12.0in content grid instead of running to the slide edge
 for sl in prs.slides:
     for x in sl.shapes:
         if not x.has_text_frame:
@@ -722,8 +753,28 @@ for sl in prs.slides:
             for r in p.runs:
                 if r.font.size is not None and r.font.size.pt >= 14:
                     x.text_frame.word_wrap = True
+                if r.font.size is not None and r.font.size.pt >= 25 and x.left < Inches(1.0) and x.width > Inches(12.3):
+                    x.width = Inches(12.0)
                 break
             break
+
+# options slide and its appendix clone: drop the stray separator rectangles under the last row
+for sl in (S[4], appb):
+    for x in list(sl.shapes):
+        if x.shape_type == 1 and x.name.startswith("Rectangle"):
+            x._element.getparent().remove(x._element)
+
+# planning-principle slide (old 4): align card 1 with cards 2 and 3
+sl = S[3]
+cards = sorted([x for x in sl.shapes if x.shape_type == 1 and x.name.startswith("Rounded") and x.width < Inches(5)], key=lambda c: c.left)
+if len(cards) == 3:
+    ref = cards[1]
+    c1 = cards[0]
+    dy = ref.top - c1.top
+    c1.top, c1.height = ref.top, ref.height
+    for x in sl.shapes:
+        if x.has_text_frame and x.left < c1.left + c1.width and x.left >= c1.left - Inches(0.1) and c1.top - Inches(0.5) < x.top + Inches(0.5) < c1.top + c1.height and x.top > Inches(2.0):
+            x.top = x.top + dy
 
 # ============================================================ Slide numbers (bottom right) on every slide
 for i, sl in enumerate(prs.slides, 1):

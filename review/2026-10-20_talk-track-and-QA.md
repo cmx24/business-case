@@ -1,0 +1,218 @@
+# Talk track and Q&A prep: Chief of Staff to the CFO & Global Corporate Governance
+
+Deck: `/home/user/business-case/deck/CFO_CoS_deck_v2.pptx` (22 slides; slides 20-22 are appendix and are not presented). Format: 30 minutes presenting, 30 minutes Q&A. Spoken text is first person. Word counts are of the spoken text only; bracketed `[your example: ...]` prompts are placeholders for personal examples and are counted at their placeholder length, so replace each with a story of roughly the same length. No Nu figure below is new; every number is on the slide named.
+
+## 1. Per-slide talk track (slides 1-19)
+
+### Slide 1: Title: three problems, four deliverables, one ask
+
+Good morning, and thank you for the time. Sixty days in, this page is what I found: sixty million dollars of growth asks against a twenty-five million cost cap, a Board meeting four weeks out with two executives holding opposite views on where the money should go, and a regional HQ deal that touches legal, tax and real estate across more than one jurisdiction, with no line authority for me over any of those teams. I will take you through four deliverables that answer those three problems, and I will end with one ask. Every Nu figure I use is from the public Q2'26 filings, and every assumption of mine is on slide 3, where you can test it.
+
+(119 words)
+
+### Slide 2: Executive summary and the ask
+
+Here is the whole case in three decisions, each with a number attached. First, planning: I fund twenty-five million now through two business-case gates, fifteen million released on approval and ten million at the first gate, and there are no flat haircuts anywhere in the plan. Second, the Board: one options memo settles the capital dispute at T minus sixteen, and the book ships at T minus seven with directors' questions answered in writing, so the meeting is spent on the decision rather than the read-out. Third, the HQ: a charter signed this week with four gates in one hundred and twenty days covering tax substance, grant terms, officer liability and the lease, each with a named owner and an exit test. The fourth deliverable is how I work: inside the business units with the numbers, not above them with a veto. I want to be clear about why the cap is twenty-five million and not a reallocation inside the existing base. The cap is the CFO's constraint, derived from the FY26 efficiency-ratio guide of about twenty percent, and the model I am proposing reallocates inside that cap every quarter, which is the point of it. So the ask today is to approve three things: the twenty-five million two-gate funding model, the T minus sixteen and T minus seven Board calendar, and the HQ project charter. I report against all three at Day 90, with three measures you can check without me in the room: every funded dollar carrying an approved case, the Board book on the portal at T minus seven, and HQ gates 1 and 2 cleared. The rest of the deck is the evidence for each decision.
+
+(280 words)
+
+### Slide 3: Assumptions, separated from facts
+
+Before the argument, the ground it stands on. The top row is fact from the Q2'26 release: one hundred thirty-eight point nine million customers, seventeen dollars ten of monthly ARPAC, cost to serve of one dollar, an efficiency ratio of nineteen point five percent, thirty-three percent ROE and one point zero six billion of net income. Below that are my assumptions, A3 through A9, each with its basis, and the one that matters most is A4: I am assuming the two executives disagree about the growth-opex envelope, core markets against new bets, and not about regulatory capital by entity. If A4 is wrong, slide 11 becomes the main event and the opex split is secondary, so it is the first thing I verify in week one, along with the Board calendar, who owns the planning model today, and local-CFO decision rights in Mexico and Colombia.
+
+(145 words)
+
+### Slide 4: Why the cap matters at Nu's scale
+
+I want to be honest about materiality. The thirty-five million gap is about fifteen basis points of annualized revenue on a base of roughly twenty-three billion, and under one percent of opex, so I am not going to oversell it to a CFO who reports results at that scale. Three things make it matter anyway. The efficiency ratio came in at nineteen point five percent in Q2, up from seventeen point six in Q1, with international expansion named as a driver, and management expects about twenty percent for the year; unvetted overhead is exactly what moves that number the wrong way. Cost to serve is one dollar a month against seventeen dollars ten of ARPAC, up from eighty cents a year earlier, and that margin stays wide only if central costs scale slower than customers. And this is the first budget cycle planned centrally, so how the thirty-five million is closed decides whether GMs bring real cases next year or pad their asks.
+
+(163 words)
+
+### Slide 5: The planning principle: underwrite budgets like credit lines
+
+This is the one idea the rest of the deck hangs on. Nu's 20-F describes low-and-grow underwriting: customers start on small limits and earn larger ones as repayment data comes in, so exposure grows only behind evidence. I apply the same logic to budgets, which replaces one annual negotiation with quarterly evidence, and it is also the discipline the CFO ran for eighteen years at Capital One, so I expect the model to be read in that light. For the CFO, every release decision reads the same four indicators for every unit: activation, thirty-day retention, CAC against plan and unit cost against plan, with reallocation across units every quarter rather than once a year. For the GMs, it means a funded Q1 start and a published rule for unlocking the next stage, so the conversation moves from positions to indicators.
+
+(140 words)
+
+### Slide 6: Three ways to close $35M
+
+I looked at three ways to close the gap before choosing. An equal percentage cut gives every unit forty-two percent of its ask; it scores ninety-five on speed and fifty-seven point eight overall, because it teaches GMs to pad next year and starves launches below viable scale. Core markets first scores sixty-three point eight; it is honest, but it gives the new bets nothing to earn. Business-case readiness with staged release scores ninety-one point eight, winning on growth return, ownership and agility, and losing only on speed. The scores and weights are my judgment, labeled as assumption A9, so the test I care about is robustness: move any single weight by ten points and option 3 still finishes first every time.
+
+(121 words)
+
+### Slide 7: The $60M bridge
+
+This slide answers the whole sixty million; nothing is cut, and every piece has a path. Eight million of country asks are met by reusing the shared global code base at near-zero marginal cost: these are requests that duplicate features the platform already ships. That is my estimate, assumption A5, and the rule is simple: Engineering confirms it in week one, or whatever they cannot confirm moves into the case track. Twelve million are early ideas without a business case today; they enter a sixty-day track where my team builds the case with the GM, and they come back to gate 2 with evidence rather than a number. Fifteen million is conditional on H1 profit above plan under rule A6, which I will show on the next slide; it is not in the base plan and no GM can trigger it. That leaves twenty-five million funded now in two gates, which is the cap, and the arithmetic closes: eight plus twelve plus fifteen plus twenty-five is the sixty million on the left of the chart. I want to say plainly what this does for the two executives. Neither gets a no: the core-market advocate gets the largest release first, and the new-bets advocate gets a protected start and a published route to more. And it does something for the CFO as well: one hundred percent of funded spend carries an approved case, and the first time a GM asks for money without one, the answer is a date and a template, not a fight.
+
+(254 words)
+
+### Slide 8: The operating model and the release rule
+
+The structure is hub-and-spoke. A small central hub owns the targets, the single model, the case template and the Board pack, and it is measured on three things: cycle time under forty days, forecast accuracy, and one hundred percent of spend with an approved case. Finance partners sit inside the country and vertical squads, build the cases with the GMs, and own the indicator read-outs at each gate; they are the finance people already attached to markets, pointed at cases and gates rather than added headcount. Inside the cap there are two gates: fifteen million now to the vetted cases, ten and a half million to core markets and four and a half to new bets, then ten million at quarter close to the units whose four indicators hold. Above the cap sits rule A6: up to fifteen million in H2, only from H1 profit already in the bank, sized so the efficiency ratio stays inside the FY26 guide, with CFO and IR sign-off.
+
+(164 words)
+
+### Slide 9: The cadence: four meetings
+
+Four meetings, each with an owner and an output, and nothing else goes on the calendar. Weekly squad clinics, where finance partners model unit economics with the GMs before anything reaches formal review; the output is a business case in the standard template, co-signed by the GM. Bi-weekly one-to-ones, where I stress-test each GM's assumptions privately and design the staged option before the CFO sees it, so there are no surprises at the T minus sixteen lock. A weekly forty-five-minute HQ pod that I chair, with Legal, Tax, Workplace and People around one decision log and forty-eight-hour escalation to the CFO. And the quarterly tranche release, where the CFO decides on my recommendation and the release memo goes to the GMs the same day. Decision roles are explicit: partners recommend, GMs give input, I agree the pack, the CFO decides, the hub performs.
+
+(143 words)
+
+### Slide 10: Settling the two views
+
+The fix for two opposing executives is a shared yardstick, not a compromise number. Core markets, Brazil, Mexico and Colombia, get seventy percent of the first release, ten and a half million, because mature cohorts earn well above the seventeen dollars ten group ARPAC and the group runs at thirty-three percent ROE, so proven markets protect the year. New bets, the US, global and verticals, get thirty percent, four and a half million, and are graded on activation, retention and unit cost, because a new bet judged on mature-market profit in its first quarter always loses. Over the full year that is sixteen and a half million inside the cap plus up to five under rule A6 for core markets, and eight and a half million plus up to ten for new bets, which gives the new bets first claim on up to fourteen million once their indicators hold. Both can sign because each is measured on what it can actually show. I write the one-page options memo, the CFO recommends, the CEO decides, and the chair gets the pre-read.
+
+(180 words)
+
+### Slide 11: The capital question the Board will actually ask
+
+Here is the slide I would most want the panel to remember, because the Board's real topic is capital, not a twenty-five million opex line. Four uses of equity are on the table at once: deepening in Brazil; Nu Mexico as a licensed bank since July 2026, with a four point two billion dollar plan to 2030; the US de novo charter, which has to be capitalized within twelve months of the January 2026 OCC approval; and the buyback of up to one billion dollars announced in June. The yardstick is return on allocated capital: rank each use by after-tax return on incremental allocated equity against that market's cost of equity, with capital headroom by entity under a downside case. Two consequences follow. A use that beats its cost of equity creates value even if it dilutes the thirty-three percent group ROE, so ROE dilution alone is not a reason to say no; and the buyback is the bar every growth use has to clear, because the Board can always return the money. On the sequence: the CFO recommends the ranking, the CEO decides, and the Board approves at this meeting, so the Investor Day narrative on the eighth of December rests on an approved plan rather than the other way round. My job is to produce one page per use with the same four lines, return, capital, headroom and risk, and to put the chair's pre-read in front of him at T minus nine. The cost-of-equity figures are to be set with Treasury; I have not guessed them. If you ask me where the next dollar should go, my answer is wherever return on allocated capital beats the local cost of equity by the widest margin after the downside, with the US sized to its roughly one hundred basis point envelope until its credit models mature.
+
+(307 words)
+
+### Slide 12: The 28-day Board rhythm
+
+A Board rhythm is a calendar with owners, not a sprint metaphor. Today, at T minus twenty-eight, I issue the locked outline and the standard data tables with the Corporate Secretary, so units stop building rival decks. Week two is the executive lock: one-to-ones at T minus twenty-one, and the capital options memo settles the seventy-thirty split with the CEO and CFO at T minus sixteen. Week three is single-pen editing: inputs freeze at T minus ten, committee chairs are pre-briefed at T minus nine, and the book is on the portal at T minus seven. In week four, directors' data questions are answered in writing by T minus three, so the live session is spent on the capital plan. If materials are already late, the outline is locked today and anything outside it goes to the appendix or the next meeting; the capital plan and the statutory items are the two things that cannot slip, because this is the last Board before Investor Day.
+
+(165 words)
+
+### Slide 13: Statutory governance across new entities
+
+For a bank, the entity question is a licensing question first. A new entity is opened when a license or tax substance requires it, never for scale alone, and the officers and signing follow the stage. In a market test, as the US is today via Lead Bank, there is no local entity and central signing only, which prevents an accidental permanent establishment. At licensed scale-up, the US charter or a new vertical, a dedicated entity gets its own capital plan and headroom, fit-and-proper directors, two central officers plus one local leader, dual signature above a set limit, and D&O bound before activation. For the core hubs, Brazil, Mexico, Colombia and wherever the HQ lands, there is Audit and Risk Committee oversight, dual signature above two hundred fifty thousand dollars, and an annual review of powers of attorney. The signing limits are proposals, and local CFOs are already in place in Mexico and Colombia.
+
+(154 words)
+
+### Slide 14: When a senior GM pushes back
+
+Four moves, in the same order, every time. I meet the GM privately first and confirm the strategic goal before any budget line is discussed; nobody is corrected in front of the CFO. Then I move the conversation from 'I need twenty-five million' to 'which indicators would prove this works', so the published rule does the arguing, not me. Then I replace a flat no with a staged yes: the four and a half million Q1 start today and a reserved claim on gate 2 once the indicators hold. Finally, the GM and I present the staged plan together at the T minus sixteen lock, and there is no back channel to the CEO because there is nothing left to appeal. [your example: one case where a senior leader asked you for more than you could give, what you offered instead, and the result.]
+
+(144 words)
+
+### Slide 15: The HQ charter: four gates in 120 days
+
+The HQ is a governance project before it is a real-estate project, so the charter has four gates in one hundred and twenty days, each with an owner, an exit test and a stop condition. Gate 1 at day thirty is tax substance: Nu is above the seven hundred fifty million euro Pillar Two threshold, and in 2026 only nine point four percent of payroll and seven point four percent of tangible assets are carved out of the fifteen percent top-up base, so incentives without people and assets on the ground are worth less than they look. Tax owns that gate, and the exit test is that the modeled effective rate holds under Pillar Two. Gate 2 at day sixty is grant terms: municipal grants carry headcount clawbacks, so I negotiate proportional scaling, eighty-five percent of headcount keeps eighty-five percent of the grant, with a twenty-four-month grace period, and Legal signs off only when there is no cliff-edge clawback in the term sheet. Gate 3 at day ninety is officers and signing: regulator-tested officers, dual signature above two hundred fifty thousand, and D&O bound before activation. Gate 4 at day one hundred and twenty is the lease. I lead it as an interim through one weekly pod, one decision log, forty-eight-hour escalation to the CFO, and a five-item risk register that includes key-person dependence on me. No savings figure is claimed until a site is chosen.
+
+(236 words)
+
+### Slide 16: How I lead without line authority
+
+Three rules I hold myself to, each tied to a mechanism you have already seen. The first is fair process: people accept outcomes they argued against when the criteria were public before the decision, so I publish the scoring rubric on day one and never change it mid-cycle, and every GM sees the same four indicators and the same release rule. [your example: a time you published the criteria before a contested decision and the losing side accepted the result.] The second is no public ambushes: model gaps are closed one-to-one before anything reaches the CFO or the Board, which is what the bi-weekly one-to-ones and the T minus sixteen lock are for; credibility with senior people comes from never surprising them in a room. [your example: a time you found an error in a senior leader's numbers and fixed it with them privately before the meeting.] The third is hands-on rigor: at this level, strategic influence is only trusted when the FP&A and governance work is mine, so I build and check the model and read the clauses myself, and I do not delegate the parts that could embarrass the CFO. [your example: a model or contract clause you personally caught that would have cost the company money or credibility.] Equally important is what I would not touch in the first ninety days: local-CFO decision rights in Mexico and Colombia, credit-model governance, and the IR calendar. Those are working, they belong to licensed executives and their teams, and a Chief of Staff who reaches for them in month one spends credibility he has not yet earned.
+
+(267 words)
+
+### Slide 17: Risks, scenarios and reversal triggers
+
+The downside is handled by the rule, not by a meeting. If the market slows, funded spend holds at fifteen million automatically because gate 2 is held; the base plan is twenty-five million, fifteen at gate 1 and ten at gate 2; and if H1 beats plan, up to fifteen million more is released inside the roughly twenty percent FY26 guide. The reversal triggers are observable at quarter close: a unit below plan on two of its four indicators has its gate-2 share held; an efficiency ratio above the guide at Q1 close holds gate 2 for everyone; and credit cost or NPL ninety-plus above plan means rule A6 is not used. The top risks each have an owner: GMs gaming the indicators sits with the finance partners who own the read-out, and a slipping Board book is handled by the outline locked today. At Day 90, I report the gate-2 decision per unit, the Board delivered at T minus zero with the capital plan approved, and HQ gates 1 and 2 cleared. No value figures are claimed beyond the spend lines, because before HQ gate 1 they would be guesses.
+
+(191 words)
+
+### Slide 18: The next 90 days
+
+One clock, in tenure days. Today, Day 60, is T minus twenty-eight: the Board outline is issued, the HQ charter is signed and gate 1 is launched. Day 72 is the T minus sixteen lock, where the options memo settles the seventy-thirty split with the CEO, the CFO and the MTeam; Day 88 is the Board, with the fifteen million gate-1 release memo published the same day. By Day 95 the hub is stood up with finance partners embedded in each market and vertical, by Day 105 the squad clinics are running and the twelve million case track is under way, and Day 120 clears HQ gate 2 with proportional grant terms and the twenty-four-month grace. Day 125 is the indicator read-out, with the ten million gate 2 released at quarter close; thirty-seven days after the first release sounds short, but the indicators are the ones that show inside a quarter. Day 150 clears HQ gate 3 and is my Day-90 report to the CFO, with the lease at Day 180.
+
+(171 words)
+
+### Slide 19: Close: the ask
+
+So, the ask. Approve twenty-five million in two gates, the T minus sixteen and T minus seven Board calendar, and the HQ charter. At Day 90 you measure me on three things: one hundred percent of funded spend with an approved case, the Board book on the portal at T minus seven, and HQ gates 1 and 2 cleared. The stop rules are public from today: two of four indicators below plan, or the efficiency ratio above the FY26 guide. I will put the assumptions back on the screen and take your questions.
+
+(93 words)
+
+## 2. Timing table (130 words per minute)
+
+| Slide | Words | Minutes at 130 wpm | Cumulative minutes |
+|---|---|---|---|
+| 1. Title: three problems, four deliverables, one ask | 119 | 0.9 | 0.9 |
+| 2. Executive summary and the ask | 280 | 2.2 | 3.1 |
+| 3. Assumptions, separated from facts | 145 | 1.1 | 4.2 |
+| 4. Why the cap matters at Nu's scale | 163 | 1.3 | 5.4 |
+| 5. The planning principle: underwrite budgets like credit lines | 140 | 1.1 | 6.5 |
+| 6. Three ways to close $35M | 121 | 0.9 | 7.4 |
+| 7. The $60M bridge | 254 | 2.0 | 9.4 |
+| 8. The operating model and the release rule | 164 | 1.3 | 10.7 |
+| 9. The cadence: four meetings | 143 | 1.1 | 11.8 |
+| 10. Settling the two views | 180 | 1.4 | 13.1 |
+| 11. The capital question the Board will actually ask | 307 | 2.4 | 15.5 |
+| 12. The 28-day Board rhythm | 165 | 1.3 | 16.8 |
+| 13. Statutory governance across new entities | 154 | 1.2 | 18.0 |
+| 14. When a senior GM pushes back | 144 | 1.1 | 19.1 |
+| 15. The HQ charter: four gates in 120 days | 236 | 1.8 | 20.9 |
+| 16. How I lead without line authority | 267 | 2.1 | 22.9 |
+| 17. Risks, scenarios and reversal triggers | 191 | 1.5 | 24.4 |
+| 18. The next 90 days | 171 | 1.3 | 25.7 |
+| 19. Close: the ask | 93 | 0.7 | 26.4 |
+| **Total** | **3437** | **26.4** | |
+
+**Total: 3437 spoken words, 26.4 minutes at 130 wpm.** This is inside the 25-28 minute target, so no trimming or extension was needed after the final pass. The four emphasis slides carry the most time: slide 2 (280 words), slide 7 (254), slide 11 (307) and slide 16 (267). The remaining 2-5 minutes of the 30-minute slot are the buffer for the walk-in, the screen change to slide 3 at the close, and one interruption.
+
+## 3. Q&A prep sheet (15 questions)
+
+Format for each: the question; a three-sentence answer that names the slide and the numbers on it; the slide to put on screen. Open Q&A with slide 3 on screen, as the close instructs.
+
+### The ten expected questions
+
+**Q1. Cost to serve is $1.0. Why did it rise, and why does that support the cap rather than undermine it?**
+Slide 4 shows monthly cost to serve at $1.0 in Q2'26, up from $0.8 a year earlier, against $17.1 of monthly ARPAC, and the same release names international expansion as a driver of the efficiency ratio moving from 17.6% in Q1 to 19.5% in Q2; I do not have a cost-to-serve decomposition in the public filings, so I would verify the drivers in week one rather than assert them. The rise does not undermine the cap, it is the reason for it: the margin between $1.0 and $17.1 stays wide only if central costs scale slower than customers, and $35M of unvetted central spend is exactly the kind of cost that does not. So the cap is not a judgment that the asks are bad; it is a rule that every dollar above $25M has to show up with a case and four indicators, which is what keeps the $1.0 from drifting.
+*On screen: slide 4.*
+
+**Q2. Your upside case spends above $25M. How is that inside guidance?**
+Slide 17 shows the upside as up to $15M above the cap, and slide 8 states the rule that governs it, A6: it is released only from H1 profit above plan, sized by formula so the efficiency ratio stays inside the FY26 guide of about 20%, and only with CFO and IR sign-off. Because the release is sized to the guide rather than to the asks, it cannot take the ratio outside guidance by construction; if profit above plan is zero, the release is zero, and slide 17 adds a second lock, that credit cost or NPL 90+ above plan switches A6 off regardless of profit. It is not in the base plan on slide 7, no GM can trigger it, and the base plan is the $25M the Board sees.
+*On screen: slide 17, then slide 8 for the rule.*
+
+**Q3. The Board topic is capital allocation. Where is the capital in your deck?**
+Slide 11: the four uses of equity are Brazil deepening, Nu Mexico as a licensed bank since July 2026 with a $4.2B plan to 2030, the US de novo charter to be capitalized within 12 months of the January 2026 OCC approval, and the buyback of up to $1.0B announced in June 2026. The yardstick is after-tax return on incremental allocated equity against each market's cost of equity, with headroom by entity under a downside case, and the buyback is the bar every growth use must clear; a use that beats its cost of equity creates value even if it dilutes the 33% group ROE. The sequence is that the CFO recommends, the CEO decides and the Board approves at this meeting so the 8 December Investor Day rests on an approved plan, and my output is one page per use with the same four lines and the chair's pre-read at T-9; assumption A4 on slide 3 is that the executives' dispute is about the opex envelope, and if it is really about this slide, this slide becomes the Board's main event.
+*On screen: slide 11.*
+
+**Q4. Why should a GM trust a gate they cannot pass in 37 days?**
+Slide 18 puts the indicator read-out at Day 125, 37 days after the gate-1 release memo at Day 88, but the $10M gate-2 release itself happens at quarter close, and the four indicators on slides 5 and 8, activation, 30-day retention, CAC against plan and unit cost against plan, are chosen because they show inside a quarter. The GM is not asked to prove payback in 37 days; slide 10 says explicitly that a new bet judged on mature-market profit in its first quarter always loses, so payback is the lagging confirmation at a later gate. And the GM has seen the rule on day one, has co-signed the case in the squad clinic on slide 9, and has a protected $4.5M start on slide 10 that nobody can claw back before the read-out.
+*On screen: slide 18, then slide 8.*
+
+**Q5. What is the dollar value of the HQ incentives?**
+None is claimed, on purpose; slide 15 says no savings figure is claimed until a site is chosen, because the number depends on the jurisdiction and assumption A8 on slide 3 keeps the jurisdiction open. What I can say is the rule: Nu is above the EUR 750M Pillar Two threshold, and in 2026 only 9.4% of payroll and 7.4% of tangible assets are carved out of the 15% top-up base, so any headline incentive without people and assets on the ground is worth less than it looks. Gate 1 at D+30 exists to produce the number: Tax owns it, and the exit test is that the modeled effective rate holds under Pillar Two, which is when I would bring a figure to the CFO.
+*On screen: slide 15.*
+
+**Q6. Which of your sources have you actually read?**
+Slide 21 is the ledger, and it separates three classes: the Nu Q2'26 release, 6-K and 20-F, which supply every Nu figure in the deck, 138.9M customers, $17.1 ARPAC, $1.0 cost to serve, 19.5% efficiency ratio, 33% ROE and $1.06B net income; the Nu announcements and the OECD GloBE Model Rules, Art. 5.3 and the Art. 9.2 transitional rates, which supply the dates and the Pillar Two percentages; and the directional benchmarks from Hackett, McKinsey, NACD and others, which sit in footers and carry no headline. I read the first two classes directly and built the case on them; the third class I used as context only, and slide 21 says so, so if any of those studies turned out to be wrong, nothing on a headline would change. The honest caveat is the FY26 efficiency-ratio and US-spend guidance, which I marked on slide 3 as fact with wording to re-check, because it comes from the earnings call rather than a filed document.
+*On screen: slide 21.*
+
+**Q7. Tell me about a time you got a senior leader to accept less money.**
+Slide 14 is the method I would use here: validate the goal privately, move from positions to the indicators that would prove the plan works, replace the flat no with a staged yes such as the $4.5M Q1 start and a reserved claim on gate 2, then co-present at the T-16 lock so there is nothing left to appeal. [your example: one case where a senior leader asked for a budget or headcount you could not give in full; who it was by role, what they asked for, what conditional yes you offered, and the measurable result, including whether they came back for the next stage.] The reason it works without line authority is on slide 16: the criteria were public before the decision, the correction happened in private, and the sign-off was joint, so the leader kept the goal and lost only the unconditional cheque.
+*On screen: slide 14.*
+
+**Q8. What would you not touch in your first 90 days?**
+Slide 16 names three things: local-CFO decision rights in Mexico and Colombia, credit-model governance, and the IR calendar. Slide 13 is the reason for the first, local CFOs are already in place in both markets with full licensed entities; slide 11 is the reason for the second, the US card is being sized to its roughly 100 bps envelope until its credit models mature and that governance belongs to the risk teams; and slide 12 is the reason for the third, the 8 December Investor Day is the fixed point that my 28-day Board calendar is built backwards from. What I do touch is on slide 18: the planning model, the Board outline, the HQ charter and the case track, because those are the things the brief says are either absent or late.
+*On screen: slide 16.*
+
+**Q9. Who signs for the HQ entity? Can you be a statutory director?**
+No, and slide 13 explains why: statutory officers must pass the regulator's fit-and-proper test and carry personal liability for tax and labor filings, so the seats belong to licensed executives and the Chief of Staff runs the process. For a core-hub entity, the proposed setup is Audit and Risk Committee oversight, dual signature above $250k, director liability insurance bound before activation, and an annual review of powers of attorney; for a licensed scale-up it is two central officers plus one local leader. Gate 3 of the HQ charter on slide 15, at D+90, is where Legal and People name the officers and bind D&O, and until then there is central signing only, because early commercial signing can create a taxable presence before the entity is ready.
+*On screen: slide 13.*
+
+**Q10. Did AI write this?**
+AI tools assisted the research, and slide 21 says so in plain words; every figure, calculation and recommendation was checked by me, and the judgments that matter, the $15M and $10M gate split on slide 8, the 70/30 on slide 10, the option scores on slide 6 and the three rules on slide 16, are mine and labeled as mine on slide 3. The test I would offer is the one you are running now: ask me where any number comes from and I will give you the slide, the source class and whether it is fact or assumption, which is how I would want the CFO's office to work regardless of the tools. What I would not do is present a number I could not defend, and the places where I have no number, the HQ incentive value on slide 15 and the cost-of-equity figures on slide 11, are left blank for that reason.
+*On screen: slide 21.*
+
+### Five more from the question bank
+
+**Q11. Where should Nu allocate its next $1B: Brazil deepening, Mexico, the US, AI, or more buybacks?**
+The method is slide 11: rank each use by after-tax return on incremental allocated equity against that market's cost of equity, after a downside case on headroom by entity, and treat the up-to-$1.0B buyback as the bar every growth use must clear. On today's public numbers the case is strongest in Brazil deepening, where mature cohorts earn above the $17.1 group ARPAC and the group runs at 33% ROE, and in Mexico, now a licensed bank with a $4.2B plan to 2030; the US is sized to its roughly 100 bps envelope until its credit models mature, and AI I would fund through the same four-indicator gates as any other ask rather than as a separate pool. I have not set the cost-of-equity figures, that is marked as an assumption to agree with Treasury, so my answer is a ranking method and a current lean, not a number I would put in front of the Board this week.
+*On screen: slide 11.*
+
+**Q12. How does Nu keep the efficiency ratio near 20% while funding Mexico and the US?**
+Slide 4 gives the starting point, 19.5% in Q2'26, up from 17.6% in Q1 with international expansion as a named driver, and management's FY26 expectation of about 20%; slide 8 gives the mechanism, a hard $25M cap released in two gates and anything above it governed by rule A6, which is sized so the ratio stays inside the guide. Slide 10 then protects the core: 70% of the first release, $10.5M, goes to Brazil, Mexico and Colombia, and the new bets get a $4.5M start that is graded on activation, retention and unit cost rather than on profit, so the expansion spend is staged behind evidence instead of front-loaded. Slide 17 closes the loop with a reversal trigger: if the ratio is above the guide at Q1 close, gate 2 is held for every unit automatically, with no mid-year freeze needed.
+*On screen: slide 8.*
+
+**Q13. The US card is live before US credit models mature. How would you size and stage that risk, and what would make you stop?**
+Slide 13 shows the US today as a market test served via Lead Bank with no local entity and central signing only, moving to a licensed scale-up with its own capital plan and headroom once the de novo charter on slide 11 is capitalized, within 12 months of the January 2026 OCC approval. On spend, slide 3 records management's guide of no more than about 100 bps of the efficiency ratio for the US, and in my model the US sits in the new-bets 30%, graded on activation, 30-day retention, CAC and unit cost rather than on profit, with first claim on gate 2 only when those hold. The stop rules on slide 17 are observable at quarter close: two of four indicators below plan holds the unit's gate-2 share, and credit cost or NPL 90+ above plan switches off any release above the cap.
+*On screen: slide 13, then slide 17.*
+
+**Q14. How do you weigh regulatory exposure by market and by entity, including capital that is trapped in subsidiaries?**
+Slide 13 is the frame: an entity exists only when a license or tax substance requires it, and each stage carries its own capital plan, headroom and officer regime, with Mexico and Colombia already at full-licensed stage with local CFOs and the US moving from partner-bank to its own charter. Slide 11 puts headroom by entity under a downside case into the capital yardstick itself, so capital that cannot move between entities is priced into the ranking rather than discovered after the decision. The honest gap is assumption A4 on slide 3: I have assumed the executives' dispute is about the opex envelope and not about regulatory capital by entity, and the first thing I do in week one is confirm which it is, because if it is capital, slide 11 and the entity headroom lines become the Board's decision.
+*On screen: slide 13.*
+
+**Q15. As Chief of Staff, how would you run the CFO's operating cadence across group and local finance during the first year of a new CFO?**
+Slide 9 is the cadence, and it is deliberately only four meetings: weekly squad clinics run by embedded finance partners, bi-weekly GM one-to-ones that I run, a weekly 45-minute HQ pod that I chair with 48-hour escalation to the CFO, and the quarterly tranche release where the CFO decides on my recommendation; the decision roles are explicit, partners recommend, GMs give input, I agree the pack, the CFO decides, the hub performs. Slide 8 is the structure behind it, a small central hub that owns the model, the template and the Board pack and is measured on cycle time under 40 days, forecast accuracy and 100% of spend with an approved case, with local finance partners owning the read-outs so group and local never argue over whose number is right. Slide 12 is the Board layer, a 28-day calendar with a T-16 lock and a T-7 book, and slide 16 is the limit on my own reach: local-CFO decision rights in Mexico and Colombia stay where they are in year one.
+*On screen: slide 9.*
+
+### One page of numbers to keep at hand
+
+Q2'26 facts (slides 3, 4, 21): 138.9M customers; ARPAC $17.1/month; cost to serve $1.0/month (from $0.8); efficiency ratio 19.5% (17.6% in Q1); FY26 guide ~20%; ROE 33%; net income $1.06B; annualized managerial revenue ~$23.5B. Case figures: $60M asks, $25M cap, $35M gap (~15 bps of revenue, <1% of opex). Bridge (slide 7): $8M platform, $12M case track, $15M conditional (A6), $25M funded. Gates (slide 8): $15M now ($10.5M core / $4.5M new bets), $10M at quarter close; up to $15M above cap under A6. Full year (slide 10): core $16.5M + up to $5.0M; new bets $8.5M + up to $10.0M. Options (slide 6): 57.8 / 63.8 / 91.8. Board (slide 12): T-28 outline, T-21 one-to-ones, T-16 lock, T-10 freeze, T-9 chairs, T-7 book, T-3 written Q&A; Investor Day 8 Dec 2026. Capital (slide 11): Mexico bank 10 Jul 2026, $4.2B to 2030; OCC approval 27 Jan 2026, capitalize within 12 months; buyback up to $1.0B, Jun 2026; US guide ~100 bps. HQ (slide 15): EUR 750M threshold, 15% minimum, 9.4% payroll / 7.4% tangible assets carve-out; 85%/85% grant scaling, 24-month grace; dual signature above $250k; gates at D+30/60/90/120. Timeline (slide 18): Day 72 lock, Day 88 Board, Day 95 hub, Day 105 clinics, Day 120 HQ gate 2, Day 125 read-out, Day 150 gate 3 and Day-90 report, Day 180 lease.

@@ -30,3 +30,14 @@ to the row to confirm or reverse.
 | B6 | YES: "I" for recommendations, the ask and D4 | throughout |
 | B7 | YES: four sources kept; the rest named in footers only | slides 5, 12, 21 |
 | B8 | NOT DONE: the dry run needs you and a stopwatch | TEST_02 G4 |
+
+**Added in the v3 build (red-team and fact-check fixes, recommended branches taken):**
+
+| # | Decision | Branch taken in v3 | Where |
+|---|---|---|---|
+| B9 | Which clock do the funding gates follow? | FY27 fiscal calendar: gate 1 at FY27 start (1 Jan 2027), gate 2 at Q1 close (31 Mar), A6 valve at H1 close; tenure days for the 90-day plan; HQ gates D+n from the charter (A10) | slides 2, 3, 8, 17, 18, 19 |
+| B10 | Is the A6 valve stated in the ask itself? | YES: "$25M FY27 cap in two gates, with a CFO- and IR-gated valve of up to $15M that is not in plan" | slides 2, 19 |
+| B11 | Hub size and reporting lines? | Hub of 6-8 people (A10, assumption); partners solid line to the hub, dotted to the GM; in place by Day 95 | slides 3, 8 |
+| B12 | Where does the GM-pushback slide sit? | After "settling the two views" (slide 11), before the capital question | slide 11 |
+| B13 | Keep the Capital One reference on the planning-principle slide? | NO (read as flattery); replaced with "Nu's own test-and-learn discipline" | slide 5 |
+| B14 | Mature-cohort ARPAC figure? | YES, now that it is sourced: ~$31 at 96 months vs $15.9 total, Q1'26 earnings presentation cohort slide | slide 10 |
