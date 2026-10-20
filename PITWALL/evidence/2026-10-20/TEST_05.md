@@ -101,3 +101,5 @@ Each token is looked up in v5's slides and notes, plus the v5 talk track and Q&A
 - That PowerPoint opens v5. There is no PowerPoint here; v5 uses the same packaging as the v3 fix, and you have not yet
   confirmed that one either.
 - The personal examples and derailer (B16). The timed dry run (B8). Q3'26 figures (due 12 Nov 2026).
+
+Note (v6 build): the talk-track file was renamed to `review/2026-10-20_v6_talk-track-and-QA.md` and extended; see TEST_06.

@@ -66,3 +66,10 @@ too many cooks; and Visa's tech-company essence now coexisting with the governan
 used as the opening of talk slide 12 and in the new Q37 and Q38. "Politics" is left out of the spoken wording; the script
 says "too many cooks in the kitchen" instead (reason in the slide 12 delivery note). This does not close B16: the three
 rule examples, the derailer (B22) and your Visa specifics in Q38 are still yours to write.
+
+**Added in the v6 build (TEST_06):**
+
+| # | Decision | Branch taken in v6 | Where |
+|---|---|---|---|
+| B23 | AI in the operating model | Two agents: a PMO agent (your example: status without templates) and a review agent (case checks, Board-book and directors' drafts). Every figure is signed by a named person; Nu-approved tools only (A11) | slides 7, 10, 11, 12, 14; backup H; Q39-Q41 |
+| B24 | Where the AI lines sit in the talk | Spoken on slides 7, 10, 11, 12 and 14. To make room, five lines moved to Q&A or to the slides | talk track; timing 25.4 min |

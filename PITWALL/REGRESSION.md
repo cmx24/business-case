@@ -3,7 +3,7 @@
 Grammar (same as Turbo's PITWALL): one capability per line, `capability: <words> => <pattern>[, <pattern>]`.
 A capability PASSES when at least one pattern matches the deck's text (regex, case-insensitive, matched per slide; tables included).
 Two extra line kinds for a document: `forbid: <words> => <pattern>` passes when NO slide matches (the package --guard analogue),
-and `check: <words> => <key>[=<value>]` runs a structural check (`max_slides=N`, `notes`, `validates`, `no_raster_charts`).
+and `check: <words> => <key>[=<value>]` runs a structural check (`max_slides=N`, `max_presented=N`, `notes`, `validates`, `no_raster_charts`).
 
 Sources of the lines: section A is derived from the case brief (the "old registry"); section B is the reviewer's list
 (the "builders' list"); section C is the guard. Edit the words freely; keep the grammar.
@@ -30,7 +30,8 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: D4 balances strategic influence with hands-on FP&A or governance rigor => technical rigor, fp&a, hands-on
 - capability: assumptions are listed and separated from facts (general instruction) => key assumptions, assumptions? (list|ledger|slide), what (i|we) (am|are) assuming, assumption:
 - capability: public data is cited with a source (general instruction) => 20-f, 6-k, earnings release, filings, investor relations
-- capability: the deck fits the 30-minute format (presentation, not memo) => check: max_slides=22
+- capability: the deck fits the 30-minute format (presented slides, before the backup divider) => check: max_presented=14
+- capability: the file stays a deck, not a memo (all slides, backup included) => check: max_slides=23
 
 ## B. Reviewer's list (what a CFO panel looks for)
 
@@ -50,6 +51,8 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: every core slide has speaker notes => check: notes
 - capability: the file validates against the OOXML schema => check: validates
 - capability: charts are native, not raster images => check: no_raster_charts
+- capability: AI tooling is part of how governance runs, with a named human owner => PMO agent, review agent
+- capability: AI use has guardrails (approved tools, a person signs) => Nu-approved tools, named (owner|person) signs
 
 ## C. Guard (forbidden content)
 
@@ -66,3 +69,7 @@ Change log: 2026-10-20 (v5). Widened three lines for the v5 wording, each an equ
 "staged release" / "two releases" (the allocation rule) and "stop rules" (R2 replaced "reversal triggers"). Narrowed the stale
 cost-to-serve guard to its purpose: "$0.8 a year earlier" is a labeled comparison, not a stale current figure. No line was loosened past
 its capability; three other v5 failures were fixed in the deck instead (D4 label, test-and-learn, hub KPIs).
+
+Change log: 2026-10-20 (v6). The 30-minute line now measures what it names: presented slides before the backup divider,
+limit 14 (stricter than before: v4 presented 19). The old total-slide line stays as a separate memo guard, raised from 22 to 23
+for backup H (two AI agents). Added two AI lines: the agents are part of how governance runs, and their use has guardrails.

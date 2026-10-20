@@ -8,7 +8,8 @@ per line and one RESULT line; the exit code is 1 when anything fails. Stdlib plu
 Line grammar (one per line, anywhere in the file; a leading "-" or "*" is allowed):
   capability: <words> => <regex>[, <regex>]      PASS when any regex matches the text of at least one slide (case-insensitive)
   forbid: <words> => <regex>[, <regex>]          PASS when no slide matches any regex
-  check: <words> => <key>[=<value>]              structural check: max_slides=N | notes | validates | no_raster_charts
+  check: <words> => <key>[=<value>]              structural check: max_slides=N | max_presented=N | notes | validates | no_raster_charts
+  (max_presented counts the slides before the first divider slide whose text starts with "Backup" or "Appendix")
 A "capability:" line whose right-hand side starts with "check:" is treated as a check line.
 
 usage: python3 -I tools/deck_capability_check.py <deck.pptx> [--pitwall DIR] [--quiet] [--self-test]
@@ -23,7 +24,7 @@ import sys
 import tempfile
 
 _LINE = re.compile(r"^\s*(?:[-*]\s*)?(capability|cap|forbid|check)\s*:\s*(.+?)\s*(?:=>|->)\s*(.+?)\s*$", re.I)
-_CHECK_KEYS = ("max_slides", "notes", "validates", "no_raster_charts")
+_CHECK_KEYS = ("max_slides", "max_presented", "notes", "validates", "no_raster_charts")
 VALIDATOR = os.environ.get("PPTX_VALIDATOR")  # optional: path to the pptx skill's office/validate.py
 
 
@@ -153,6 +154,19 @@ def check(slides, items, deck_path=None):
                     continue
                 st = "PASS" if len(slides) <= limit else "FAIL"
                 results.append((st, label, "%d slides, limit %d" % (len(slides), limit)))
+            elif key == "max_presented":
+                try:
+                    limit = int(val)
+                except ValueError:
+                    results.append(("FAIL", label, "max_presented needs a number"))
+                    continue
+                presented = len(slides)
+                for s in slides:
+                    if re.match(r"\s*(backup|appendix)\b", s["text"], re.I) and len(s["text"].strip()) < 400:
+                        presented = s["n"] - 1
+                        break
+                st = "PASS" if presented <= limit else "FAIL"
+                results.append((st, label, "%d presented slides before the backup divider, limit %d" % (presented, limit)))
             elif key == "notes":
                 missing = [s["n"] for s in core if not s["notes"]]
                 if missing:
@@ -238,6 +252,7 @@ def self_test():
                 "Risks: a reversal trigger is stated here. Seamless is a banned word that must be caught by the guard."):
         s = prs.slides.add_slide(prs.slide_layouts[5])
         s.shapes.title.text = txt
+    prs.slides.add_slide(prs.slide_layouts[5]).shapes.title.text = "Backup"
     prs.slides[0].notes_slide.notes_text_frame.text = "notes"
     prs.save(deck)
     pit = os.path.join(tmp, "PITWALL")
@@ -249,12 +264,14 @@ def self_test():
                  "- forbid: absent word => nonexistentword\n"
                  "- check: size => max_slides=5\n"
                  "- capability: notes => check: notes\n"
-                 "- check: native => no_raster_charts\n")
+                 "- check: native => no_raster_charts\n"
+                 "- check: presented => max_presented=2\n"
+                 "- check: presented tight => max_presented=1\n")
     slides = read_deck(deck)
     items, files = read_lines(pit)
     res = check(slides, items, deck)
     got = [r[0] for r in res]
-    want = ["PASS", "FAIL", "FAIL", "PASS", "PASS", "FAIL", "PASS"]
+    want = ["PASS", "FAIL", "FAIL", "PASS", "PASS", "FAIL", "PASS", "PASS", "FAIL"]
     ok = got == want and len(files) == 1
     print("self-test %s: %s (want %s)" % ("PASS" if ok else "FAIL", got, want))
     return 0 if ok else 1

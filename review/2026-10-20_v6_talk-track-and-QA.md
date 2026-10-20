@@ -1,8 +1,9 @@
-# Talk track and Q&A: Chief of Staff to the CFO & Global Corporate Governance (deck v5)
+# Talk track and Q&A: Chief of Staff to the CFO & Global Corporate Governance (deck v6)
 
-Deck: `deck/CFO_CoS_deck_v5.pptx`, 22 slides. Slides 1-14 are presented; slide 15 is the backup divider, and backups A-G
-(slides 16-22) are for Q&A only. Format: 30 minutes presenting, then 30 minutes of Q&A. This version replaces
-`review/2026-10-20_talk-track-and-QA.md`, which was written for the 19-slide v4.
+Deck: `deck/CFO_CoS_deck_v6.pptx`, 23 slides. Slides 1-14 are presented; slide 15 is the backup divider, and backups A-H
+(slides 16-23) are for Q&A only. Format: 30 minutes presenting, then 30 minutes of Q&A. v6 is v5 plus two AI agents in the
+operating model (slides 7, 10, 11, 12 and 14; backup H; Q39-Q41). This file replaces `review/2026-10-20_talk-track-and-QA.md`,
+which was written for the 19-slide v4.
 
 How to read this file:
 - Lines starting with `>` are what you say. Everything else is for you.
@@ -60,8 +61,6 @@ yourself is deliberate: if the panel finds it later, it looks hidden.
 >
 > The rest are mine. The one that matters most is A4. I assume the two executives disagree about the growth-opex envelope: core markets against new bets. I assume it is not about regulatory capital by entity. If I am wrong, the capital slide carries the decision. That is why Deliverable 2 starts with capital.
 >
-> A6 is the reserve rule. A10 puts everything on the FY27 calendar.
->
 > What I am confirming now: the real MTeam positions, the Board and committee calendar, who owns the planning model, and local-CFO decision rights in Mexico and Colombia. The full list is in backup A.
 
 **Delivery.** Even, factual pace. Slow down on A4 and say it as a risk you own, not a disclaimer. This is the slide you
@@ -107,7 +106,7 @@ sentence (Q23) and keep going.
 
 > Every dollar of the sixty million gets an answer. Read the chart from the top.
 >
-> Eight million is met on the shared platform. These asks duplicate features the global code base already ships, at near-zero marginal cost. That is my estimate, A5, and Engineering confirms it. Whatever they cannot confirm moves into the case track, and the cap does not grow. If they confirm five, the other three goes to the case track.
+> Eight million is met on the shared platform. These asks duplicate features the global code base already ships, at near-zero marginal cost. That is my estimate, A5, and Engineering confirms it. Whatever they cannot confirm moves into the case track, and the cap does not grow.
 >
 > Twelve million are ideas without a business case yet. They enter a sixty-day track, where my team builds the case with the GM. They come back for the second release with evidence, not a number.
 >
@@ -118,8 +117,6 @@ sentence (Q23) and keep going.
 > The first release is fifteen million on the first of January. Ten and a half goes to core markets, four and a half to new bets. Seventy-thirty.
 >
 > The second release is ten million at Q1 close, on the thirty-first of March. It goes to the units whose Q1 indicators hold.
->
-> Why wait for January? Because the cap is FY27's envelope. The Board approves the plan on the seventeenth of November, and the cases get vetted in December. Nobody has to prove a Q1 indicator in thirty-seven days.
 >
 > Neither executive hears a no. Core markets get the larger share first. New bets get a protected start and a published route to more. And the CFO gets something new: every first-release dollar carries an approved case.
 
@@ -136,13 +133,16 @@ up out loud; the chart does that. Slow down on the reserve conditions, and look 
 >
 > I hire for two skills: modeling and plain-English writing. And I keep the review of the model myself.
 >
+> Two AI agents do the consolidation, which is why four to six people is enough. A PMO agent reads status where the work already happens, so nobody fills in the status templates everyone hates. And a review agent checks every case against the template and the data platform before it reaches the clinic. People still own every number.
+>
 > There are three standing meetings, and nothing else goes on the calendar. Squad clinics every week, where the partner and the GM build the case. One-to-ones with each GM every two weeks, so there are no surprises at the lock. And a quarterly release review, where the CFO decides on my recommendation. The release memo goes to the GMs the same day.
 >
 > Roles are explicit. Partners recommend. GMs give input. I assemble the pack. The CFO decides. The hub runs it. The fourth meeting is the HQ pod, which I will come to.
 >
 > [Pause.] That closes the money. Before I move to the Board, is there anything on the plan you'd like to test now?
 
-**Delivery.** This is the first of two planned pauses for questions. You should be at about minute 12. If nobody asks,
+**Delivery.** Say the AI lines in a matter-of-fact voice, as plumbing rather than a pitch. "The status templates everyone
+hates" can get a smile; let it land. This is the first of two planned pauses for questions. You should be at about minute 11. If nobody asks,
 count two seconds and move on. If someone does, answer in 30 seconds or less and name the backup slide.
 
 ### Slide 8: The capital dispute gets one ranking: return on the equity each use needs
@@ -153,7 +153,7 @@ count two seconds and move on. If someone does, answer in 30 seconds or less and
 >
 > The second is Nu Mexico: authorized as a bank on the tenth of July and operating since the sixth of August, with four point two billion dollars planned to 2030.
 >
-> The third is the US charter. The OCC gave conditional approval on the twenty-ninth of January. Capital has to be in within twelve months, so by about the end of January 2027. That is roughly ten weeks after this Board. FDIC and Fed approvals were still pending at my last check.
+> The third is the US charter. The OCC gave conditional approval on the twenty-ninth of January. Capital has to be in within twelve months, so by about the end of January 2027. That is roughly ten weeks after this Board.
 >
 > The fourth is the buyback: up to one billion dollars, announced in June.
 >
@@ -204,14 +204,17 @@ is the payoff: tell it as a story (situation, what you did, the result) and stop
 >
 > In week four, directors' data questions are answered in writing by three days out, so the meeting is spent on the capital plan, not on read-outs.
 >
+> AI takes the grunt work. The review agent drafts the book from the locked data tables. It drafts answers to directors' questions, with every figure linked to its source. A named owner signs each answer. And we use only Nu-approved tools, because the book holds results the market hasn't seen.
+>
 > If materials are already late, the locked outline decides. Anything outside it goes to the appendix or the next meeting.
 >
 > Two things cannot slip. The capital plan, because this is the last Board before Investor Day. And the statutory items for new entities. My rule there is to open an entity only when a license or tax substance requires it. Officers and signing follow the stage, and the detail is in backup B.
 >
 > [Pause.] That is the Board. Any questions before I go to the HQ?
 
-**Delivery.** Crisp, operational, like reading a run-sheet. Say "days out" instead of "T-minus" out loud. This is the
-second pause for questions, at about minute 19.
+**Delivery.** Crisp, operational, like reading a run-sheet. Say "days out" instead of "T-minus" out loud. On the AI
+lines, stress "a named owner signs" and "Nu-approved tools": the Board audience cares more about control than speed. This is the
+second pause for questions, at about minute 17.
 
 ### Slide 11: HQ charter: four gates in 120 days, each with an owner and an exit test
 
@@ -221,11 +224,11 @@ second pause for questions, at about minute 19.
 >
 > Gate 2, at day sixty, is grant terms, and Legal owns it. Grants usually come with headcount clawbacks. I would negotiate proportional scaling: eighty-five percent of the headcount keeps eighty-five percent of the grant, with twenty-four months of grace. The exit test is no cliff-edge clawback in the signed term sheet.
 >
-> Gate 3, at day ninety, is officers, owned by Legal and People. That means directors who pass the regulator's fit-and-proper test, dual signature above set limits, and D&O in place before activation. There is no commercial signing before then.
+> Gate 3, at day ninety, is officers, owned by Legal and People. That means directors who pass the regulator's fit-and-proper test, dual signature above set limits, and D&O in place before activation.
 >
 > Gate 4, at day one hundred twenty, is the lease, and Workplace owns it. I would phase the cost. Q2 showed how real-estate timing moves the efficiency ratio. The exit test is lease terms inside the plan.
 >
-> I run it without line authority through one weekly forty-five-minute pod with Legal, Tax, People and Workplace. There is one decision log, and escalation to the CFO within forty-eight hours.
+> I run it without line authority through one weekly forty-five-minute pod with Legal, Tax, People and Workplace. There is one decision log, kept current by the PMO agent, and escalation to the CFO within forty-eight hours.
 >
 > The risks I track are tax residence, clawback, officer liability, site politics, and dependence on me. That last one is covered by a named deputy in the pod.
 >
@@ -259,7 +262,7 @@ self-awareness.
 >
 > [your example, about 40 words: a time you found an error in a senior leader's numbers and fixed it with them before the meeting.]
 >
-> Three: own the model and the clauses. I build the model and read the clauses myself. At this level, influence is earned by being right on the detail.
+> Three: own the model and the clauses. I build the model and read the clauses myself. AI does the first pass now; I still do the last. At this level, influence is earned by being right on the detail.
 >
 > [your example, about 40 words: a model or contract clause you caught yourself that would have cost money or credibility.]
 >
@@ -301,7 +304,7 @@ pointing at each.
 
 ### Slide 14: Next 90 days: Board by 17 Nov, hub by late November, first release on 1 January
 
-> The next ninety days come down to three dates. The Board on the seventeenth of November. The hub in place by late November. And the first release on the first of January.
+> The next ninety days come down to three dates. The Board on the seventeenth of November. The hub and the PMO agent in place by late November. And the first release on the first of January.
 >
 > Today, the Board outline goes out, the HQ charter is signed, and the tax gate starts. In mid-December, the HQ grant terms are agreed. In mid-January, the HQ officers are in place, and I give my ninety-day report to the CFO. The second release is decided on the thirty-first of March.
 >
@@ -322,21 +325,21 @@ talk. No thank-you slide, and no "that concludes my presentation". End on the qu
 |---|---|---|---|
 | 1. Chief of Staff to the CFO: planning, the Board and the new HQ | 112 | 0.9 | 0.9 |
 | 2. Three decisions today: the $25M plan, the Board calendar and the HQ charter | 226 | 1.7 | 2.6 |
-| 3. What I know, and the assumptions that could break the plan | 192 | 1.5 | 4.1 |
-| 4. Underwrite budgets like credit lines: the precedent matters more than the $35M | 242 | 1.9 | 5.9 |
-| 5. Staged release beats flat cuts and core-first | 122 | 0.9 | 6.9 |
-| 6. Every dollar of the $60M gets an answer: $25M funded in two releases, $15M held in reserve | 295 | 2.3 | 9.1 |
-| 7. A lean hub and a short meeting cadence bring planning in-house | 232 | 1.8 | 10.9 |
-| 8. The capital dispute gets one ranking: return on the equity each use needs | 343 | 2.6 | 13.6 |
-| 9. When a senior GM pushes back: four moves, in the same order every time | 190 (incl. 40 story) | 1.5 | 15.0 |
-| 10. The Board book goes out 7 days before the meeting, after a lock at 16 days | 232 | 1.8 | 16.8 |
-| 11. HQ charter: four gates in 120 days, each with an owner and an exit test | 310 | 2.4 | 19.2 |
-| 12. How I balance strategic influence with hands-on rigor | 425 (incl. 145 story) | 3.3 | 22.5 |
-| 13. The downside is handled by rules: miss Q1 and the second release waits | 157 | 1.2 | 23.7 |
-| 14. Next 90 days: Board by 17 Nov, hub by late November, first release on 1 January | 172 | 1.3 | 25.0 |
-| **Total** | **3250** | **25.0** | |
+| 3. What I know, and the assumptions that could break the plan | 180 | 1.4 | 4.0 |
+| 4. Underwrite budgets like credit lines: the precedent matters more than the $35M | 242 | 1.9 | 5.8 |
+| 5. Staged release beats flat cuts and core-first | 122 | 0.9 | 6.8 |
+| 6. Every dollar of the $60M gets an answer: $25M funded in two releases, $15M held in reserve | 246 | 1.9 | 8.7 |
+| 7. A lean hub and a short meeting cadence bring planning in-house | 290 | 2.2 | 10.9 |
+| 8. The capital dispute gets one ranking: return on the equity each use needs | 332 | 2.6 | 13.5 |
+| 9. When a senior GM pushes back: four moves, in the same order every time | 190 (incl. 40 story) | 1.5 | 14.9 |
+| 10. The Board book goes out 7 days before the meeting, after a lock at 16 days | 282 | 2.2 | 17.1 |
+| 11. HQ charter: four gates in 120 days, each with an owner and an exit test | 309 | 2.4 | 19.5 |
+| 12. How I balance strategic influence with hands-on rigor | 436 (incl. 145 story) | 3.4 | 22.8 |
+| 13. The downside is handled by rules: miss Q1 and the second release waits | 157 | 1.2 | 24.0 |
+| 14. Next 90 days: Board by 17 Nov, hub by late November, first release on 1 January | 176 | 1.4 | 25.4 |
+| **Total** | **3300** | **25.4** | |
 
-**Total: 3250 spoken words, 25.0 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
+**Total: 3300 spoken words, 25.4 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
 
 ## 3. Running the clock
 
@@ -347,7 +350,7 @@ talk. No thank-you slide, and no "that concludes my presentation". End on the qu
 **Clock checkpoints.** Start slide 8 by minute 13, slide 11 by minute 19.5 and slide 13 by minute 23. Put a watch on the
 table, face up.
 
-**Two planned pauses for questions.** End of slide 7 (about minute 12) and end of slide 10 (about minute 19).
+**Two planned pauses for questions.** End of slide 7 (about minute 11) and end of slide 10 (about minute 17).
 
 **If you are interrupted.**
 1. Answer in 30 seconds or less. Use the "Say" line from section 4 and name the backup slide.
@@ -498,9 +501,9 @@ and by when. Keep the backup slide ready, but don't put it on screen unless they
   was checked by me. The judgment calls are mine: the fifteen and ten split, the seventy-thirty, the option scores and the
   three rules. The best test is the one you're running now. Pick any number and I'll tell you where it comes from, and
   whether it's fact or assumption. Where I had no defensible number, like the HQ incentive value or the cost of equity, I
-  left it blank."
+  left it blank. And it's how I'd run the office: AI does the first pass, people own the last."
 - **Tone:** Relaxed and direct. Don't be defensive, and don't joke.
-- **Show:** Backup D (slide 19).
+- **Show:** Backup D (slide 19), then backup H if they want the operating detail.
 
 ### B. Six questions from the question bank
 
@@ -571,7 +574,7 @@ and by when. Keep the backup slide ready, but don't put it on screen unless they
 - **Tone:** Polite but firm on the word "cut". Smile on "I'd push back".
 - **Show:** Slide 6, then slide 5.
 
-### C. Twenty-two more questions: interjections, the CFO's lens, and pressure tests
+### C. Twenty-five more questions: interjections, the CFO's lens, pressure tests and AI
 
 **Q17. Nu is creating a separate Brazil CFO role reporting to Rob. How does your role work with it?**
 - **Why they ask:** It's public (the CFO appointment release says so) and it affects your remit.
@@ -714,7 +717,8 @@ jurisdiction collects the Pillar Two top-up?**
 **Q30. How many people is this?**
 - **Why they ask:** Nu runs lean, and a new central team is a cost.
 - **Position:** A hub of four to six people; the partners already exist.
-- **Say:** "Four to six people in the hub: model, template, pack. The finance partners aren't new hires. They're the
+- **Say:** "Four to six people in the hub: model, template, pack. Two AI agents do the consolidation, which is why that's
+  enough. The finance partners aren't new hires. They're the
   finance people already attached to markets, refocused on cases and releases. If the hub can't keep cycle time under
   forty days, the answer is a simpler process, not more people."
 - **Tone:** Lean and practical. Fits "smart efficiency".
@@ -793,7 +797,8 @@ jurisdiction collects the Pillar Two top-up?**
 - **Say:** "I've seen three versions of this. At Citi, governance was rigid enough to slow good decisions. At Itaú BBA, a
   fast, client-first team slowed down when too many cooks got into the kitchen. At Visa, a tech company learned to run
   alongside global-scale governance. The difference is whether the rules are few and published, or many and negotiated.
-  So this plan has three standing meetings and nothing else on the calendar. One decision log for the HQ. One release rule,
+  So this plan has three standing meetings and nothing else on the calendar. One decision log for the HQ, kept by a PMO
+  agent instead of status templates. One release rule,
   published on day one. If a process doesn't change a decision, I'd cut it."
 - **Tone:** Practical, not preachy. Each company gets one sentence; spend your time on what you'd do at Nu.
 - **Show:** Slide 7, then slide 12.
@@ -809,6 +814,46 @@ jurisdiction collects the Pillar Two top-up?**
 - **Show:** Nothing.
 - **Note:** Rob Livingston was CFO of Visa North America and, before that, spent 18 years at Capital One (CFO
   appointment, announced 1 Jun 2026). Rob will know Visa's governance in detail, so precise and modest beats broad.
+
+**Q39. How would you and your team actually use AI in this role?**
+- **Why they ask:** Nu calls itself AI-first, and the CEO's stated priorities include reshaping Nu around AI. They want
+  concrete use, not enthusiasm.
+- **Position:** Two agents, each tied to a part of the plan that slows people down today. Both have evidence behind them,
+  guardrails, and a measure.
+- **Say:** "Two things, both day to day. First, a PMO agent. Every Monday it reads status where the work already happens,
+  for the HQ gates, the releases and the Board countdown. It updates the decision log, flags dates at risk and drafts the
+  pod note. Owners correct a draft instead of filling in a template. Second, a review agent. It checks every GM case against
+  the template and the data platform before the clinic, and it drafts the Board book and directors' answers. A named
+  person signs everything. Nu already runs AI agents on more than sixty percent of support conversations in Brazil; the
+  CFO's office should run on the same idea."
+- **Tone:** Concrete and calm. Describe a Monday, not a vision.
+- **Show:** Backup H (slide 23).
+- **If they push ("why these two?"):** "Because they're where the evidence is strongest. Gartner names data collection,
+  tracking and reporting as the project-management work AI takes over first, and PMI found reporting is project managers'
+  top AI use. For drafting, a Science study found writing tasks done forty percent faster with eighteen percent higher
+  quality."
+
+**Q40. Isn't it risky to put Board material into an AI tool?**
+- **Why they ask:** The book holds material non-public information, with Q3 results out on 12 Nov and the Board on 17 Nov.
+- **Position:** Agreed, so only Nu-approved tools inside Nu's environment are used, with access approved by Security and
+  Risk first (A11), and a person signs every answer.
+- **Say:** "Yes, if it's done carelessly. So the rule is Nu-approved tools only, running inside Nu's environment, with
+  Security and Risk approving data access before anything goes live. That's assumption A11, and I'd confirm it before
+  using either agent. Nothing goes to an outside tool. And the agent never sends anything: a named owner signs every answer
+  that reaches a director."
+- **Tone:** Serious and brief. Agree with the risk before you answer it.
+- **Show:** Backup H, then backup A (A11).
+
+**Q41. What happens when the AI gets a number wrong?**
+- **Why they ask:** To test whether you know where these tools fail.
+- **Position:** It will, sometimes, which is why the design assumes it: a person signs every figure, errors are measured,
+  and a step goes back to manual if a wrong number reaches the CFO.
+- **Say:** "It will, sometimes. The Harvard and BCG study with seven hundred fifty-eight consultants found AI made them
+  faster and better on tasks inside its frontier, and nineteen points less accurate on a task outside it. So the design
+  assumes errors. Every figure links to its source, and a named person signs it. I track errors caught before the clinic.
+  And if a wrong number ever reaches the CFO, that step goes back to manual until it's fixed."
+- **Tone:** Candid. Saying "it will" first builds trust.
+- **Show:** Backup H.
 
 ## 5. Numbers to keep at hand
 
@@ -869,6 +914,18 @@ jurisdiction collects the Pillar Two top-up?**
   - Day 180 mid-Feb, HQ gate 4.
   - Day 222 Wed 31 Mar, second release.
 - **People:** Livingston CFO since 13 Jul 2026; a separate Brazil CFO role reports to the CFO.
+- **AI (backup H):**
+  - Nu: AI agents handle more than 60% of support conversations in Brazil (Q2'26 release); AI-first strategy
+    (Hyperplane acquisition, 26 Jun 2024).
+  - Gartner (20 Mar 2019): 80% of today's project-management tasks eliminated by 2030 as AI takes over data collection,
+    tracking and reporting. A forecast.
+  - PMI 2023 Annual Global Survey, as reported in the press (not read in the original): reporting is the top AI use among
+    project managers (34%).
+  - Noy and Zhang, Science (Jul 2023): 453 professionals; writing tasks about 40% faster, quality up about 18%.
+  - Dell'Acqua et al., HBS/BCG (2023): 758 consultants; inside AI's frontier 12.2% more tasks, about 25% faster, more than
+    40% higher quality; outside it, 19 percentage points less likely to be correct.
+  - Gartner (11 Sep 2024): 58% of finance functions use AI (37% in 2023); top uses: intelligent process automation (44%),
+    anomaly and error detection (39%).
 - **Credit and market context (Q&A only):** NPL 90+ 6.9% in Q2'26, up 35 bps, called seasonal; Brazil election runoff 25
   Oct 2026; JPMorgan raised its target in October; Itaú BBA downgraded.
 
@@ -893,6 +950,8 @@ and speaker notes against v5's slides, its notes and this file. The result is in
 | Slide 4's notes on "Do not oversell $35M"; Takeaway / Hardest question / Answer notes | One plain sentence per slide in the notes; the hard questions are in section 4 here | Notes travel with the file |
 | 19 presented slides, 27.9 minutes | 14 presented slides; timing in section 2 | Leaves room for interruptions (R3) |
 | No stakeholder map; timeline split across slides | Backup F (one timeline, now with Day 90 / HQ gate 1) and backup G (stakeholders) | R3 |
+| (v6) No AI in the operating model | PMO agent and review agent on slides 7, 10, 11, 12, 14; backup H; A11; Q39-Q41 | Pit wall request, final pass |
+| (v6) Talk lines on "if they confirm five", "why wait for January", FDIC and Fed, "no commercial signing", "A6 is the reserve rule" | Moved to Q29, Q4, Q33 and the slides | Room for the AI lines inside the clock |
 
 **Where the v4 content now lives:** speaker-note context that is not on a v5 slide now lives in section 4 of this file.
 That covers the Monzo statement, NPL, the election, the sell-side split, QDMTT, Cayman, the special meeting and written
