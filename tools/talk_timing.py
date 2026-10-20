@@ -20,4 +20,6 @@ if len(sys.argv) > 2:
             "length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question "
             "pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once "
             "(board B8) and cut from the 'If you are behind' list rather than speaking faster.")
-    open(p, "w").write(t.replace("TIMING_TABLE", tbl + note))
+    head, rest = t.split("## 2. Timing (130 words per minute)\n", 1)
+    tail = rest[rest.index("## 3. "):]
+    open(p, "w").write(head + "## 2. Timing (130 words per minute)\n\n" + tbl + note + "\n\n" + tail)

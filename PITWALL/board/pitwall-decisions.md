@@ -55,7 +55,14 @@ to the row to confirm or reverse.
 
 | # | Decision | Branch taken in v5 | Where |
 |---|---|---|---|
-| B19 | Presented length | 14 slides plus backups A-G; talk track 3,134 words (about 24.1 minutes) | deck v5, talk track section 2 |
+| B19 | Presented length | 14 slides plus backups A-G; talk track 3,250 words (about 25.0 minutes) | deck v5, talk track section 2 |
 | B20 | Decision rights for the H2 reserve | The CFO decides; Risk can block; IR sets disclosure (replaces "joint CFO, IR and Risk sign-off", B17) | slides 2, 6, 13; A6 |
 | B21 | Deliverable 2 order | Capital ranking first; the 70/30 opex split second, on the same slide | slide 8 |
 | B22 | Derailer | NOT inserted: a slot on slide 12 and in Q19, with guidance on choosing a true one. Yours to write, like B16 | talk slide 12, Q19 |
+
+**Pit wall input, 2026-10-20 (after v5):** the Deliverable 4 anecdote. You have seen big companies at local, regional and
+global level: rigid governance and bureaucracy at Citi; Itaú BBA's agile, client-centric DNA slowed by group politics and
+too many cooks; and Visa's tech-company essence now coexisting with the governance a global-scale business needs. It is
+used as the opening of talk slide 12 and in the new Q37 and Q38. "Politics" is left out of the spoken wording; the script
+says "too many cooks in the kitchen" instead (reason in the slide 12 delivery note). This does not close B16: the three
+rule examples, the derailer (B22) and your Visa specifics in Q38 are still yours to write.

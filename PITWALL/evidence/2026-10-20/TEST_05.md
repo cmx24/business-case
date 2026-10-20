@@ -87,10 +87,9 @@ Each token is looked up in v5's slides and notes, plus the v5 talk track and Q&A
 
 ## Talk track
 
-- **Length** (`tools/talk_timing.py`): 3,134 spoken words, about 24.1 minutes at 130 wpm. Story slots are counted at their stated length.
-- **Clock checkpoints:** slide 8 starts at 10.9 minutes (target 13), slide 11 at 16.8 (target 19.5) and slide 13 at 21.6
-  (target 23).
-- **Q&A:** 36 questions, each with why they ask, position, spoken answer, tone and the slide to show.
+- **Length** (`tools/talk_timing.py`): 3,250 spoken words, about 25.0 minutes at 130 wpm (3,134 and 24.1 before the Citi / Itaú BBA / Visa opening on slide 12 was added). Story slots are counted at their stated length.
+- **Clock checkpoints:** slide 8 starts at 10.9 minutes (target 13), slide 11 at 16.8 (target 19.5) and slide 13 at 22.5 (target 23).
+- **Q&A:** 38 questions (Q37 and Q38 added with the slide 12 opening), each with why they ask, position, spoken answer, tone and the slide to show.
 - **Pronouns:** none gendered.
 - **Unverified items are flagged in the text:**
   - The call-summary figures in Q35 (12.4% risk-adjusted NIM, "same discipline", the Desenrola split) are held as "verify

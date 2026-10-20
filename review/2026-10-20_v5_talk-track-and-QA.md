@@ -237,7 +237,19 @@ self-awareness.
 
 ### Slide 12: How I balance strategic influence with hands-on rigor
 
-> Deliverable 4 of 4: how I balance strategic influence with hands-on rigor. I have three rules.
+> Deliverable 4 of 4: how I balance strategic influence with hands-on rigor.
+>
+> My answer comes from seeing big companies up close, at local, regional and global level.
+>
+> At Citi, I saw governance so rigid that it slowed good decisions down.
+>
+> At Itaú BBA, I saw an agile, client-first culture slow down when the wider group put too many cooks in the kitchen.
+>
+> At Visa, I saw a tech company at heart that now runs alongside the governance a global-scale business requires.
+>
+> Nu is at that point now. A bank in Mexico, a US charter on the way, a new HQ. Governance has to grow, and the speed has to survive it.
+>
+> The lesson I took is simple: a few clear rules, published early, and nothing more. So I hold myself to three.
 >
 > One: publish the rule, then negotiate. People accept outcomes they argued against when the criteria were public first. I publish the scoring on day one and I don't change it mid-cycle.
 >
@@ -258,8 +270,15 @@ self-awareness.
 > [your watch-out, about 25 words: one honest derailer and what you do about it.]
 
 **Delivery.** This is the most personal slide, so it should sound the least rehearsed. Make eye contact on the stories,
-not the rules. If you are behind the clock, give the rules and only the first example, then offer the other two in Q&A.
-The watch-out has to be true (see Q19 for how to choose one).
+not the rules. If you are behind the clock, give the three-company opening, the rules and only the first example, then
+offer the other two in Q&A. The watch-out has to be true (see Q19 for how to choose one).
+
+**The three-company opening.** Say it as observation, not criticism: one breath per company, then pause before "Nu is at
+that point now". Talk about structures, never about people.
+- Nu competes with Itaú, and panels at Nu often include people from Itaú and Citi. That is why the script says "too many
+  cooks in the kitchen" and leaves "politics" out: it makes the same point without sounding like a grievance.
+- Rob Livingston was CFO of Visa North America, so the Visa line lands with someone who knows Visa from the inside. Keep
+  it to what you saw yourself, and don't look at Rob for agreement when you say it. Q38 prepares the follow-up.
 
 ### Slide 13: The downside is handled by rules: miss Q1 and the second release waits
 
@@ -312,12 +331,12 @@ talk. No thank-you slide, and no "that concludes my presentation". End on the qu
 | 9. When a senior GM pushes back: four moves, in the same order every time | 190 (incl. 40 story) | 1.5 | 15.0 |
 | 10. The Board book goes out 7 days before the meeting, after a lock at 16 days | 232 | 1.8 | 16.8 |
 | 11. HQ charter: four gates in 120 days, each with an owner and an exit test | 310 | 2.4 | 19.2 |
-| 12. How I balance strategic influence with hands-on rigor | 309 (incl. 145 story) | 2.4 | 21.6 |
-| 13. The downside is handled by rules: miss Q1 and the second release waits | 157 | 1.2 | 22.8 |
-| 14. Next 90 days: Board by 17 Nov, hub by late November, first release on 1 January | 172 | 1.3 | 24.1 |
-| **Total** | **3134** | **24.1** | |
+| 12. How I balance strategic influence with hands-on rigor | 425 (incl. 145 story) | 3.3 | 22.5 |
+| 13. The downside is handled by rules: miss Q1 and the second release waits | 157 | 1.2 | 23.7 |
+| 14. Next 90 days: Board by 17 Nov, hub by late November, first release on 1 January | 172 | 1.3 | 25.0 |
+| **Total** | **3250** | **25.0** | |
 
-**Total: 3134 spoken words, 24.1 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
+**Total: 3250 spoken words, 25.0 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
 
 ## 3. Running the clock
 
@@ -339,7 +358,8 @@ table, face up.
 **If you are behind.**
 - Two minutes behind at slide 8: on slide 8, give the four uses and the test, and keep Treasury, Investor Day and the
   opex half for Q&A.
-- Behind at slide 12: give the three rules and only the first example. Offer the other two in Q&A.
+- Behind at slide 12: give the three-company opening, the three rules and only the first example. Offer the other two in
+  Q&A.
 - Hard stop at minute 28: wherever you are, go to slide 14 and read the ask.
 
 **The 15-minute version** (if the panel says "we're short on time"). Present slides 2, 3, 6, 8, 9, 11, 12 and 14.
@@ -353,7 +373,7 @@ That is one slide or more per deliverable, so no deliverable is skipped.
 | 8 | The four uses, the test, who decides, and the 70/30 opex half | 2.5 min |
 | 9 | The four moves and your example | 1.5 min |
 | 11 | The four gates in one line each, the pod, and no savings figure | 2 min |
-| 12 | Three rules, one example, where you push back | 2 min |
+| 12 | The Citi, Itaú BBA and Visa opening, three rules, one example, where you push back | 2.5 min |
 | 14 | The ask, the three 90-day measures, the two stop rules | 1.5 min |
 
 ## 4. Q&A, one question at a time
@@ -551,7 +571,7 @@ and by when. Keep the backup slide ready, but don't put it on screen unless they
 - **Tone:** Polite but firm on the word "cut". Smile on "I'd push back".
 - **Show:** Slide 6, then slide 5.
 
-### C. Twenty more questions: interjections, the CFO's lens, and pressure tests
+### C. Twenty-two more questions: interjections, the CFO's lens, and pressure tests
 
 **Q17. Nu is creating a separate Brazil CFO role reporting to Rob. How does your role work with it?**
 - **Why they ask:** It's public (the CFO appointment release says so) and it affects your remit.
@@ -635,7 +655,8 @@ and by when. Keep the backup slide ready, but don't put it on screen unless they
   with no beat, it's zero."
 - **Context to have ready, not to volunteer:** NPL 90+ rose 35 bps to 6.9% in Q2'26, and management called it seasonal.
   The Brazil election runoff is on 25 Oct 2026. Sell-side views are split: JPMorgan raised its target in October, and
-  Itaú BBA downgraded on consumer-credit risk. If they raise any of this, say: "That's exactly why the NPL condition is
+  Itaú BBA downgraded on consumer-credit risk. Because you name Itaú BBA on slide 12, expect "your old shop downgraded
+  us" as a light jab; answer on the credit reasoning, not the institution. If they raise any of this, say: "That's exactly why the NPL condition is
   there."
 - **Tone:** Composed. Don't argue with the premise; reframe it.
 - **Show:** Slide 6, then slide 13.
@@ -763,6 +784,31 @@ jurisdiction collects the Pillar Two top-up?**
   HQ pod is the same idea: by the second release, nothing should depend on me alone."
 - **Tone:** Warm, people-first.
 - **Show:** Slide 7.
+
+**Q37. How do you keep governance from turning into bureaucracy as Nu grows?**
+- **Why they ask:** Nu's identity is built against bank bureaucracy, and a "corporate governance" hire can look like a
+  threat to it.
+- **Position:** You have seen three versions of the same tension. At Nu, governance means a few rules, published early,
+  with an owner for every decision.
+- **Say:** "I've seen three versions of this. At Citi, governance was rigid enough to slow good decisions. At Itaú BBA, a
+  fast, client-first team slowed down when too many cooks got into the kitchen. At Visa, a tech company learned to run
+  alongside global-scale governance. The difference is whether the rules are few and published, or many and negotiated.
+  So this plan has three standing meetings and nothing else on the calendar. One decision log for the HQ. One release rule,
+  published on day one. If a process doesn't change a decision, I'd cut it."
+- **Tone:** Practical, not preachy. Each company gets one sentence; spend your time on what you'd do at Nu.
+- **Show:** Slide 7, then slide 12.
+
+**Q38. You were at Visa. What did you take from how it runs?**
+- **Why they ask:** Most likely from Rob, who was CFO of Visa North America. It is shared ground, and it tests whether
+  your Visa line has substance behind it.
+- **Position:** Speak only to what you saw in your own role, give one concrete practice, then turn it into a question.
+- **Say:** "[your specifics, about 40 words: your role and level at Visa, and one concrete practice you saw that let the
+  tech culture and the governance model coexist.] What I took from it is that the two can coexist, if the rules stay few
+  and clear enough for the tech instinct to survive. I'd be interested in how that looked from the CFO seat."
+- **Tone:** Peer to peer and curious. Don't generalize about Visa beyond your own seat, and don't flatter.
+- **Show:** Nothing.
+- **Note:** Rob Livingston was CFO of Visa North America and, before that, spent 18 years at Capital One (CFO
+  appointment, announced 1 Jun 2026). Rob will know Visa's governance in detail, so precise and modest beats broad.
 
 ## 5. Numbers to keep at hand
 
