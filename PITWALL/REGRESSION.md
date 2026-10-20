@@ -13,10 +13,10 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: D1 names the budget gap => \$35M
 - capability: D1 states the $60M asks against the $25M cap => \$60M.{0,80}\$25M, \$25M.{0,80}\$60M
 - capability: D1 describes in-housing a central planning function => in-hous, central (modeling|planning) hub, hub-and-spoke
-- capability: D1 compares option A (flat haircut) => equal percentage, pro-rata, flat haircut
+- capability: D1 compares option A (flat haircut) => equal percentage, pro-rata, flat haircut, equal cut
 - capability: D1 compares option B (core only) => core markets only, core markets first
 - capability: D1 compares option C (staged) => staged (funding|release), business[- ]case readiness
-- capability: D1 states a capacity or capital allocation rule (tranches or stages) => capacity allocation, allocat.{0,40}(rule|criteri|framework), tranche, stage [1-3] \(
+- capability: D1 states a capacity or capital allocation rule (tranches or stages) => capacity allocation, allocat.{0,40}(rule|criteri|framework), tranche, staged release, two releases, stage [1-3] \(
 - capability: D2 handles pushback from a senior GM => pushback, push(es|ed)? back
 - capability: D2 gains buy-in without line authority => without (direct )?line authority, without authority, line authority
 - capability: D2 structures a pre-Board alignment routine => pre-alignment, pre-brief, board (book|portal|calendar|rhythm|sprint)
@@ -36,7 +36,7 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 
 - capability: an explicit ask with a decision requested => authorize, approve, the ask, decision requested
 - capability: the one number that matters ($25M) appears in the deck => \$25M
-- capability: risks and reversal triggers are stated => reversal trigger, kill criteri, what would make (me|us) (stop|change), risk register, top (three|3|five|5) risks
+- capability: risks and reversal triggers are stated => reversal trigger, kill criteri, what would make (me|us) (stop|change), risk register, top (three|3|five|5) risks, stop rules?
 - capability: decision rights are mapped (RACI, RAPID or equivalent) => \braci\b, \brapid\b, decision rights, who decides
 - capability: the planning function has its own KPIs => (kpi|metric)s?.{0,200}(planning|finance) (function|hub), (planning|finance) (function|hub).{0,200}(kpi|metric), forecast accuracy.{0,60}(target|kpi|owner)
 - capability: a capital lens exists next to the opex cap => return on allocated capital, cost of equity, capital headroom, \broac\b
@@ -56,8 +56,13 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - forbid: banned word "seamless" => seamless
 - forbid: borrowed brief phrases ("connective tissue", "strategic engine") => connective tissue, strategic engine
 - forbid: "proves" as a verb for a third-party statistic => \b(data|research|study|studies) proves?\b
-- forbid: stale cost to serve ($0.80 is Q2'25) => \$0\.80?\b.{0,40}cost|cost.to.serve.{0,40}\$0\.80?\b
+- forbid: stale cost to serve ($0.80 is Q2'25) => \$0\.80?\b(?! a year earlier).{0,40}cost|cost.to.serve.{0,40}\$0\.80?\b(?! a year earlier)
 - forbid: customer count rounded above the reported figure => 140M\+
 - forbid: ROE attributed to a cohort => cohorts?.{0,80}return on equity, return on equity.{0,80}cohort
 - forbid: an unverifiable AI self-audit verdict => independent audit verdict
 - forbid: cap breach stated as margin neutral => margin neutral
+
+Change log: 2026-10-20 (v5). Widened three lines for the v5 wording, each an equivalent of the same capability: "equal cut" (option A),
+"staged release" / "two releases" (the allocation rule) and "stop rules" (R2 replaced "reversal triggers"). Narrowed the stale
+cost-to-serve guard to its purpose: "$0.8 a year earlier" is a labeled comparison, not a stale current figure. No line was loosened past
+its capability; three other v5 failures were fixed in the deck instead (D4 label, test-and-learn, hub KPIs).

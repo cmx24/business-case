@@ -50,3 +50,12 @@ to the row to confirm or reverse.
 | B16 | The three personal examples the external review wrote for you | NOT inserted. Use them only if they are true; otherwise replace them with your own, at about the same length (35-45 words each). The candidates, verbatim from the review: (1) slide 11 / Q7: "In commercial finance, when an enterprise VP demanded ten million dollars upfront for an unproven channel, I locked two million for initial activation and gated the remaining eight million on cohort CAC beating our target; they delivered the proof and unlocked the balance cleanly." (2) slide 16, fair process: "At an enterprise financial unit, publishing a transparent project scoring matrix upfront resulted in losing divisions fully supporting the final prioritization without post-decision appeals." (3) slide 16, no ambushes: "When a division lead's revenue forecast double-counted interchange rebates, I reviewed it with them bilaterally the evening prior, correcting the baseline quietly before the C-suite review." (4) slide 16, rigor: "In cross-border partner negotiations, I caught an uncapped liability indemnity in an affiliate schedule, redrafting the carve-out before signature and insulating the balance sheet." | talk slides 11, 16; Q7 |
 | B17 | Risk in the A6 valve sign-off | YES: joint CFO, IR and Risk sign-off; NPL 90+ above plan keeps the valve shut | slides 2, 3, 8, 17 |
 | B18 | Call the November Board "the final statutory window" for US capitalization? | NO: state the date (capital in by about 29 Jan 2027) and the ~10 weeks; the stronger claim is not supported | slide 12 and notes |
+
+**Added in the v5 build (three-agent review applied, TEST_05):**
+
+| # | Decision | Branch taken in v5 | Where |
+|---|---|---|---|
+| B19 | Presented length | 14 slides plus backups A-G; talk track 3,134 words (about 24.1 minutes) | deck v5, talk track section 2 |
+| B20 | Decision rights for the H2 reserve | The CFO decides; Risk can block; IR sets disclosure (replaces "joint CFO, IR and Risk sign-off", B17) | slides 2, 6, 13; A6 |
+| B21 | Deliverable 2 order | Capital ranking first; the 70/30 opex split second, on the same slide | slide 8 |
+| B22 | Derailer | NOT inserted: a slot on slide 12 and in Q19, with guidance on choosing a true one. Yours to write, like B16 | talk slide 12, Q19 |
