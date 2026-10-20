@@ -400,8 +400,8 @@ reserve", "16 days out", "first release"). Every person is "they".
   from 2025. Jurisdiction open (A13)."
 - **Data:** Cayman incorporation (FACT, 20-F); EUR 750M, 15%, 9.4%, 7.4% (FACT, rule); Brazil top-up from 2025 (FACT, per the numbers
   sheet); local CFOs in Mexico and Colombia (FACT, CFO appointment release); Mexico bank since 6 Aug 2026 (FACT); the two agreements'
-  contents (INTERPRETATION of the brief's wording); hard tests and weights (RECOMMENDATION; weights ASSUMPTION A13); two sites to term
-  sheet (RECOMMENDATION).
+  contents (INTERPRETATION of the brief's wording); hard tests and criteria (RECOMMENDATION; the weights, in backup J only, are
+  ASSUMPTION A13); two sites to term sheet (RECOMMENDATION).
 - **Risks shown:** the three "before a lease exists" failure modes.
 - **Talking point:** "Deliverable 3 of 4. It is a governance project before it is a real-estate deal. Four hard tests pick the sites
   that can be considered at all; five criteria rank them; two go to term sheet; the CEO and CFO pick." The weights and the
@@ -535,7 +535,7 @@ reserve", "16 days out", "first release"). Every person is "they".
 | G. Stakeholder map | Keep; add Compliance to the HQ row; add a row "Counterparties: local authority, incentive agency, landlord. Role: across the table. When they hear it: only after gate 1, through Legal; never before the CEO and CFO see the scorecard" | Slide 10's "no public contact before the scorecard" |
 | H. Two AI agents | Keep unchanged | Slides 6, 9, 12 point here |
 | I. Scenarios and stop rules (new, from v6 slide 13) | Add: the three-column table (market slows / base plan / H1 beats plan) with funded spend, reserve, stop rules, top risks and owners, what I report in 90 days | The CFO's downside view, preserved for Q2, Q12, Q13, Q24 |
-| J. HQ site scorecard and term-sheet checklist (new) | Add: left, the four hard tests and five weighted criteria with the evidence each needs and who supplies it; right, the term-sheet checklist for the two agreement types with the owner and the walk-away per term (the content of slides 10 and 11, in full) | Lets slides 10 and 11 stay readable; answers Q42-Q46 below |
+| J. HQ site scorecard, agreement checklist and risk register (new) | Add, as the D3 menu for Q&A: (a) the four hard tests and five weighted criteria with proposed weights (talent pool and wage cost 30; incentive net of clawback 20; campus cost, flexibility and timing 20; modeled tax rate under Pillar Two including any domestic minimum top-up tax 15; political and reputational risk 15; ASSUMPTION A13) and the evidence each needs; (b) the term-by-term checklist for local regulatory agreements (incentive or grant, tax ruling or certification, registrations and permits, work permits, data residency) and campus infrastructure agreements (lease or build-to-suit, fit-out, utilities and connectivity, land, zoning, infrastructure contribution), with owner and walk-away per term; (c) the five-row risk register (tax residence, clawback, officer approval, site politics and disclosure, dependence on me) with mitigation and owner; (d) "IR decides whether and when any agreement is disclosed" | Keeps slides 10-12 at the same density as D1 and D2; answers Q42-Q47, Q52, Q53 |
 
 Drop: nothing. Total: 15 presented, 1 divider, 10 backups = 26 slides.
 
@@ -543,9 +543,10 @@ Drop: nothing. Total: 15 presented, 1 divider, 10 backups = 26 slides.
 
 Positions in one line each; the full "Say" entries should be written when the talk track is regenerated.
 
-- **Q42. Which jurisdiction would you pick?** I would not pick alone. Four hard tests, five weighted criteria, two sites to term
-  sheet; the scorecard goes to the CEO and CFO, and the pick is theirs. My shortlist starts where Nu already has licensed substance and a
-  local CFO. (Slide 10; backup J.)
+- **Q42. Which jurisdiction would you pick, and how would you weight the criteria?** I would not pick alone. Four hard tests, five
+  weighted criteria (talent first at 30, then incentive net of clawback, campus terms, the modeled tax rate, political risk; the weights
+  are mine), two sites to term sheet; the scorecard goes to the CEO and CFO, and the pick is theirs. My shortlist starts where Nu already
+  has licensed substance and a local CFO. (Slide 10; backup J.)
 - **Q43. Two sites to term sheet doubles the work. Why?** Because the price of an incentive is set by the alternative. Legal runs both
   on the same template; one is dropped at gate 2, on day 60. (Slide 11.)
 - **Q44. What is your walk-away on the grant?** A cliff-edge clawback, or a headcount commitment the published plan cannot carry. I
@@ -642,7 +643,8 @@ Q2, Q12, Q13, Q24 to slide 5 then backup I; Q8 and Q18 to slide 13; Q36 to slide
 - Credit and market context (NPL 90+ 6.9%, up 35 bps; election runoff 25 Oct; sell-side split): Q24 only, unchanged.
 
 Nothing from the master list is dropped. Two figures move off presented slides: the five option weights (to backup C) and the
-scenario table's three columns (to backup I).
+scenario table's three columns (to backup I). New proposals that live only in backup: the site scorecard weights, the agreement
+checklist and the five-row HQ risk register (backup J).
 
 ## 7. What I could not verify, and what I deliberately left out
 

@@ -30,8 +30,8 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: D4 balances strategic influence with hands-on FP&A or governance rigor => technical rigor, fp&a, hands-on
 - capability: assumptions are listed and separated from facts (general instruction) => key assumptions, assumptions? (list|ledger|slide), what (i|we) (am|are) assuming, assumption:
 - capability: public data is cited with a source (general instruction) => 20-f, 6-k, earnings release, filings, investor relations
-- capability: the deck fits the 30-minute format (presented slides, before the backup divider) => check: max_presented=14
-- capability: the file stays a deck, not a memo (all slides, backup included) => check: max_slides=23
+- capability: the deck fits the 30-minute format (presented slides, before the backup divider) => check: max_presented=15
+- capability: the file stays a deck, not a memo (all slides, backup included) => check: max_slides=26
 
 ## B. Reviewer's list (what a CFO panel looks for)
 
@@ -53,6 +53,11 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: charts are native, not raster images => check: no_raster_charts
 - capability: AI tooling is part of how governance runs, with a named human owner => PMO agent, review agent
 - capability: AI use has guardrails (approved tools, a person signs) => Nu-approved tools, named (owner|person) signs
+- capability: D3 assesses how the site or jurisdiction is chosen => hard tests, jurisdiction.{0,80}(open|criteria)
+- capability: D3 gates carry negotiation walk-away points => walk-away
+- capability: D3 states what happens when functions disagree => when functions disagree
+- capability: D1 states capacity, not only money => capacity, not only money, engineering capacity
+- capability: each deliverable names its own risks => (?:^|\n)risk\n
 
 ## C. Guard (forbidden content)
 
@@ -73,3 +78,7 @@ its capability; three other v5 failures were fixed in the deck instead (D4 label
 Change log: 2026-10-20 (v6). The 30-minute line now measures what it names: presented slides before the backup divider,
 limit 14 (stricter than before: v4 presented 19). The old total-slide line stays as a separate memo guard, raised from 22 to 23
 for backup H (two AI agents). Added two AI lines: the agents are part of how governance runs, and their use has guardrails.
+
+Change log: 2026-10-20 (v7). The pit wall asked for 2-3 slides per deliverable, each with assessment, recommendation, data and
+risks. Presented limit 14 -> 15 and total 23 -> 26 (backups I and J) on that instruction. Five lines added so the new depth
+in D1 and D3 and the per-deliverable risks cannot silently drop out.

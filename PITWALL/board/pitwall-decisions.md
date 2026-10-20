@@ -73,3 +73,12 @@ rule examples, the derailer (B22) and your Visa specifics in Q38 are still yours
 |---|---|---|---|
 | B23 | AI in the operating model | Two agents: a PMO agent (your example: status without templates) and a review agent (case checks, Board-book and directors' drafts). Every figure is signed by a named person; Nu-approved tools only (A11) | slides 7, 10, 11, 12, 14; backup H; Q39-Q41 |
 | B24 | Where the AI lines sit in the talk | Spoken on slides 7, 10, 11, 12 and 14. To make room, five lines moved to Q&A or to the slides | talk track; timing 25.4 min |
+
+**Added in the v7 build (TEST_07):**
+
+| # | Decision | Branch taken in v7 | Where |
+|---|---|---|---|
+| B25 | Slides per deliverable | 2-3 each, on the pit wall's instruction: D1 3, D2 3, D3 3, D4 2; 15 presented (supersedes B19's 14) | deck v7 |
+| B26 | Hub and HQ net new cost against the cap | Inside the $25M (A12), funded before the GM releases; if material, the second release shrinks. Fable's "outside the cap" proposal rejected | slide 3, slide 6, backup A, Q49 |
+| B27 | HQ site choice | Four hard tests, then five weighted criteria (weights are proposals, A13); two sites to term sheet; the CEO and CFO pick; no site named | slide 10, backup J, Q42 |
+| B28 | Who signs for the HQ | Licensed executives after gate 3; the Chief of Staff holds no power of attorney; Legal and Compliance veto on legality only | slide 12, Q45, Q46 |
