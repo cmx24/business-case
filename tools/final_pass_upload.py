@@ -196,7 +196,7 @@ for sh in S[14].shapes:
         ps = sh.text_frame.paragraphs
         ps[0].runs[0].text = "A  Key assumptions   |   B  Statutory entity model   |   D  Sources"
         for r in ps[0].runs[1:]: r.text = ""
-        ps[1].runs[0].text = "F  Day-by-day timeline   |   H  AI support   |   J  HQ site scorecard and risk register"
+        ps[1].runs[0].text = "F  Day-by-day timeline   |   H  AI support   |   J  HQ site scorecard and risk register   |   K  How AI was used"
         for r in ps[1].runs[1:]: r.text = ""
         for p in ps[2:]:
             for r in p.runs: r.text = ""
@@ -293,6 +293,47 @@ ns.shapes._spTree.append(copy.deepcopy(src_pn._element))
 sldIdLst = prs.slides._sldIdLst
 ids = list(sldIdLst)
 new_id = ids[-1]; sldIdLst.remove(new_id); sldIdLst.insert(3, new_id)
+S = list(prs.slides)
+
+
+# ---------------------------------------------------------------- last backup K: how AI was used
+ns = prs.slides.add_slide(blank)
+for shp in list(ns.shapes):
+    shp._element.getparent().remove(shp._element)
+ns.background.fill.solid(); ns.background.fill.fore_color.rgb = PAGE
+tx(0.67, 0.38, 12.0, 0.3, "BACKUP K", 10, PURPLE, bold=True)
+tx(0.67, 0.68, 12.0, 0.95, "How AI was used: an AI-supported case, not an AI-driven one", 24, INK, bold=True)
+def card_k(x, label, heading, lines):
+    r = ns.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(x), Inches(1.75), Inches(5.8), Inches(3.35))
+    r.fill.solid(); r.fill.fore_color.rgb = WHITE; r.line.color.rgb = LINE; r.line.width = Pt(0.75)
+    r.adjustments[0] = 0.05; r.shadow.inherit = False; r.text_frame.text = ""
+    b = ns.shapes.add_textbox(Inches(x + 0.12), Inches(1.87), Inches(5.56), Inches(3.1)); tf = b.text_frame; tf.word_wrap = True
+    tf.margin_left = tf.margin_right = Inches(0.1); tf.margin_top = tf.margin_bottom = Inches(0.05)
+    specs = [(label, 9.5, PURPLE, True, 3), (heading, 15, INK, True, 6)] + [(l, 12, BODY, False, 4) for l in lines]
+    for i, (txt, size, color, bold, after) in enumerate(specs):
+        para = tf.paragraphs[0] if i == 0 else tf.add_paragraph(); para.space_after = Pt(after)
+        run = para.add_run(); run.text = txt; run.font.size = Pt(size); run.font.bold = bold; run.font.name = "Arial"; run.font.color.rgb = color
+card_k(0.67, "WHAT AI SUPPORTED", "Research, checking and tidying",
+       ["Research on Nu's public data, filings and announcements, and on planning and governance practices.",
+        "Numbers: calculations re-run and cross-checked against the sources.",
+        "References and best practices: sources found, read and summarized.",
+        "Minor formatting of slides and tables.",
+        "Testing some of the assumptions and scenarios (for example the option-weight sensitivity)."])
+card_k(6.67, "WHAT WAS HUMAN-BUILT", "Every idea, every word, every call",
+       ["The ideas, recommendations and judgments, and all the writing.",
+        "The structure, the storyline and the framing of each deliverable.",
+        "The assumptions, their classification as fact or assumption, and the trade-offs taken.",
+        "The final review of every figure, reference and recommendation.",
+        "The decision to present this as an AI-supported case rather than let AI drive it."])
+band = ns.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.67), Inches(5.3), Inches(11.8), Inches(1.2))
+band.fill.solid(); band.fill.fore_color.rgb = BAND; band.line.color.rgb = LINE; band.line.width = Pt(0.75)
+band.adjustments[0] = 0.08; band.shadow.inherit = False; band.text_frame.text = ""
+tx(0.87, 5.4, 11.4, 1.0, [("Tools: ", True), ("Claude, Gemini and Copilot were used, each for different aspects of the work; no single tool "
+   "produced the case. ", False), ("Looking ahead: ", True), ("the AI agents proposed for the planning hub and the Board and HQ work (slide 3, "
+   "backup H) can be set up in any LLM Nubank enables, inside Nu's environment and on approved tools, with people owning every "
+   "number and decision.", False)], 11.5, INK, anchor=MSO_ANCHOR.MIDDLE)
+tx(0.67, 6.62, 11.5, 0.4, "Every figure, calculation, reference and recommendation in this deck was reviewed and is owned by the author.", 9, MUTED)
+ns.shapes._spTree.append(copy.deepcopy(src_pn._element))
 S = list(prs.slides)
 
 # ---------------------------------------------------------------- page numbers
