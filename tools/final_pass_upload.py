@@ -81,6 +81,7 @@ def notes(idx, text):
 
 # ---------------------------------------------------------------- slide 2: approach and success measures
 rep(2, "120d algo approach", "120-day gated approach")
+rep(2, "Standing up a Planning CoE that works with the Countries and GMs/CFOs: one Nubank", "CoS & CG and Global Finance / FP&A stand up a Planning CoE with the Countries and GMs: one Nubank")
 rep(2, "Our team gathers inputs, analysis, recommendations; CEO / CFO decide", "Our team recommends; the CEO and CFO decide.")
 rep(2, "Decks need to ships 7 days before the Board.", "The book ships 7 days before the Board, every quarter.")
 rep(2, "to drive (1) projects getting prioritized via methodology, (2) board meetings having an evolving, living agenda with "
@@ -99,6 +100,8 @@ for sh in S[1].shapes:
 
 # ---------------------------------------------------------------- slide 3: hub
 rep(3, "CoS & GC team", "CoS & CG team")
+rep(3, "Global Planning hub and market/vertical teams report to Global Finance, with a dotted line to Country CFOs.", "CoS & CG partners with Global Finance / FP&A to stand up the CoE; the hub and market/vertical teams report to Global Finance, with a dotted line to Country CFOs.")
+rep(3, "agents to support consolidation, tracking action items, facilitating alignment and reducing manual work.", "agents for consolidation, action tracking and alignment, reducing manual work.")
 rep(3, "% of relevant spend with an approved business case", "100% of discretionary spend with an approved business case")
 rebuild(3, "KPIs:", [("KPIs", True, None), (": cycle time under 40 days, forecast accuracy, and 100% of discretionary spend with an approved case.", False, None)])
 for sh in S[2].shapes:
@@ -280,8 +283,8 @@ tx(0.87, 5.35, 11.4, 0.98, [("Quality gates for wave 2 (checked at the H1 close)
    ("wave 1 in seat and onboarded; cycle time under 40 days on the Q1'27 release; 100% of first-release spend with an approved "
     "case; forecast-accuracy baseline set in Q1 and improving in Q2; mid-year GM feedback positive. If a gate fails, wave 2 waits "
     "and the gap is fixed first.", False)], 11.5, INK, anchor=MSO_ANCHOR.MIDDLE)
-tx(0.67, 6.55, 11.5, 0.45, "Proposal. Levels map to Nu's leveling at hire; the US location of the central roles assumes the hub sits "
-   "with Global Finance. Country partners are market hires, not relocations. Hiring cost is central opex and counts against the "
+tx(0.67, 6.55, 11.5, 0.45, "Proposal. CoS & CG partners with Global Finance / FP&A to stand up the CoE; the central roles sit with Global Finance in the US. "
+   "Levels map to Nu's leveling at hire. Country partners are market hires, not relocations. Hiring cost is central opex and counts against the "
    "$25M cap. Wave 1 recruiting starts after the Board; wave 2 only on the gates above.", 9, MUTED)
 # page number box, copied from slide 3's
 src_pn = [sh for sh in S[2].shapes if sh.has_text_frame and sh.text_frame.text.strip().isdigit()][0]
