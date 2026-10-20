@@ -1,9 +1,10 @@
-# Talk track and Q&A: Chief of Staff to the CFO & Global Corporate Governance (deck v7)
+# Talk track and Q&A: Chief of Staff to the CFO & Global Corporate Governance (deck v8)
 
-Deck: `deck/CFO_CoS_deck_v7.pptx`, 26 slides. Slides 1-15 are presented; slide 16 is the backup divider, and backups A-J
+Deck: `deck/CFO_CoS_deck_v8.pptx`, 26 slides. Slides 1-15 are presented; slide 16 is the backup divider, and backups A-J
 (slides 17-26) are for Q&A only. Format: 30 minutes presenting, then 30 minutes of Q&A. v7 gives every deliverable 2-3 slides
 with an assessment, a recommendation, the data behind it and its risks (D1: slides 4-6; D2: 7-9; D3: 10-12; D4: 13-14), from
-the reframe in `review/2026-10-20_fable-reframe.md` as assessed and adapted. This file replaces the v4-v6 talk tracks.
+the reframe in `review/2026-10-20_fable-reframe.md` as assessed and adapted. v8 frames the three answers as one way of deciding, used three times (`review/2026-10-20_fable-reassessment.md` and
+`review/2026-10-20_fable-final-pass.md`). This file replaces the v4-v7 talk tracks.
 
 How to read this file:
 - Lines starting with `>` are what you say. Everything else is for you.
@@ -26,17 +27,13 @@ How to read this file:
 **Delivery.** Your first 60 seconds, with slide 2's opening line. Learn them word for word. Speak slower than feels
 natural and look at each panel member once. Pause after "at once" and again after "by clock". Don't read the slide.
 
-### Slide 2: Three decisions today: the $25M plan, the Board calendar and the HQ charter
+### Slide 2: One way of deciding, used three times: the plan, the Board, the HQ
 
-> I will ask you for three decisions, and I will flag each deliverable as I reach it.
+> They look like three cases. I treat them as one way of deciding, used three times. The rule is published before the argument. Options go to one named owner, on a date. The decision, the reasons and the dissent are written down, and only exceptions come back up.
 >
-> Deliverable 1 is planning. Twenty-five million, funded in two releases. Fifteen million on the first of January, for cases already vetted. Ten million at Q1 close, if the numbers hold. No flat cuts.
+> I will ask you for three decisions on that basis, and I will flag each deliverable as I reach it.
 >
-> Deliverable 2 is the Board. Both executives' positions go through one capital test. The plan locks sixteen days before the meeting. The book goes out seven days before.
->
-> Deliverable 3 is the HQ. Four gates in one hundred and twenty days, each with an owner, an exit test and a walk-away. Licensed executives sign; I run the process.
->
-> Deliverable 4 is how I work. I sit in the numbers with the GMs. The CFO gets the trade-offs and makes the call.
+> Deliverable 1: twenty-five million in two releases, with no flat cuts. Deliverable 2: one capital test, a lock at sixteen days, and the book out at seven. Deliverable 3: four decision gates for the HQ in one hundred and twenty days. Deliverable 4: how I work inside the numbers while the CFO makes the call.
 >
 > So the ask has three parts: the twenty-five million FY27 cap in two releases, the Board calendar, and the HQ charter.
 >
@@ -44,7 +41,8 @@ natural and look at each panel member once. Pause after "at once" and again afte
 >
 > Why a cap, and not a reshuffle of the existing base? The cap is the CFO's, set for public-market expectations and margin discipline, inside the FY26 guide of about twenty percent. I report back in ninety days.
 
-**Delivery.** Point at each tile as you name it. Say "the CFO decides" while looking at the CFO. Bringing up the reserve
+**Delivery.** The first two sentences are the thesis of the whole talk; slow down on "one way of deciding, used three
+times". Then one sentence per tile, pointing at each. Say "the CFO decides" while looking at the CFO. Bringing up the reserve
 yourself is deliberate: if the panel finds it later, it looks hidden.
 
 ### Slide 3: What I know, and the assumptions that could break the plan
@@ -78,9 +76,9 @@ slide you come back to at the end.
 listening for. Say the scale numbers quickly: you are shrinking the number, not selling it. Point at the score column, not
 each cell. Slow down on "low-and-grow"; this idea carries Deliverable 1.
 
-### Slide 5: Every dollar of the $60M gets an answer: $25M funded in two releases, $15M held in reserve
+### Slide 5: Five answers for $60M: fund now, stage, reallocate, defer or stop
 
-> Every dollar of the sixty million gets an answer. Read the chart from the top.
+> Every dollar of the sixty million gets one of five answers: fund now, stage, reallocate, defer, or stop. Read the chart from the top.
 >
 > Eight million is met on the shared platform. These asks duplicate features the global code base already ships. That is my estimate, and Engineering confirms it. Whatever they cannot confirm moves into the case track, and the cap does not grow.
 >
@@ -90,7 +88,9 @@ each cell. Slow down on "low-and-grow"; this idea carries Deliverable 1.
 >
 > That leaves twenty-five million funded. Fifteen on the first of January: ten and a half to core markets, four and a half to new bets. Ten at Q1 close, to the units whose indicators hold. The money is dated the thirty-first of March; the decision comes on Q1 data in early April.
 >
-> Neither executive hears a no. Core markets get the larger share first. New bets get a protected start and a published route to more. And the CFO gets something new: every first-release dollar carries an approved case.
+> And stop is real: a unit below plan on two of four indicators has its second-release share held, and a case that fails the track is not funded.
+>
+> Neither executive hears a flat no. Core markets get the larger share first. New bets get a protected start and a published route to more. And the CFO gets something new: every first-release dollar carries an approved case.
 
 **Delivery.** The most important slide in Deliverable 1. Point at each bar as you speak. Don't add the numbers up out
 loud; the chart does that. Slow down on the reserve conditions, and look at the CFO on "the CFO decides".
@@ -114,7 +114,7 @@ loud; the chart does that. Slow down on the reserve conditions, and look at the 
 **Delivery.** Say the AI lines in a matter-of-fact voice, as plumbing rather than a pitch; "the status templates
 everyone hates" can get a smile. Point at each risk card as you name it. This is the first planned pause for questions.
 
-### Slide 7: The capital dispute gets one ranking: return on the equity each use needs
+### Slide 7: The capital dispute becomes one choice for the CEO: four uses, one test
 
 > Deliverable 2 of 4: the C-suite and the Board. I start with capital, because that is what the Board will ask about.
 >
@@ -132,7 +132,7 @@ everyone hates" can get a smile. Point at each risk card as you name it. This is
 >
 > The CFO recommends, the CEO decides, and the Board approves at this meeting, the last before Investor Day on the eighth of December. I produce one page per use. The cost of equity comes from Treasury. I have not guessed it.
 >
-> Then the opex half of the same answer. Mature cohorts earn about thirty-one dollars a month at eight years, against seventeen dollars ten for the group. So core markets take seventy percent of the first release, and new bets take thirty. A new bet judged on mature-market profit in its first quarter always loses.
+> On opex, both positions go into the memo as options: core markets first, new bets first, or the staged seventy-thirty. I recommend seventy-thirty, and here is why. Mature cohorts earn about thirty-one dollars a month at eight years, against seventeen dollars ten for the group. And a new bet judged on mature-market profit in its first quarter always loses. The CEO decides at the lock, the dissent is recorded, and the Board sees one recommendation.
 
 **Delivery.** The most senior content in the deck: your most measured pace and lowest pitch. Say "I have not guessed it"
 plainly, not as an apology. Pause before "A new bet judged on mature-market profit".
@@ -190,9 +190,9 @@ run-sheet. Say "days out" instead of "T-minus" out loud. Second planned pause fo
 **Delivery.** Signpost "Deliverable 3 of 4". Steady and concrete. Linger on the Pillar Two line, the one technical point a
 CFO will remember. Don't name a city: the method is the answer.
 
-### Slide 11: Four gates in 120 days, each with an owner, an exit test and a walk-away
+### Slide 11: Four decision gates in 120 days; nothing is signed between them
 
-> Four gates in one hundred and twenty days, each with an owner, an exit test, and a line I will not cross.
+> Gate zero is the charter signed today: why, the outcomes, the boundaries, and the CFO as sponsor. The four gates after it are decisions, not deliverables. Can we? What may we offer? Who may bind Nu? Do we commit? Each one is the CFO's call on a pack I assemble, and nothing is signed in between.
 >
 > Gate 1, at day thirty, is tax and residence. Tax owns it, with Compliance. The exit test is an opinion for both sites that residence doesn't move and the modeled rate holds under Pillar Two. The walk-away is any site where residence moves, whatever the incentive.
 >
@@ -202,18 +202,18 @@ CFO will remember. Don't name a city: the method is the answer.
 >
 > Gate 4, at day one hundred twenty, is the lease. Workplace owns it. The cost is phased, because Q2 showed how real-estate timing moves the efficiency ratio. The walk-away is a lease with no break option, or cost committed before the incentive is signed.
 >
-> How I negotiate: Legal leads the room, I set the mandate with the CFO, and nothing is signed outside a gate.
+> The walk-aways are the red lines of the negotiating mandate. Legal leads the room, and what we give stays inside the published plan.
 
 **Delivery.** Read across each row: gate, owner, exit, walk-away. Use your hands to count the gates. Say the walk-aways
 firmly; they are the risk management.
 
-### Slide 12: Licensed executives sign; I run the pod, and the CFO breaks ties
+### Slide 12: Experts own the judgment, I own the process, the CFO owns the residual risk
 
 > Who signs? Licensed executives, after gate 3. Until then, signing stays central, which also avoids an accidental taxable presence. After it, dual signature above set limits, and powers of attorney limited in scope and time.
 >
 > I am not a statutory officer, and I hold no power of attorney. Officers carry personal liability for the entity's filings and conduct, so D&O names the new entity before it activates. And if the hub entity is regulated, it needs its own capital plan, which puts it on the Board's statutory agenda.
 >
-> How do I lead five functions I don't manage? One weekly forty-five-minute pod: Legal, Tax, Compliance, People and Workplace, each with one lead who can commit their function. Functions recommend. I assemble the gate pack and recommend. The CFO decides the gates, and the CEO decides the site.
+> How do I lead five functions I don't manage? I own the process and the integrated outcome. I do not second-guess a tax opinion; Tax owns that. And the CFO owns acceptance of any material residual risk at each gate. That is the whole model. It runs through one weekly forty-five-minute pod, with one lead from each function who can commit it. The CEO decides the site.
 >
 > When functions disagree, their words go in the decision log. They get forty-eight hours to find a joint view. If they can't, both options go to the CFO, with mine. Legal and Compliance can veto on legality. Nobody vetoes on price.
 >
@@ -247,9 +247,9 @@ The three-company opening is observation, not criticism: one breath per company,
 replaces "politics" on purpose. Rob Livingston was CFO of Visa North America, so keep the Visa line to what you saw
 yourself (Q38 prepares the follow-up).
 
-### Slide 14: What I do myself and where I influence, problem by problem
+### Slide 14: How I work in a matrix: what I own, what experts own, what I leave alone
 
-> Here is that balance, problem by problem. In planning, I build the model and read every first-release case myself. I influence through the one-to-ones and the lock, and the CFO decides the releases. On the Board, I draft the capital memo and tie every figure to its source, and the CFO presents the ranking. On the HQ, I read the term sheets and keep the log, and I never sign.
+> Here is the same split in all three problems. I own the model, the memo and the log. Experts own their judgment. The accountable executive owns the decision and the signature. In planning, I build the model and read every first-release case myself. I influence through the one-to-ones and the lock, and the CFO decides the releases. On the Board, I draft the capital memo and tie every figure to its source, and the CFO presents the ranking. On the HQ, I read the term sheets and keep the log, and I never sign.
 >
 > Where do I push back on the CFO? When a decision skips the published rule. I say so privately, with the numbers, and then I back the call. And for ninety days I leave alone local-CFO decision rights, credit-model governance, and the IR calendar.
 >
@@ -268,7 +268,7 @@ yourself (Q38 prepares the follow-up).
 >
 > So, the ask. Approve the twenty-five million FY27 cap in two releases. Approve the Board calendar. Approve the HQ charter.
 >
-> In ninety days, measure me on three things. Every first-release dollar has an approved case. The Board book went out seven days early. HQ gates 1 and 2 are cleared.
+> What you are really approving is one way of deciding, used three times: published rules, named owners, dated decisions, recorded dissent. In ninety days, measure me on three things. Every first-release dollar has an approved case. The Board book went out seven days early. HQ gates 1 and 2 are cleared.
 >
 > [Switch to slide 3.] The assumption I would most like you to test is A4. Where would you like to start?
 
@@ -280,23 +280,23 @@ slide. End on the question, then stop talking.
 | Slide | Words | Minutes | Cumulative |
 |---|---|---|---|
 | 1. Chief of Staff to the CFO: planning, the Board and the new HQ | 96 | 0.7 | 0.7 |
-| 2. Three decisions today: the $25M plan, the Board calendar and the HQ charter | 220 | 1.7 | 2.4 |
-| 3. What I know, and the assumptions that could break the plan | 149 | 1.1 | 3.6 |
+| 2. One way of deciding, used three times: the plan, the Board, the HQ | 212 | 1.6 | 2.4 |
+| 3. What I know, and the assumptions that could break the plan | 149 | 1.1 | 3.5 |
 | 4. Staged release beats flat cuts: the precedent matters more than the $35M | 255 | 2.0 | 5.5 |
-| 5. Every dollar of the $60M gets an answer: $25M funded in two releases, $15M held in reserve | 218 | 1.7 | 7.2 |
-| 6. A lean hub and three meetings bring planning in-house | 239 | 1.8 | 9.1 |
-| 7. The capital dispute gets one ranking: return on the equity each use needs | 284 | 2.2 | 11.2 |
-| 8. When a senior GM pushes back: four moves, in the same order every time | 197 (incl. 40 story) | 1.5 | 12.8 |
-| 9. The Board book goes out 7 days before the meeting, after a lock at 16 days | 240 | 1.8 | 14.6 |
-| 10. The HQ is a governance project before it is a real-estate deal | 210 | 1.6 | 16.2 |
-| 11. Four gates in 120 days, each with an owner, an exit test and a walk-away | 224 | 1.7 | 17.9 |
-| 12. Licensed executives sign; I run the pod, and the CFO breaks ties | 211 | 1.6 | 19.6 |
-| 13. How I balance strategic influence with hands-on rigor | 267 (incl. 120 story) | 2.1 | 21.6 |
-| 14. What I do myself and where I influence, problem by problem | 165 (incl. 25 story) | 1.3 | 22.9 |
-| 15. Next 90 days: Board by 17 Nov, first release on 1 January, and the ask | 154 | 1.2 | 24.1 |
-| **Total** | **3129** | **24.1** | |
+| 5. Five answers for $60M: fund now, stage, reallocate, defer or stop | 256 | 2.0 | 7.4 |
+| 6. A lean hub and three meetings bring planning in-house | 239 | 1.8 | 9.3 |
+| 7. The capital dispute becomes one choice for the CEO: four uses, one test | 305 | 2.3 | 11.6 |
+| 8. When a senior GM pushes back: four moves, in the same order every time | 197 (incl. 40 story) | 1.5 | 13.1 |
+| 9. The Board book goes out 7 days before the meeting, after a lock at 16 days | 240 | 1.8 | 15.0 |
+| 10. The HQ is a governance project before it is a real-estate deal | 210 | 1.6 | 16.6 |
+| 11. Four decision gates in 120 days; nothing is signed between them | 260 | 2.0 | 18.6 |
+| 12. Experts own the judgment, I own the process, the CFO owns the residual risk | 230 | 1.8 | 20.4 |
+| 13. How I balance strategic influence with hands-on rigor | 267 (incl. 120 story) | 2.1 | 22.4 |
+| 14. How I work in a matrix: what I own, what experts own, what I leave alone | 189 (incl. 25 story) | 1.5 | 23.9 |
+| 15. Next 90 days: Board by 17 Nov, first release on 1 January, and the ask | 175 | 1.3 | 25.2 |
+| **Total** | **3280** | **25.2** | |
 
-**Total: 3129 spoken words, 24.1 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
+**Total: 3280 spoken words, 25.2 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
 
 ## 3. Running the clock
 
