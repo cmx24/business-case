@@ -180,7 +180,7 @@ set_text(sh(s, "TextBox 17"), "DELIVERABLE 4 // LEADERSHIP")
 set_text(sh(s, "TextBox 18"), "Rigor in the squads")
 set_text(sh(s, "TextBox 19"), "I work inside the business units with the numbers, not above them with a veto.")
 set_text(sh(s, "TextBox 20"), "THE ASK")
-set_text(sh(s, "TextBox 21"), "Approve the $25M FY27 cap in two gates, with a CFO- and IR-gated valve of up to $15M that is not in plan; "
+set_text(sh(s, "TextBox 21"), "Approve the $25M FY27 cap in two gates, with a CFO-, IR- and Risk-gated valve of up to $15M that is not in plan; "
          "the T-16 / T-7 Board calendar; and the HQ project charter. I report on all three at Day 90.", size=15)
 notes(s, "Takeaway: three decisions, each with a number. "
          "Hardest question: 'Why $25M and not a reallocation inside the existing base?' Answer: the cap is the CFO's constraint from the "
@@ -194,15 +194,15 @@ t = sh(assump, "Table 25").table if any(x.name == "Table 25" for x in assump.sha
 hdr = ["#", "Assumption or fact", "Class", "Basis"]
 rows = [
     ["A1", "Nu Q2'26: 138.9M customers, monthly ARPAC $17.1, cost to serve $1.0, efficiency ratio 19.5%, ROE 33%, net income $1.06B.", "FACT", "Q2'26 earnings release and 6-K"],
-    ["A2", "Management expects the FY26 efficiency ratio near 20% and guided US spend at no more than about 100 bps of it.", "FACT (wording to re-check)", "Q2'26 earnings call"],
+    ["A2", "Management expects the FY26 efficiency ratio near 20% and will keep the US entry within about 100 bps of efficiency-ratio impact.", "MANAGEMENT GUIDANCE", "Q2'26 earnings call (13 Aug 2026)"],
     ["A3", "The $60M asks and the $25M cap are the case's figures. At Nu's scale $35M is about 15 bps of annualized revenue; the stakes are the operating model and the precedent, not the amount.", "ASSUMPTION", "Case brief; my calculation on Q2'26 revenue"],
     ["A4", "The two MTeam members disagree about the growth-opex envelope (core markets vs new bets), not about regulatory capital by entity.", "ASSUMPTION", "Case brief is silent; verify in week one"],
-    ["A5", "$8M of the asks can be met on the shared global platform at near-zero marginal cost; $12M lack a business case today and can be prepared in 60 days.", "ASSUMPTION", "My estimate; verify with Engineering and the GMs"],
-    ["A6", "Any spend above $25M is released only from H1 profit above plan, sized so the efficiency ratio stays inside the FY26 guide, and only with CFO and IR agreement.", "RULE (proposed)", "To agree with the CFO"],
+    ["A5", "$8M of the asks can be met on the shared global platform at near-zero marginal cost; scope Engineering cannot confirm in week one moves to the case track, never above the cap. $12M lack a case and can be prepared in 60 days.", "ASSUMPTION", "My estimate; verify with Engineering and the GMs"],
+    ["A6", "Any spend above $25M is released only from H1 profit above plan, sized so the efficiency ratio stays inside the ~20% guide, with NPL 90+ on plan and joint CFO, IR and Risk sign-off.", "RULE (proposed)", "To agree with the CFO"],
     ["A7", "Board meeting in 4 weeks; Investor Day 8 Dec 2026. The Board approves the international capital plan before the Investor Day narrative is locked.", "FACT (dates) + ASSUMPTION (sequence)", "Case brief; Nu IR"],
     ["A8", "The HQ jurisdiction is open. Nu's revenue is above the EUR 750M Pillar Two threshold; the 2026 transitional substance carve-out is 9.4% of payroll and 7.4% of tangible assets.", "FACT (rule) + ASSUMPTION (site)", "OECD GloBE rules; Q2'26 revenue"],
     ["A9", "Option scores and weights on slide 6 are my judgment; third-party benchmarks are directional, never load-bearing.", "ASSUMPTION", "Slide 6; ledger"],
-    ["A10", "The cap is the FY27 growth-opex envelope: gate 1 opens at FY27 start (1 Jan 2027), gate 2 at Q1 close (31 Mar) on Q1 indicators, the A6 valve at H1 close. The hub needs 6-8 people.", "ASSUMPTION (fiscal calendar, sizing)", "Nu reports on a calendar fiscal year; sizing is mine"],
+    ["A10", "The cap is the FY27 growth-opex envelope: gate 1 opens at FY27 start (1 Jan 2027), gate 2 at Q1 close (31 Mar) on Q1 indicators, the A6 valve at H1 close. The lean hub needs 4-6 people.", "ASSUMPTION (fiscal calendar, sizing)", "Nu reports on a calendar fiscal year; sizing is mine"],
 ]
 # table currently has 1 header + 5 body rows (6); add rows to reach 1 + 9
 while len(t.rows) < 1 + len(rows):
@@ -300,7 +300,7 @@ set_text(sh(s, "TextBox 2") if any(x.name == "TextBox 2" for x in s.shapes) else
 title = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Sequence")][0]
 set_text(title, "$60M of asks become $25M of funded spend: $8M delivered on the platform, $12M sent back for a case, $15M conditional")
 cap = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("Zero Arbitrary")][0]
-set_text(cap, [[("No arbitrary cuts: ", True), ("$8M of country asks are met by reusing the shared global code base at near-zero marginal cost (A5); $12M of early ideas enter a 60-day business-case track with my team; $15M is conditional on H1 profit above plan under rule A6. $25M is funded now in two gates.", False)]])
+set_text(cap, [[("No arbitrary cuts: ", True), ("$8M of country asks are met by reusing the shared global code base at near-zero marginal cost (A5); anything Engineering cannot confirm in week one moves to the case track, and the cap does not grow; $12M of early ideas enter a 60-day business-case track with my team; $15M is conditional on H1 profit above plan under rule A6. $25M is funded now in two gates.", False)]])
 cd = CategoryChartData()
 cd.categories = ["GM asks", "Delivered on the shared platform", "Sent back for a 60-day case", "Conditional on H1 (rule A6)", "Funded now (2 gates)"]
 cd.add_series("base", (0, 52, 40, 25, 0))
@@ -348,16 +348,16 @@ s = S[6]
 set_text(sh(s, "TextBox 3"), "07 // DELIVERABLE 1: THE OPERATING MODEL AND THE RELEASE RULE")
 set_text(sh(s, "TextBox 4"), "Hub-and-spoke: one model and one calendar centrally, finance partners inside each market and vertical")
 set_text(sh(s, "TextBox 7"), "One source of truth, local speed")
-set_text(sh(s, "TextBox 11"), [[("Central planning hub (6-8 people, A10): ", True), ("takes the annual cycle and the single model in-house from the business units; reads Nu's data platform, not spreadsheets. KPIs: cycle time under 40 days, forecast accuracy, 100% of spend with an approved case.", False)]], size=12.5)
+set_text(sh(s, "TextBox 11"), [[("Lean planning hub (4-6 people, A10): ", True), ("unblocks the squads: takes the single model in-house and reads Nu's data platform, not spreadsheets. KPIs: cycle time under 40 days, forecast accuracy, 100% of spend with an approved case.", False)]], size=12.5)
 set_text(sh(s, "TextBox 13"), [[("Embedded finance partners: ", True), ("solid line to the hub, dotted line to the GM; in place by Day 95. They build the cases with the GMs and own the indicator read-outs at each gate.", False)]], size=12.5)
 set_text(sh(s, "TextBox 9"), "Two gates inside the cap, one valve above it")
 set_text(sh(s, "TextBox 15"), [[("Gate 1, $15M at FY27 start (1 Jan): ", True), ("released to the vetted cases ($10.5M core markets, $4.5M new bets).", False)]], size=12.5)
 set_text(sh(s, "TextBox 17"), [[("Gate 2, $10M at Q1 close (31 Mar): ", True), ("completes the $25M cap; released to units whose Q1 indicators (activation, 30-day retention, CAC and unit cost vs plan) hold.", False)]], size=12.5)
-set_text(sh(s, "TextBox 19"), [[("The A6 valve: ", True), ("up to $15M in H2, only from H1 profit above plan, inside the efficiency guide, with CFO and IR sign-off. Not in the base plan.", False)]], size=12.5)
+set_text(sh(s, "TextBox 19"), [[("The A6 valve: ", True), ("up to $15M in H2, only from H1 profit above plan, inside the ~20% guide with NPL 90+ on plan, and with CFO, IR and Risk sign-off. Not in the base plan.", False)]], size=12.5)
 set_text(sh(s, "TextBox 5"), "Sources: Nu Q2'26 release (efficiency ratio 19.5%; FY26 guide ~20% per the call). Cycle-time target is mine; the directional benchmark for central planning hubs (Hackett Group) is in the ledger and not load-bearing.")
 notes(s, "Takeaway: the cap is hard; anything above it is a rule with a formula, not a hope. "
       "Hardest question: 'Rule A6 is a loophole GMs will game.' Answer: it is funded only from profit that is already in the bank, sized "
-      "by formula, and the CFO and IR sign it; a GM cannot trigger it.")
+      "by formula, and the CFO, IR and Risk sign it; a GM cannot trigger it.")
 
 # ============================================================ 9. Cadence table (old 12) edited, will be moved after slide 8
 s = S[11]
@@ -433,7 +433,7 @@ set_text(sh(cap_s, "TextBox 11"), "Return on allocated capital")
 set_text(sh(cap_s, "TextBox 12"), [[("Rank each use by after-tax return on incremental allocated equity against that market's cost of equity, with capital headroom by entity under a downside case. A use that beats its cost of equity creates value even if it dilutes the 33% group ROE; the buyback is the bar every growth use must clear.", False)]])
 set_text(sh(cap_s, "TextBox 13"), "3. WHO DECIDES, AND WHEN")
 set_text(sh(cap_s, "TextBox 14"), "Before Investor Day")
-set_text(sh(cap_s, "TextBox 15"), [[("The CFO recommends the ranking, the CEO decides, the Board approves at this meeting, so the Investor Day narrative (8 Dec 2026) rests on an approved plan. My job: one page per use with the same four lines (return, capital, headroom, risk), and the chair's pre-read at T-9.", False)]])
+set_text(sh(cap_s, "TextBox 15"), [[("The CFO recommends the ranking, the CEO decides, the Board approves at this meeting. Two dates bind it: the US charter must be capitalized by about 29 Jan 2027 (OCC condition), and Investor Day is 8 Dec. My job: one page per use (return, capital, headroom, risk) and the chair's pre-read at T-9.", False)]])
 set_text(sh(cap_s, "TextBox 6"), "Sources: [1] Nu Q2'26 release (ROE 33%); Nu announcements: Mexico banking authorization (10 Jul 2026, operations as a bank from 6 Aug) and $4.2B plan to 2030; OCC conditional approval of Nubank N.A. (29 Jan 2026); buyback of up to $1.0B (4 Jun 2026); Investor Day 8 Dec 2026. Cost-of-equity figures are to be set with Treasury (ASSUMPTION).")
 notes(cap_s, "Takeaway: show the panel you know the Board topic is capital, not a $25M opex line. "
       "Hardest question: 'Where should the next dollar of equity go?' Answer: wherever return on allocated capital beats the local cost of "
@@ -441,6 +441,9 @@ notes(cap_s, "Takeaway: show the panel you know the Board topic is capital, not 
       "100 bps envelope until its credit models mature. "
       "Recent context to have ready: on 30 Sep 2026 Nu said it is not pursuing a transaction with Monzo and that its capital allocation "
       "framework is unchanged; the buyback runs 4 Jun 2026 to 3 Jun 2027; Q3'26 results are due 12 Nov 2026, before Investor Day. "
+      "Deadline: the OCC condition requires capital in within 12 months of the 29 Jan 2026 approval, so by about 29 Jan 2027; approving the "
+      "sequence at this mid-November meeting leaves about ten weeks, and FDIC and Federal Reserve approvals were still pending at the last "
+      "check. Do not call this meeting the 'final statutory window': the Board can still act by special meeting or written consent. "
       "Board question: 'You want the ranking approved but show no return or cost-of-equity figures.' Answer: the Board approves the "
       "yardstick and the Mexico and US capitalization sequence at this meeting; Treasury's numbers are in the pack by T-16 and the ranking "
       "page is the one I present.")
@@ -611,7 +614,7 @@ set_text(cell(tbl, 2, 3), [[("Up to $15.0M from H1 profit above plan, inside the
 set_text(cell(tbl, 3, 0), [[("3. Reversal triggers (stop or hold)", True)]], size=SZ)
 set_text(cell(tbl, 3, 1), [[("A unit below plan on two of four indicators: its gate-2 share is held", False)]], size=SZ)
 set_text(cell(tbl, 3, 2), [[("Efficiency ratio above the FY26 guide at Q1 close: gate 2 held for all units", False)]], size=SZ)
-set_text(cell(tbl, 3, 3), [[("Credit cost or NPL 90+ above plan: rule A6 is not used", False)]], size=SZ)
+set_text(cell(tbl, 3, 3), [[("Credit cost or NPL 90+ above plan: A6 stays shut; Risk holds a veto", False)]], size=SZ)
 set_text(cell(tbl, 4, 0), [[("4. Top risks and owners", True)]], size=SZ)
 set_text(cell(tbl, 4, 1), [[("GMs game the indicators: finance partners own the read-out", False)]], size=SZ)
 set_text(cell(tbl, 4, 2), [[("Board book slips: outline locked today; anything outside it goes to the appendix", False)]], size=SZ)
@@ -636,7 +639,7 @@ notes(s, "Takeaway: the downside is handled by the rule, not by a meeting. "
       "Context a short-seller would raise: NPL 90+ rose 35 bps to 6.9% in Q2'26 (management called it seasonal); the Brazil election "
       "runoff is 25 Oct 2026; sell-side is split (JPMorgan raised its target in October, Itau BBA downgraded on consumer-credit risk). "
       "Short-seller question: 'The A6 valve spends H1 beats instead of letting them reach net income; is that not the padding you claim to "
-      "remove?' Answer: it is capped, formula-sized inside the ~20% guide, CFO- and IR-signed, and disclosed as upside spend, not a change "
+      "remove?' Answer: it is capped, formula-sized inside the ~20% guide, CFO-, IR- and Risk-signed, and disclosed as upside spend, not a change "
       "to guidance; and it only exists in the year the beat exists.")
 
 # ============================================================ 18. 90-day plan (old 15)
@@ -823,6 +826,49 @@ def make_powerpoint_safe(path):
                 x = data.decode("utf-8")
                 x = x.replace('typeface="DM Sans"', 'typeface="Arial"').replace('typeface="Space Grotesk"', 'typeface="Arial"')
                 data = x.encode("utf-8")
+            zout.writestr(item, data)
+    shutil.move(tmp, path)
+    renumber_presentation_rels(path)
+
+
+def renumber_presentation_rels(path):
+    """Renumber ppt/_rels/presentation.xml.rels so slide relationship IDs ascend in presentation order.
+
+    PowerPoint shows slides in sldIdLst order whatever the IDs are, but tools that list slides by relationship ID (an external
+    reviewer did on 2026-10-20) read cloned slides as out of order. Renumbering removes that ambiguity; every r:id in
+    presentation.xml is remapped from the same table, so references stay resolved.
+    """
+    import shutil
+    import tempfile
+    import zipfile
+    from lxml import etree
+
+    RNS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    with zipfile.ZipFile(path) as z:
+        pres = etree.fromstring(z.read("ppt/presentation.xml"))
+        rels = etree.fromstring(z.read("ppt/_rels/presentation.xml.rels"))
+    rel_els = list(rels)
+    by_id = {r.get("Id"): r for r in rel_els}
+    slide_order = [el.get("{%s}id" % RNS) for el in pres.iter() if etree.QName(el).localname == "sldId"]
+    master_ids = [el.get("{%s}id" % RNS) for el in pres.iter() if etree.QName(el).localname in ("sldMasterId", "notesMasterId", "handoutMasterId")]
+    ordered = master_ids + slide_order + [r.get("Id") for r in rel_els if r.get("Id") not in master_ids + slide_order]
+    mapping = {old: "rId%d" % (i + 1) for i, old in enumerate(ordered)}
+    for old, rel in by_id.items():
+        rel.set("Id", mapping[old])
+    rels[:] = sorted(rels, key=lambda r: int(r.get("Id")[3:]))
+    for el in pres.iter():
+        for k, v in list(el.attrib.items()):
+            if k.startswith("{%s}" % RNS) and v in mapping:
+                el.set(k, mapping[v])
+    tmp = tempfile.mktemp(suffix=".pptx")
+    with zipfile.ZipFile(path) as zin, zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zout:
+        for item in zin.infolist():
+            if item.filename == "ppt/presentation.xml":
+                data = etree.tostring(pres, xml_declaration=True, encoding="UTF-8", standalone=True)
+            elif item.filename == "ppt/_rels/presentation.xml.rels":
+                data = etree.tostring(rels, xml_declaration=True, encoding="UTF-8", standalone=True)
+            else:
+                data = zin.read(item.filename)
             zout.writestr(item, data)
     shutil.move(tmp, path)
 
