@@ -79,3 +79,14 @@ either removed from the deck or labeled on the slide as an assumption.
 
 Still NOT proven after this run, said plainly: that the deck fits 30 minutes; that the presenter can answer the ten red-team questions
 from the slides; that any of the eight board decisions has been taken.
+
+## Status after the v2 build (copied from TEST_02.md, 2026-10-20 11:05 EDT)
+
+| Gate | Status on v2 (`deck/CFO_CoS_deck_v2.pptx`, sha256 9e79926f...) | Remaining blocker |
+|---|---|---|
+| G1 Scope | PASS | None in section A. Section B: the personal example is the candidate's to add (B5). |
+| G2 Facts and arithmetic | PASS | Re-pull corporate-event facts the day before the panel. |
+| G3 Decision logic | PASS | None. |
+| G4 Panel readiness | FAIL | Dry run not run (B8). Everything else passes. |
+
+Ship rule unchanged: the file goes to Renata only when G4 passes on the same sha256.

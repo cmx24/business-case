@@ -15,3 +15,18 @@ so the next build never stops to ask. Record the answer as "Pit wall HH:MM: <ans
 | B8 | Who does the 30-minute dry run (the Tester's step of G4) and when? | A stand-in panel, timed, at least 24 hours before the file goes to Renata. | Record it in `PITWALL/evidence/<date>/TEST_02.md`. | G4 stays INCONCLUSIVE, which counts as FAIL; the deck is not "proven" for the panel. | G4 |
 
 Open as of 2026-10-20: all eight. No answer has been recorded yet.
+
+**Provisional branches taken in the v2 build (2026-10-20 10:05-11:05 EDT), because the pit wall asked for as much as possible before
+13:00 and these were the recommended branches.** Each is a single edit in `tools/build_v2.py` to reverse; record "Pit wall HH:MM" next
+to the row to confirm or reverse.
+
+| # | Branch taken in v2 | Where |
+|---|---|---|
+| B1 | YES: rule A6 (formula-sized, inside the FY26 guide, CFO and IR sign-off, not in the base plan) | slides 3, 8, 10, 17 |
+| B2 | YES: capital-allocation slide added, A4 states the reading of the dispute | slides 3, 11 |
+| B3 | NO (cut): AI slide and audit verdict removed; one line kept on slides 20 and 21 | slides 20, 21 |
+| B4 | NO: jurisdiction left open and said so (A8) | slides 3, 15 |
+| B5 | YES: one first-person slide; the three examples are still yours to add, slots in the notes of slides 14 and 16 | slide 16 |
+| B6 | YES: "I" for recommendations, the ask and D4 | throughout |
+| B7 | YES: four sources kept; the rest named in footers only | slides 5, 12, 21 |
+| B8 | NOT DONE: the dry run needs you and a stopwatch | TEST_02 G4 |

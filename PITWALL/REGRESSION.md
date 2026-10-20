@@ -15,9 +15,9 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: D1 describes in-housing a central planning function => in-hous, central (modeling|planning) hub, hub-and-spoke
 - capability: D1 compares option A (flat haircut) => equal percentage, pro-rata, flat haircut
 - capability: D1 compares option B (core only) => core markets only, core markets first
-- capability: D1 compares option C (staged) => staged funding, business case readiness
+- capability: D1 compares option C (staged) => staged (funding|release), business[- ]case readiness
 - capability: D1 states a capacity or capital allocation rule (tranches or stages) => capacity allocation, allocat.{0,40}(rule|criteri|framework), tranche, stage [1-3] \(
-- capability: D2 handles pushback from a senior GM => pushback, push back
+- capability: D2 handles pushback from a senior GM => pushback, push(es|ed)? back
 - capability: D2 gains buy-in without line authority => without (direct )?line authority, without authority, line authority
 - capability: D2 structures a pre-Board alignment routine => pre-alignment, pre-brief, board (book|portal|calendar|rhythm|sprint)
 - capability: D2 covers statutory governance across legal entities => statutory, legal entit
@@ -38,7 +38,7 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: the one number that matters ($25M) appears in the deck => \$25M
 - capability: risks and reversal triggers are stated => reversal trigger, kill criteri, what would make (me|us) (stop|change), risk register, top (three|3|five|5) risks
 - capability: decision rights are mapped (RACI, RAPID or equivalent) => \braci\b, \brapid\b, decision rights, who decides
-- capability: the planning function has its own KPIs => (kpi|metric)s?.{0,80}(planning|finance) function, (planning|finance) function.{0,80}(kpi|metric), forecast accuracy.{0,60}(target|kpi|owner)
+- capability: the planning function has its own KPIs => (kpi|metric)s?.{0,80}(planning|finance) (function|hub), (planning|finance) (function|hub).{0,80}(kpi|metric), forecast accuracy.{0,60}(target|kpi|owner)
 - capability: a capital lens exists next to the opex cap => return on allocated capital, cost of equity, capital headroom, \broac\b
 - capability: Nu's latest cost to serve is used (Q2'26: $1.0) => \$1\.0\b.{0,60}cost.to.serve, cost.to.serve.{0,60}\$1\.0\b
 - capability: the efficiency-ratio guide (~20% FY26) frames the cap => ~?20%.{0,40}efficiency, efficiency.{0,60}20%

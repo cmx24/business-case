@@ -1,5 +1,9 @@
 # Review: "CFO Chief of Staff – Corporate Governance Strategy" deck
 
+> **Update, 2026-10-20 11:05 EDT:** version 2 of the deck was built from this review in priority order
+> (`deck/CFO_CoS_deck_v2.pptx`, built by `tools/build_v2.py`). Gates G1-G3 pass on v2; G4 fails only on the timed dry run, which needs
+> the candidate. Results: `PITWALL/evidence/2026-10-20/TEST_02.md`. The review below describes v1 and remains the rationale for every edit.
+
 **Reviewed against:** Business Case – Chief of Staff to the CFO & Global Corporate Governance (Nu scope PDF, reporting to Rob Livingston, 30 min presentation + 30 min Q&A)
 **Deck reviewed:** `CFO_Chief_of_Staff__Corporate_Governance_Strategy.pptx` (20 slides: 15 core, 1 divider, 3 appendix, 1 close)
 **Method:** PitWall gates (reconstructed from the FC27-Editor-Turbo repo; see `PITWALL/METHOD.md`) on top of the Nubank Business Case Architect skill (quality gates, red team, Nu fact base as of 20 Oct 2026). Every slide rendered and inspected; all arithmetic recomputed in code; file validated against the OOXML schema. Gate results and the capability scan: `PITWALL/briefs/deck-v1-gates.md` and `PITWALL/evidence/2026-10-20/TEST_01.md`. Decisions only the pit wall can take: `PITWALL/board/pitwall-decisions.md`.
