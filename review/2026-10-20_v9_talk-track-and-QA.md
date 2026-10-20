@@ -1,10 +1,11 @@
-# Talk track and Q&A: Chief of Staff to the CFO & Global Corporate Governance (deck v8)
+# Talk track and Q&A: Chief of Staff to the CFO & Global Corporate Governance (deck v9)
 
-Deck: `deck/CFO_CoS_deck_v8.pptx`, 26 slides. Slides 1-15 are presented; slide 16 is the backup divider, and backups A-J
+Deck: `deck/CFO_CoS_deck_v9.pptx`, 26 slides. Slides 1-15 are presented; slide 16 is the backup divider, and backups A-J
 (slides 17-26) are for Q&A only. Format: 30 minutes presenting, then 30 minutes of Q&A. v7 gives every deliverable 2-3 slides
 with an assessment, a recommendation, the data behind it and its risks (D1: slides 4-6; D2: 7-9; D3: 10-12; D4: 13-14), from
 the reframe in `review/2026-10-20_fable-reframe.md` as assessed and adapted. v8 frames the three answers as one way of deciding, used three times (`review/2026-10-20_fable-reassessment.md` and
-`review/2026-10-20_fable-final-pass.md`). This file replaces the v4-v7 talk tracks.
+`review/2026-10-20_fable-final-pass.md`). v9 puts Deliverable 4 in the team's voice: how the function works with the markets, and how it learns.
+This file replaces the v4-v8 talk tracks.
 
 How to read this file:
 - Lines starting with `>` are what you say. Everything else is for you.
@@ -33,7 +34,7 @@ natural and look at each panel member once. Pause after "at once" and again afte
 >
 > I will ask you for three decisions on that basis, and I will flag each deliverable as I reach it.
 >
-> Deliverable 1: twenty-five million in two releases, with no flat cuts. Deliverable 2: one capital test, a lock at sixteen days, and the book out at seven. Deliverable 3: four decision gates for the HQ in one hundred and twenty days. Deliverable 4: how I work inside the numbers while the CFO makes the call.
+> Deliverable 1: twenty-five million in two releases, with no flat cuts. Deliverable 2: one capital test, a lock at sixteen days, and the book out at seven. Deliverable 3: four decision gates for the HQ in one hundred and twenty days. Deliverable 4: how this function works with the markets, and learns as it goes.
 >
 > So the ask has three parts: the twenty-five million FY27 cap in two releases, the Board calendar, and the HQ charter.
 >
@@ -132,7 +133,7 @@ everyone hates" can get a smile. Point at each risk card as you name it. This is
 >
 > The CFO recommends, the CEO decides, and the Board approves at this meeting, the last before Investor Day on the eighth of December. I produce one page per use. The cost of equity comes from Treasury. I have not guessed it.
 >
-> On opex, both positions go into the memo as options: core markets first, new bets first, or the staged seventy-thirty. I recommend seventy-thirty, and here is why. Mature cohorts earn about thirty-one dollars a month at eight years, against seventeen dollars ten for the group. And a new bet judged on mature-market profit in its first quarter always loses. The CEO decides at the lock, the dissent is recorded, and the Board sees one recommendation.
+> On opex, both positions go into the memo as options: core markets first, new bets first, or the staged seventy-thirty. I recommend seventy-thirty. Mature cohorts earn about thirty-one dollars a month at eight years, against seventeen dollars ten for the group. And a new bet judged on mature-market profit in its first quarter always loses. The CEO decides at the lock, the dissent is recorded, and the Board sees one recommendation.
 
 **Delivery.** The most senior content in the deck: your most measured pace and lowest pitch. Say "I have not guessed it"
 plainly, not as an apology. Pause before "A new bet judged on mature-market profit".
@@ -222,43 +223,45 @@ firmly; they are the risk management.
 **Delivery.** Left column first, then right. "Nobody vetoes on price" is the line people remember; pause before it. Say
 "dependence on me" lightly, as self-awareness.
 
-### Slide 13: Influence with hands-on rigor: a few clear rules, published early
+### Slide 13: How we work: propose, implement, assess, and change course fast
 
-> Deliverable 4 of 4: how I balance strategic influence with hands-on rigor.
+> Deliverable 4 of 4: how this function works, and how I lead it.
 >
-> My answer comes from seeing big companies up close, at local, regional and global level. At Citi, I saw governance so rigid that it slowed good decisions down. At Itaú BBA, I saw an agile, client-first culture slow down when the wider group put too many cooks in the kitchen. At Visa, I saw a tech company at heart that now runs alongside the governance a global-scale business requires.
+> My view comes from seeing big companies up close, at local, regional and global level. At Citi, I saw governance so rigid that it slowed good decisions down. At Itaú BBA, I saw an agile, client-first culture slow down when the wider group put too many cooks in the kitchen. At Visa, I saw a tech company at heart that now runs alongside the governance a global-scale business requires.
 >
-> Nu is at that point now. The lesson I took is simple: a few clear rules, published early, and nothing more. So I hold myself to three.
+> Nu is at that point now. The lesson I took: a central function earns its place only if the markets would choose to work with it. So we work three ways.
 >
-> One: publish the rule, then negotiate.
+> One: propose, then publish. We bring a proposal with its evidence, and the rule is public before anyone argues about the outcome.
 >
 > [your example, about 40 words: a time you published the criteria before a contested decision and the side that lost accepted it.]
 >
-> Two: fix the numbers in private, so senior people are never surprised in a room.
+> Two: start small, assess, and pivot fast. Everything in this deck is a first version, with a date to review it. If the indicators say we are wrong, we change it at the next release, not next year.
 >
-> [your example, about 40 words: a time you found an error in a senior leader's numbers and fixed it with them before the meeting.]
+> [your example, about 40 words: a time the data told you that you were wrong, and how fast you changed course.]
 >
-> Three: own the model and the clauses. AI does the first pass now; I still do the last.
+> Three: built with the markets, not for them. Finance partners sit inside the markets, and local CFOs shape the model, so nobody sees their number for the first time in front of the CFO.
 >
-> [your example, about 40 words: a model or contract clause you caught yourself that would have cost money or credibility.]
+> [your example, about 40 words: a time you built a number with a local team rather than for them, and what changed.]
 
-**Delivery.** The most personal slide, so it should sound the least rehearsed. Eye contact on the stories, not the rules.
-The three-company opening is observation, not criticism: one breath per company, structures not people. "Too many cooks"
-replaces "politics" on purpose. Rob Livingston was CFO of Visa North America, so keep the Visa line to what you saw
-yourself (Q38 prepares the follow-up).
+**Delivery.** Say "we" and mean the team; this is about the function, not you. The three-company opening is observation,
+not criticism: one breath per company, structures not people. "Too many cooks" replaces "politics" on purpose. Rob
+Livingston was CFO of Visa North America, so keep the Visa line to what you saw yourself (Q38). The second example, about
+being wrong and changing course, is the one that shows humility; make sure it is true and specific.
 
-### Slide 14: How I work in a matrix: what I own, what experts own, what I leave alone
+### Slide 14: Working with the markets: who owns what, and how we learn
 
-> Here is the same split in all three problems. I own the model, the memo and the log. Experts own their judgment. The accountable executive owns the decision and the signature. In planning, I build the model and read every first-release case myself. I influence through the one-to-ones and the lock, and the CFO decides the releases. On the Board, I draft the capital memo and tie every figure to its source, and the CFO presents the ranking. On the HQ, I read the term sheets and keep the log, and I never sign.
+> Across the three problems, the function owns the model, the memo and the log. The markets and the experts own their numbers and their judgment. The CFO owns the decision.
 >
-> Where do I push back on the CFO? When a decision skips the published rule. I say so privately, with the numbers, and then I back the call. And for ninety days I leave alone local-CFO decision rights, credit-model governance, and the IR calendar.
+> And we get smarter every quarter. Each release review ends with what we got wrong and what we change. Twice a year, the GMs rate the function, and we publish the result. If planning turns into HQ against the markets, we have failed, and that rating tells us early.
 >
-> The team I build: people who model and write plain English, each owning one market's release pack, and a deputy, so nothing depends on me alone.
+> Where do we push back on the CFO? When a decision skips the published rule. We say so privately, with the numbers, and then we back the call. For ninety days we leave alone local-CFO decision rights, credit-model governance and the IR calendar.
+>
+> The team we build: people who model and write plain English, each owning one market's release pack and sitting with that market.
 >
 > [your watch-out, about 25 words: one honest derailer and what you do about it.]
 
-**Delivery.** Point at the table row by row; it is the evidence for the claim on slide 13. The watch-out has to be true
-(see Q19 for how to choose one).
+**Delivery.** Point at the table row by row, then slow down on "we have failed, and that rating tells us early". It is
+the line that separates a learning function from an ivory tower. The watch-out has to be true (see Q19).
 
 ### Slide 15: Next 90 days: the Board on 17 Nov, the first release on 1 Jan, and the ask
 
@@ -285,18 +288,18 @@ slide. End on the question, then stop talking.
 | 4. Staged release beats flat cuts: the precedent matters more than the $35M | 255 | 2.0 | 5.5 |
 | 5. Five answers for $60M: fund now, stage, reallocate, defer or stop | 256 | 2.0 | 7.4 |
 | 6. A lean hub and three meetings bring planning in-house | 239 | 1.8 | 9.3 |
-| 7. The capital dispute becomes one choice for the CEO: four uses, one test | 305 | 2.3 | 11.6 |
+| 7. The capital dispute becomes one choice for the CEO: four uses, one test | 301 | 2.3 | 11.6 |
 | 8. When a senior GM pushes back: four moves, in the same order every time | 197 (incl. 40 story) | 1.5 | 13.1 |
-| 9. Every quarter: the book goes out 7 days before the Board, after a lock at 16 days | 262 | 2.0 | 15.2 |
-| 10. The HQ is a governance project before it is a real-estate deal | 210 | 1.6 | 16.8 |
-| 11. Four decision gates in 120 days; nothing is signed between them | 260 | 2.0 | 18.8 |
+| 9. Every quarter: the book goes out 7 days before the Board, after a lock at 16 days | 262 | 2.0 | 15.1 |
+| 10. The HQ is a governance project before it is a real-estate deal | 210 | 1.6 | 16.7 |
+| 11. Four decision gates in 120 days; nothing is signed between them | 260 | 2.0 | 18.7 |
 | 12. Experts own the judgment, I own the process, the CFO owns residual risk | 230 | 1.8 | 20.5 |
-| 13. Influence with hands-on rigor: a few clear rules, published early | 267 (incl. 120 story) | 2.1 | 22.6 |
-| 14. How I work in a matrix: what I own, what experts own, what I leave alone | 189 (incl. 25 story) | 1.5 | 24.1 |
-| 15. Next 90 days: the Board on 17 Nov, the first release on 1 Jan, and the ask | 173 | 1.3 | 25.4 |
-| **Total** | **3300** | **25.4** | |
+| 13. How we work: propose, implement, assess, and change course fast | 327 (incl. 120 story) | 2.5 | 23.0 |
+| 14. Working with the markets: who owns what, and how we learn | 169 (incl. 25 story) | 1.3 | 24.3 |
+| 15. Next 90 days: the Board on 17 Nov, the first release on 1 Jan, and the ask | 173 | 1.3 | 25.7 |
+| **Total** | **3336** | **25.7** | |
 
-**Total: 3300 spoken words, 25.4 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
+**Total: 3336 spoken words, 25.7 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
 
 ## 3. Running the clock
 
@@ -814,7 +817,7 @@ jurisdiction collects the Pillar Two top-up?**
 - **Tone:** Candid. Saying "it will" first builds trust.
 - **Show:** Backup H.
 
-### D. Fourteen more, invited by the v7 structure (HQ depth, capacity, the balance)
+### D. Sixteen more, invited by the v7-v9 structure (HQ depth, capacity, how the function works)
 
 **Q42. Which jurisdiction would you pick, and how would you weight the criteria?**
 - **Why they ask:** To see whether you commit or hedge.
@@ -927,8 +930,9 @@ jurisdiction collects the Pillar Two top-up?**
 **Q54. Where is the hands-on part? You describe a lot of meetings.**
 - **Why they ask:** A direct challenge to Deliverable 4.
 - **Position:** Point at slide 14, row by row.
-- **Say:** "On slide fourteen, row by row. I build the model, I draft the capital memo, I read the clauses and I build the
-  site scorecard. The meetings exist so that the CFO decides on something I've checked myself."
+- **Say:** "On slide fourteen, row by row. The function builds the model, drafts the capital memo, reads the clauses and
+  builds the site scorecard, and I review all of it myself. The meetings exist so that the CFO decides on something we've
+  checked, and the markets have seen first."
 - **Tone:** Unruffled. Point at the table.
 - **Show:** Slide 14.
 
@@ -940,6 +944,26 @@ jurisdiction collects the Pillar Two top-up?**
   detail never becomes the bottleneck."
 - **Tone:** Self-aware; don't overcorrect into apology.
 - **Show:** Slide 14.
+
+**Q56. Isn't a central planning function exactly how you get HQ versus the markets?**
+- **Why they ask:** It is the real cultural risk of in-housing planning at Nu.
+- **Position:** Yes, if it is built top-down. This one is built with the markets, measured by them, and changes when wrong.
+- **Say:** "It can be, if it's built top-down. So three things are different. Finance partners sit inside the markets, and
+  local CFOs shape the model, so nobody meets their number for the first time in front of the CFO. Every mechanism is a
+  first version, reviewed with the GMs each quarter: we keep it, fix it or drop it. And twice a year the GMs rate the
+  function, and we publish the result. If that rating falls, we've become an ivory tower, and we'll know early."
+- **Tone:** Candid. Agree with the risk first.
+- **Show:** Slide 14, then slide 13.
+
+**Q57. Tell me about a time you were wrong and changed course.**
+- **Why they ask:** It tests the humility slide 13 claims.
+- **Position:** One true story, then the mechanism that makes changing course normal here.
+- **Say:** "[your example, about 50 words: what you believed, what the data showed, how fast you changed course, and what it
+  cost or saved.] That's why every mechanism in this deck has a review date. Being wrong early is cheap. Being wrong for a
+  year is what makes markets stop trusting the center."
+- **Tone:** Plain and specific. Don't polish the mistake away.
+- **Show:** Slide 13.
+
 
 ## 5. Numbers to keep at hand
 

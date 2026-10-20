@@ -46,7 +46,7 @@ Sources of the lines: section A is derived from the case brief (the "old registr
 - capability: the CFO's lens is addressed (Livingston, test-and-learn) => livingston, capital one, test-and-learn
 - capability: the US launch and its spend envelope are acknowledged => lead bank, 100 bps, nubank\s*n\.a\.
 - capability: Investor Day sits in the Board calendar => investor day
-- capability: first-person voice in Deliverable 4 => \bI (lead|would|will|believe|balance|pair)\b, my (leadership|style|practice)
+- capability: first-person voice in Deliverable 4 => \bI (lead|would|will|believe|balance|pair)\b, my (leadership|style|practice), \bwe (work|bring|stay|change|keep)\b
 - capability: a personal example backs the leadership claims => when I was at, in my (previous|last|prior) role, \bI (led|built|negotiated|ran|closed|cut|took over|turned)\b
 - capability: every core slide has speaker notes => check: notes
 - capability: the file validates against the OOXML schema => check: validates
@@ -82,3 +82,6 @@ for backup H (two AI agents). Added two AI lines: the agents are part of how gov
 Change log: 2026-10-20 (v7). The pit wall asked for 2-3 slides per deliverable, each with assessment, recommendation, data and
 risks. Presented limit 14 -> 15 and total 23 -> 26 (backups I and J) on that instruction. Five lines added so the new depth
 in D1 and D3 and the per-deliverable risks cannot silently drop out.
+
+Change log: 2026-10-20 (v9). The pit wall asked for Deliverable 4 in the team's voice, less individualistic. The first-person
+line now also accepts "we" (the function speaking), which is the same capability in the plural.
