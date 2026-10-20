@@ -117,7 +117,7 @@ hpt, bpt = (hs.pt if hs else None), (bs.pt if bs else None)
 rebuild(6, "$25M", [("$25M", True, hpt), (" - Released to Business units on track to beat the FY27 plan, decided at the H1 close on H1 data: only "
     "from profit above plan, inside the efficiency-ratio guide in force, with NPL 90+ on plan (the CFO decides; Risk can block). Remedial spend "
     "for units behind plan goes to the MTeam, with CFO prioritization.", False, bpt)])
-rebuild(6, "$5M", [("$5M", True, hpt), (" - Set aside for strategic imperatives, special projects, regulatory requirements or similar extraordinary "
+rebuild(6, "$5M", [("$10M", True, hpt), (" - Set aside for strategic imperatives, special projects, regulatory requirements or similar extraordinary "
     "escalation factors, and deployed after MTeam validation.", False, bpt)])
 for sh in S[5].shapes:
     if sh.has_chart:
@@ -127,9 +127,10 @@ for sh in S[5].shapes:
         cd = CategoryChartData()
         cd.categories = cats
         cd.add_series("base", (0, 50, 25, 15, 0))
-        cd.add_series("value", (60, 5, 25, 10, 15))
+        cd.add_series("value", (60, 10, 25, 10, 15))
         ch.replace_data(cd)
         assert [pt.data_label.text_frame.text for pt in plot.series[1].points] == ["$60M", "$5M", "$25M", "$10M", "$15M"]
+        plot.series[1].points[1].data_label.text_frame.paragraphs[0].runs[0].text = "$10M"
 # re-space the three right-hand cards so the longer stage-gate text fits; keep the footer clear
 boxes = {}
 for sh in S[5].shapes:
@@ -145,8 +146,8 @@ for key, (top, h) in geom.items():
     box = boxes[key]; r = rect_for(box)
     r.top, r.height = Inches(top), Inches(h)
     box.top, box.height = Inches(top + 0.12), Inches(h - 0.17)
-footer(6, "The two releases ($25M) are the cap. The 2H checkpoint (up to $25M) and the reserve ($5M) sit outside the plan and open only "
-          "on the conditions stated; $5M of the $60M is not funded in FY27. The 70/30 split follows mature cohorts: ~$31 of monthly "
+footer(6, "The two releases ($25M) are the cap. The 2H checkpoint (up to $25M) and the reserve ($10M) sit outside the plan and open only "
+          "on the conditions stated, so every dollar of the $60M has a path. The 70/30 split follows mature cohorts: ~$31 of monthly "
           "ARPAC at eight years against $17.1 for the group (Q1'26 cohort data).", y=6.6, h=0.5)
 
 # ---------------------------------------------------------------- slide 7: ways of working
@@ -166,6 +167,7 @@ rep(9, "decision-making process better even . GMs", "decision-making process bet
 # ---------------------------------------------------------------- slide 10: HQ assessment
 rep(10, "so the purpose survives Pillar Two", "so the incentive survives Pillar Two")
 rebuild(10, "4. Substance", [("4. ", False, None), ("Substance", True, None), (": real payroll and assets, so the incentive survives Pillar Two (Tax, People).", False, None)])
+rep(13, " Review commitments and initial boundaries in speaker notes.", "")
 footer(10, "Nu Holdings is Cayman-incorporated (Form 20-F). Nu is above the EUR 750M Pillar Two threshold; 15% minimum; the 2026 "
            "carve-out is 9.4% of payroll and 7.4% of tangible assets (OECD GloBE, Art. 5.3 and 9.2). Brazil applies a domestic "
            "minimum top-up tax from 2025. Jurisdiction open; no savings figure until a site is chosen.", y=6.93, h=0.45, size=8.5)
@@ -201,7 +203,7 @@ rep(16, "inside the ~20% guide, NPL 90+ on plan", "inside the efficiency-ratio g
 rep(16, "Option scores and weights are my judgment", "Option scores and weights are our judgment")
 rep(16, "Slide 4; backups C, D", "Slide 4; backup D")
 rep(16, "FY27 envelope: first release 1 Jan 2027, second at Q1 close (31 Mar), reserve at H1 close. Hub of 4-6 people.",
-        "FY27 envelope: first release 1 Jan 2027, second at Q1 close (decided on Q1 data), 2H checkpoint (up to $25M) and reserve ($5M) at H1 close. Hub of 4-6 people.")
+        "FY27 envelope: first release 1 Jan 2027, second at Q1 close (decided on Q1 data), 2H checkpoint (up to $25M) and reserve ($10M) at H1 close. Hub of 4-6 people.")
 rep(16, "Calendar fiscal year; sizing is mine", "Calendar fiscal year; sizing is ours")
 rep(16, "the site scorecard weights are my judgment (backup J)", "the site scorecard weights are our judgment (backup J)")
 
@@ -229,26 +231,10 @@ for i, s in enumerate(S, 1):
         if sh.has_text_frame and sh.text_frame.text.strip().isdigit():
             sh.text_frame.paragraphs[0].runs[0].text = str(i)
 
-# ---------------------------------------------------------------- speaker notes (one plain line each)
-N = {1: "Three problems at once; finance and governance as growth levers, adding the rigor scale requires without losing speed.",
-     2: "Ownership as the principle across all four deliverables; success measured in numbers; three decisions requested today.",
-     3: "A CoE hub of 4-6 people and three meetings; local finance owns the drivers, the hub standardizes and consolidates, the CFO decides.",
-     4: "$35M is about 0.2 points of efficiency ratio; what is broken is the process, so budgets work like Nu's credit: low-and-grow.",
-     5: "Mandatory obligations pass a separate gate; discretionary asks are scored on five weighted criteria; four-step decision process.",
-     6: "Fund now $25M (the cap), stage up to $25M at the 2H checkpoint on H1 data, $5M reserve; $5M of the $60M is not funded in FY27.",
-     7: "The lead aligns executives; the team runs the calendar and tracks actions; weekly CFO, monthly GMs, T-28 to T-7 before each Board.",
-     8: "Why the book is late, and the quarterly countdown that fixes it: outline at T-28, lock at T-16, book at T-7.",
-     9: "Four moves for executive friction: private first, beyond the numbers, people, build with not for; dissent but commit.",
-     10: "The HQ is a governance project: four hard tests before five criteria; two sites to term sheet; the CEO and CFO prioritize.",
-     11: "SMEs own the judgment, CoS & CG owns the process, the CFO owns the recommendation; disagreements reach the CFO within 48 hours.",
-     12: "Four decision gates in 120 days: can we, what may we offer, who may bind Nu, do we commit; nothing signed between them.",
-     13: "Trust, alignment, execution, learning. Initial boundaries (first 90 days): local-CFO decision rights in Mexico and Colombia, "
-         "credit-model governance and the IR calendar stay as they are. Commitments: quarterly keep / fix / drop review with the CFO; "
-         "GM feedback twice a year; every action with an owner and a date.",
-     14: "Who owns what across the three problems; propose, implement, assess; the function earns its place with the markets.",
-     15: "Not presented.", 20: "Backup."}
-for i, txt in N.items():
-    notes(i, txt)
-
+# ---------------------------------------------------------------- no speaker notes anywhere (slides only)
+for s in S:
+    if s.has_notes_slide:
+        s.notes_slide.notes_text_frame.clear()
+        s.notes_slide.notes_text_frame.text = ""
 prs.save(DST)
 print("saved", DST, "slides", len(prs.slides), "fallback paragraphs:", FALLBACK)

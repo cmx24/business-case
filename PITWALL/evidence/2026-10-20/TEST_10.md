@@ -5,17 +5,15 @@
 make minor tweaks to ensure cohesion and depth. ensure numbers and data are included where applicable."
 
 **Output:** `deck/CFO_CoS_deck_v10.pptx`, produced in place by `tools/final_pass_upload.py` (the candidate's layout is kept;
-text is replaced at run level). sha256 prefix ca6e025731792ec2.
+text is replaced at run level). (final: reserve $10M; no speaker notes anywhere, on the pit wall's instruction).
 
 ## What changed (all minor, in the candidate's voice)
 
-- **Cohesion of the funding story (slide 6 and backup A).** The chart's reserve bar was drawn at $10M while labeled $5M; the
-  bar now equals the label. The 2H checkpoint was "decided on Q4 data" for a 3Q-4Q release, which cannot happen; it now reads
+- **Cohesion of the funding story (slide 6 and backup A).** The chart's reserve bar was drawn at $10M while labeled $5M; the pit wall set the reserve to $10M, so bar, label, card, footer and backup A now agree. The 2H checkpoint was "decided on Q4 data" for a 3Q-4Q release, which cannot happen; it now reads
   "decided at the H1 close on H1 data", with the reserve conditions the assumptions table already carries (profit above plan,
   the efficiency-ratio guide in force, NPL 90+ on plan; the CFO decides, Risk can block). Backup A's envelope row now matches
   (second release on Q1 data; checkpoint up to $25M and reserve $5M at H1 close). A footer states the arithmetic: the two
-  releases are the cap; the checkpoint and the reserve sit outside the plan; $5M of the $60M is not funded in FY27; and the
-  cohort data behind 70/30.
+  releases are the cap; the checkpoint and the reserve sit outside the plan; every dollar of the $60M has a path ($15M + $10M + $25M + $10M); and the cohort data behind 70/30.
 - **Numbers added where the slide had none.** Slide 2's success measures now carry targets (100% of discretionary spend with
   a case, cycle time under 40 days, book at T-7 every quarter, HQ gates 1-2 by mid-December, GM rating twice a year) and a
   one-line statement of the decisions requested, which the restructure had lost with the old closing slide. Slide 10 got
@@ -29,8 +27,7 @@ text is replaced at run level). sha256 prefix ca6e025731792ec2.
   on slide 8; "me" to "the CoS" in backup J; typos fixed (ships / abd / "better even ."); page numbers now run 1-21 (they
   ran 1, 2, 6, 4, 5, 5, 7, 9, 8, ...); the divider lists only the six backups that exist; backup D's "where used" column
   points at the new slide numbers; backup F no longer cites the removed $12M case track or squad clinics.
-- **Speaker notes:** one plain line on every presented slide. Slide 13's footer promised commitments and boundaries "in
-  speaker notes", which were empty; they are there now.
+- **Speaker notes:** removed from every slide (slides only, per the pit wall). Slide 13's footer no longer promises them.
 
 ## Not changed, on purpose
 
