@@ -201,17 +201,19 @@ for sh in S[14].shapes:
 # ---------------------------------------------------------------- backup A (16)
 rep(16, "inside the ~20% guide, NPL 90+ on plan", "inside the efficiency-ratio guide in force, NPL 90+ on plan")
 rep(16, "Option scores and weights are my judgment", "Option scores and weights are our judgment")
-rep(16, "Slide 4; backups C, D", "Slide 4; backup D")
+rep(16, "Slide 4; backups C, D", "Slide 5; backup D")
 rep(16, "FY27 envelope: first release 1 Jan 2027, second at Q1 close (31 Mar), reserve at H1 close. Hub of 4-6 people.",
         "FY27 envelope: first release 1 Jan 2027, second at Q1 close (decided on Q1 data), 2H checkpoint (up to $25M) and reserve ($10M) at H1 close. Hub of 4-6 people.")
 rep(16, "Calendar fiscal year; sizing is mine", "Calendar fiscal year; sizing is ours")
 rep(16, "the site scorecard weights are my judgment (backup J)", "the site scorecard weights are our judgment (backup J)")
 
 # ---------------------------------------------------------------- backup D (18)
-rep(18, "Slides 3, 4, 7; backup I", "Slides 4, 6; backup A")
-rep(18, "Slides 7, 9, 15; backup B", "Slides 8, 12; backup B")
-rep(18, "Slide 7; backup E", "Slide 6 (70/30 split)")
-rep(18, "Slides 6, 9, 12; backup H", "Slides 2, 3, 7, 13; backup H")
+rep(18, "Slides 3, 4, 7; backup I", "Slides 5, 7; backup A")
+rep(18, "Slides 7, 9, 15; backup B", "Slides 9, 13; backup B")
+rep(18, "Slide 7; backup E", "Slide 7 (70/30 split)")
+rep(18, "Slides 6, 9, 12; backup H", "Slides 2, 3, 8, 14; backup H")
+rep(18, "Slide 10", "Slide 11")
+rep(18, "Slide 5", "Slide 6")
 
 # ---------------------------------------------------------------- backup F (19)
 rep(19, "Hub in place; finance partners embedded", "Hub in place; market and vertical finance teams aligned")
@@ -224,6 +226,71 @@ rep(21, "Dependence on me", "Dependence on the CoS")
 rep(21, "gate packs the CFO can read without me", "gate packs the CFO can decide on without the lead")
 rep(21, "Me", "CoS & CG")
 rep(21, "Weights and mitigations are my proposals (A13).", "Weights and mitigations are our proposals.")
+
+
+# ---------------------------------------------------------------- new slide after the hub: structure, leveling, hiring waves
+from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+from pptx.enum.shapes import MSO_SHAPE
+PURPLE, INK, BODY, PAGE, BAND, WHITE, LINE = (RGBColor(0x82,0x0A,0xD1), RGBColor(0x11,0x05,0x2C), RGBColor(0x3B,0x2A,0x54),
+    RGBColor(0xFA,0xF8,0xFF), RGBColor(0xF5,0xF0,0xFC), RGBColor(0xFF,0xFF,0xFF), RGBColor(0xE2,0xD9,0xF3))
+blank = [l for l in prs.slide_layouts if l.name == "Blank"][0]
+ns = prs.slides.add_slide(blank)
+for shp in list(ns.shapes):
+    shp._element.getparent().remove(shp._element)
+ns.background.fill.solid(); ns.background.fill.fore_color.rgb = PAGE
+def tx(x, y, w, h, text, size, color, bold=False, align=PP_ALIGN.LEFT, anchor=MSO_ANCHOR.TOP):
+    b = ns.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h)); tf = b.text_frame; tf.word_wrap = True
+    tf.margin_left = tf.margin_right = Inches(0.1); tf.margin_top = tf.margin_bottom = Inches(0.05); tf.vertical_anchor = anchor
+    runs = text if isinstance(text, list) else [(text, bold)]
+    para = tf.paragraphs[0]; para.alignment = align
+    for s_, b_ in runs:
+        r = para.add_run(); r.text = s_; r.font.size = Pt(size); r.font.bold = b_; r.font.name = "Arial"; r.font.color.rgb = color
+    return b
+tx(0.67, 0.38, 12.0, 0.3, "DELIVERABLE 1  //  TEAM", 10, PURPLE, bold=True)
+tx(0.67, 0.68, 12.0, 0.95, "Hub of 4-6: 2-3 in the countries, 2-3 central in the US, in two waves", 24, INK, bold=True)
+rows = [["Role", "Level (proposal)", "Where", "Reports to", "Wave"],
+        ["Hub lead: CoS & Corporate Governance", "Existing role", "US (central)", "Global CFO", "In place"],
+        ["Global planning manager: owns the model, the case template and the release packs", "Senior manager", "US (central)", "Hub lead", "1: by Q2'27"],
+        ["Finance partner, Brazil: cases and drivers with the GMs and the Brazil CFO", "Manager / senior manager", "Brazil", "Global Finance; dotted line to the Country CFO", "1: by Q2'27"],
+        ["Finance partner, Mexico: same role for Mexico (and Colombia until wave 2)", "Manager", "Mexico", "Global Finance; dotted line to the Country CFO", "1: by Q2'27"],
+        ["Decision-support analyst: data platform, AI agents, consolidation", "Senior analyst", "US (central)", "Global planning manager", "2: by Q4'27, if gates pass"],
+        ["Finance partner, Colombia", "Manager", "Colombia", "Global Finance; dotted line to the Country CFO", "2: by Q4'27, if gates pass"],
+        ["Second central analyst (only if volume requires)", "Analyst", "US (central)", "Global planning manager", "2: by Q4'27, if gates pass"]]
+col_w = [4.6, 1.9, 1.3, 2.6, 1.7]
+shp = ns.shapes.add_table(len(rows), len(col_w), Inches(0.67), Inches(1.7), Inches(sum(col_w)), Inches(0.38 * len(rows)))
+tbl = shp.table; tbl.first_row = False; tbl.horz_banding = False
+tblPr = tbl._tbl.tblPr
+for c, wdt in enumerate(col_w):
+    tbl.columns[c].width = Inches(wdt)
+for r_i, row in enumerate(rows):
+    tbl.rows[r_i].height = Inches(0.42 if r_i else 0.36)
+    for c_i, val in enumerate(row):
+        cell = tbl.cell(r_i, c_i); cell.fill.solid()
+        cell.fill.fore_color.rgb = PURPLE if r_i == 0 else (WHITE if r_i % 2 else BAND)
+        cell.margin_left = cell.margin_right = Inches(0.08); cell.margin_top = cell.margin_bottom = Inches(0.04)
+        cell.vertical_anchor = MSO_ANCHOR.MIDDLE
+        para = cell.text_frame.paragraphs[0]; run = para.add_run(); run.text = val
+        run.font.name = "Arial"; run.font.size = Pt(10.5 if r_i else 11)
+        run.font.bold = (r_i == 0) or (c_i == 0 and r_i > 0)
+        run.font.color.rgb = WHITE if r_i == 0 else (INK if c_i == 0 else BODY)
+band = ns.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(0.67), Inches(5.25), Inches(11.8), Inches(1.15))
+band.fill.solid(); band.fill.fore_color.rgb = BAND; band.line.color.rgb = LINE; band.line.width = Pt(0.75)
+band.adjustments[0] = 0.08; band.shadow.inherit = False; band.text_frame.text = ""
+tx(0.87, 5.35, 11.4, 0.98, [("Quality gates for wave 2 (checked at the H1 close): ", True),
+   ("wave 1 in seat and onboarded; cycle time under 40 days on the Q1'27 release; 100% of first-release spend with an approved "
+    "case; forecast-accuracy baseline set in Q1 and improving in Q2; mid-year GM feedback positive. If a gate fails, wave 2 waits "
+    "and the gap is fixed first.", False)], 11.5, INK, anchor=MSO_ANCHOR.MIDDLE)
+tx(0.67, 6.55, 11.5, 0.45, "Proposal. Levels map to Nu's leveling at hire; the US location of the central roles assumes the hub sits "
+   "with Global Finance. Country partners are market hires, not relocations. Hiring cost is central opex and counts against the "
+   "$25M cap. Wave 1 recruiting starts after the Board; wave 2 only on the gates above.", 9, MUTED)
+# page number box, copied from slide 3's
+src_pn = [sh for sh in S[2].shapes if sh.has_text_frame and sh.text_frame.text.strip().isdigit()][0]
+ns.shapes._spTree.append(copy.deepcopy(src_pn._element))
+# move the new slide to position 4
+sldIdLst = prs.slides._sldIdLst
+ids = list(sldIdLst)
+new_id = ids[-1]; sldIdLst.remove(new_id); sldIdLst.insert(3, new_id)
+S = list(prs.slides)
 
 # ---------------------------------------------------------------- page numbers
 for i, s in enumerate(S, 1):

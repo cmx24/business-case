@@ -41,7 +41,7 @@ text is replaced at run level). (final: reserve $10M; no speaker notes anywhere,
 
 - OOXML validation: PASSED. Strict package check: no structural problems.
 - Render: all 21 slides rendered and inspected; four fit defects introduced by longer text were fixed (slides 2, 3, 6, 11).
-- Capability scan: 49 pass, 4 fail. The four: GM pushback wording; the capital lens; first-person D4 voice (the deck now
+- Capability scan: 48 pass, 5 fail. The speaker-notes line fails because notes were removed on instruction. The other four: GM pushback wording; the capital lens; first-person D4 voice (the deck now
   speaks as "the team" without "we work / we bring"); the personal example. The first two follow from the candidate's
   restructure; the last is still the candidate's to write.
 - Preservation (upload to v10): 118 tokens; 3 differ, all intentional ($12M case track removed from backup F; "A1-A13"
@@ -52,3 +52,10 @@ text is replaced at run level). (final: reserve $10M; no speaker notes anywhere,
 
 - That PowerPoint opens v10 (the upload came from PowerPoint, so the packaging risk is lower than for the generated decks).
 - The personal stories and the dry run (B16, B8).
+
+**Added after the pit wall's last instruction:** a new slide 4, "Hub of 4-6: 2-3 in the countries, 2-3 central in the US,
+in two waves": roles, proposed levels, location, reporting line and hiring wave (wave 1 by Q2'27: planning manager, Brazil and
+Mexico partners; wave 2 by Q4'27 only if the quality gates pass: decision-support analyst, Colombia partner, optional second
+analyst). Gates: wave 1 onboarded, cycle time under 40 days on the Q1'27 release, 100% of first-release spend with a case,
+forecast-accuracy baseline set and improving, positive mid-year GM feedback. Levels and locations are labeled proposals.
+Deck is now 22 slides (15 presented); page numbers and backup D cross-references renumbered.
