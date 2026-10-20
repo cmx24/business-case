@@ -101,19 +101,13 @@ for sh in S[1].shapes:
 # ---------------------------------------------------------------- slide 3: hub
 rep(3, "CoS & GC team", "CoS & CG team")
 rep(3, "Global Planning hub and market/vertical teams report to Global Finance, with a dotted line to Country CFOs.", "CoS & CG partners with Global Finance / FP&A to stand up the CoE; the hub and market/vertical teams report to Global Finance, with a dotted line to Country CFOs.")
-rep(3, "AI-enabled processes: agents to support consolidation, tracking action items, facilitating alignment and reducing manual work.", "AI agents: consolidation, action tracking and follow-ups, freeing the team for judgment.")
-rebuild(3, "AI agents:", [("AI agents", True, None), (": consolidation, action tracking and follow-ups, freeing the team for judgment.", False, None)])
-rep(3, "Leveraging AI processes to speed up manual work helps avoid the pitfalls seen in large companies", "Using AI to take the manual work out keeps the function light, where large companies get heavy")
-rep(2, "AI-enabled processes to support integration.", "AI agents take on the manual consolidation work.")
-rep(7, "Leverages AI Agents for efficiency.", "Uses AI agents to cut the manual work.")
-rep(18, "Studies support strategic initiative alignment, streamlined financial planning, compact schedules and regular in-year resource reallocation, with strategy-driven, granular allocation and clear senior decision rights.", "The studies favor planning tied to strategy, short planning cycles, regular in-year reallocation, and clear senior decision rights.")
 rep(3, "% of relevant spend with an approved business case", "100% of discretionary spend with an approved business case")
 rebuild(3, "KPIs:", [("KPIs", True, None), (": cycle time under 40 days, forecast accuracy, and 100% of discretionary spend with an approved case.", False, None)])
 for sh in S[2].shapes:
     if abs(sh.top - Inches(1.75)) < Inches(0.02) and abs(sh.left - Inches(0.67)) < Inches(0.02) and sh.shape_type == 1:
-        sh.height = Inches(3.55)
+        sh.top, sh.height = Inches(1.45), Inches(3.8)
     if sh.has_text_frame and sh.text_frame.text.startswith("THE CENTRALIZED"):
-        sh.height = Inches(3.43)
+        sh.top, sh.height = Inches(1.52), Inches(3.68)
 
 # ---------------------------------------------------------------- slide 6: schedule
 rep(6, "go/non-go", "go/no-go")
