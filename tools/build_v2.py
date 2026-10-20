@@ -353,7 +353,7 @@ set_text(sh(s, "TextBox 13"), [[("Embedded finance partners: ", True), ("solid l
 set_text(sh(s, "TextBox 9"), "Two gates inside the cap, one valve above it")
 set_text(sh(s, "TextBox 15"), [[("Gate 1, $15M at FY27 start (1 Jan): ", True), ("released to the vetted cases ($10.5M core markets, $4.5M new bets).", False)]], size=12.5)
 set_text(sh(s, "TextBox 17"), [[("Gate 2, $10M at Q1 close (31 Mar): ", True), ("completes the $25M cap; released to units whose Q1 indicators (activation, 30-day retention, CAC and unit cost vs plan) hold.", False)]], size=12.5)
-set_text(sh(s, "TextBox 19"), [[("The A6 valve: ", True), ("up to $15M in H2, only from H1 profit above plan, sized to stay inside the efficiency guide, with CFO and IR sign-off. Not in the base plan; disclosed as upside spend, not a change to guidance.", False)]], size=12.5)
+set_text(sh(s, "TextBox 19"), [[("The A6 valve: ", True), ("up to $15M in H2, only from H1 profit above plan, inside the efficiency guide, with CFO and IR sign-off. Not in the base plan.", False)]], size=12.5)
 set_text(sh(s, "TextBox 5"), "Sources: Nu Q2'26 release (efficiency ratio 19.5%; FY26 guide ~20% per the call). Cycle-time target is mine; the directional benchmark for central planning hubs (Hackett Group) is in the ledger and not load-bearing.")
 notes(s, "Takeaway: the cap is hard; anything above it is a rule with a formula, not a hope. "
       "Hardest question: 'Rule A6 is a loophole GMs will game.' Answer: it is funded only from profit that is already in the bank, sized "
@@ -363,7 +363,7 @@ notes(s, "Takeaway: the cap is hard; anything above it is a rule with a formula,
 s = S[11]
 set_text([x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("11 //")][0], "08 // DELIVERABLE 1: THE CADENCE")
 title = [x for x in s.shapes if x.has_text_frame and x.text_frame.text.startswith("How Our Team")][0]
-set_text(title, "Four meetings, each with an owner and an output; nothing else is added")
+set_text(title, "Four meetings, each with an owner and an output")
 tbl = [x for x in s.shapes if x.has_table][0].table
 tshape = [x for x in s.shapes if x.has_table][0]
 tshape.top = Inches(1.6)
@@ -585,7 +585,7 @@ set_text(sh(s, "TextBox 11"), "Fix the numbers privately")
 set_text(sh(s, "TextBox 12"), [[("The rule: ", True), ("model gaps are closed one-to-one before anything reaches the CFO or the Board. Credibility with senior people comes from never surprising them in a room.", False)], [("In practice: ", True), ("the bi-weekly GM one-to-ones and the T-16 lock exist for this.", False)]])
 set_text(sh(s, "TextBox 13"), "3. HANDS-ON RIGOR")
 set_text(sh(s, "TextBox 14"), "Own the model and the clauses")
-set_text(sh(s, "TextBox 15"), [[("The rule: ", True), ("strategic influence is only trusted when the hands-on FP&A and governance rigor is mine. I build and check the model and read the clauses myself; I do not delegate what can embarrass the CFO.", False)], [("What I would not touch: ", True), ("local-CFO decision rights in Mexico and Colombia, credit-model governance, the IR calendar.", False)]])
+set_text(sh(s, "TextBox 15"), [[("The rule: ", True), ("influence is only trusted when the hands-on FP&A and governance rigor is mine. I build the model and read the clauses myself.", False)], [("What I would not touch: ", True), ("local-CFO decision rights in Mexico and Colombia, credit-model governance, the IR calendar.", False)]])
 set_text(sh(s, "TextBox 6"), "Sources: the fair-process principle follows Kim and Mauborgne (HBR). The rest is how I work; examples from my own record are in the speaker notes and are the first thing I would share in Q&A.")
 notes(s, "Takeaway: three rules, each tied to a mechanism on an earlier slide. "
       "Examples to give in Q&A [Pit wall: insert three from your career, one per rule: the situation, your role, the decision, the result].")
@@ -782,4 +782,50 @@ for i, sl in enumerate(prs.slides, 1):
     add_textbox(sl, 12.4, 7.05, 0.8, 0.3, str(i), size=9, color=(RGBColor(0xC0, 0x84, 0xFC) if dark else MUTED), align=PP_ALIGN.RIGHT)
 
 prs.save(DST)
+
+
+# ============================================================ PowerPoint-safe package
+def make_powerpoint_safe(path):
+    """Remove the embedded fonts and use Arial.
+
+    The source deck embeds three fonts as GUID-obfuscated TrueType but declares them as application/x-fontdata.
+    ECMA-376 requires obfuscated fonts to carry the obfuscatedFont content type; PowerPoint is strict about this and
+    LibreOffice is not. DM Sans and Space Grotesk are not installed on most PowerPoint machines, so both become Arial,
+    which ships with Office on Windows and Mac (and maps to metric-identical Liberation Sans in the QA renders).
+    """
+    import re
+    import shutil
+    import tempfile
+    import zipfile
+
+    tmp = tempfile.mktemp(suffix=".pptx")
+    with zipfile.ZipFile(path) as zin, zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zout:
+        for item in zin.infolist():
+            name = item.filename
+            if name.startswith("ppt/fonts/"):
+                continue
+            data = zin.read(name)
+            if name == "ppt/presentation.xml":
+                x = data.decode("utf-8")
+                x = re.sub(r"<(\w+:)?embeddedFontLst>.*?</(\w+:)?embeddedFontLst>", "", x, flags=re.S)
+                x = re.sub(r'\s(embedTrueTypeFonts|saveSubsetFonts)="[^"]*"', "", x)
+                x = re.sub(r'(<(\w+:)?sldSz [^>]*?)\stype="[^"]*"', r"\1", x)
+                data = x.encode("utf-8")
+            elif name == "ppt/_rels/presentation.xml.rels":
+                x = data.decode("utf-8")
+                x = re.sub(r"<(\w+:)?Relationship [^>]*relationships/font\"[^>]*/>", "", x)
+                data = x.encode("utf-8")
+            elif name == "[Content_Types].xml":
+                x = data.decode("utf-8")
+                x = re.sub(r'<(\w+:)?Default Extension="fntdata"[^>]*/>', "", x)
+                data = x.encode("utf-8")
+            elif name.endswith(".xml") and name.startswith("ppt/"):
+                x = data.decode("utf-8")
+                x = x.replace('typeface="DM Sans"', 'typeface="Arial"').replace('typeface="Space Grotesk"', 'typeface="Arial"')
+                data = x.encode("utf-8")
+            zout.writestr(item, data)
+    shutil.move(tmp, path)
+
+
+make_powerpoint_safe(DST)
 print("saved", DST, "slides:", len(prs.slides))

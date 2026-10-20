@@ -62,3 +62,20 @@ candidate's own examples. **FAIL on (d) only.**
 ## Still NOT proven
 
 - The timed dry run (B8). - The candidate's three examples (B5). - Q3'26 figures (not published until 12 Nov 2026).
+
+## Addendum: PowerPoint would not open v3 (reported by the pit wall after delivery)
+
+Root cause (verified in the file, present since the original deck as received): the three embedded fonts in `ppt/fonts/` are
+TrueType obfuscated with their GUID file names (Word-style; they de-obfuscate to a valid 0x00010000 header with the bytes_le key), but
+the package declares them as `application/x-fontdata`. ECMA-376 requires obfuscated fonts to use the `obfuscatedFont` content type.
+LibreOffice and the XSD validator ignore the mismatch; PowerPoint does not. The repaired v1 and v2 files carry the same three fonts.
+
+Fix (in `tools/build_v2.py`, step `make_powerpoint_safe`): fonts removed (parts, relationships, `embeddedFontLst`,
+`embedTrueTypeFonts`, `saveSubsetFonts`); DM Sans and Space Grotesk replaced by Arial everywhere (492 runs); the contradictory
+`sldSz type="screen4x3"` on a 16:9 size removed. Wording unchanged except three trims for fit on slides 8, 9 and 16.
+
+Checks on the new file (sha256 fa02e60ee3b1053f189b365852f867e9758d31d57980c7afe20cea8b79771a2b): OOXML validation passed; strict package
+check (content types, every relationship target and r:id resolves, unique shape ids per slide, no control characters) clean; 0 font
+parts; all 22 slides re-rendered with Liberation Sans (metric-identical to Arial) and inspected; scan 44 pass, 1 fail (unchanged).
+
+NOT verified: opening in Microsoft PowerPoint itself. No PowerPoint is available in this environment.
