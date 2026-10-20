@@ -1,0 +1,254 @@
+"""final_pass_upload.py: in-place tweaks to the candidate's uploaded deck (cohesion, depth, numbers). Keeps their layout."""
+import sys, copy
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
+from pptx.chart.data import CategoryChartData
+
+SRC, DST = sys.argv[1], sys.argv[2]
+prs = Presentation(SRC)
+S = list(prs.slides)
+MUTED = RGBColor(0x6B, 0x5B, 0x82)
+FALLBACK = []
+
+def paragraphs(slide):
+    for sh in slide.shapes:
+        if sh.has_text_frame:
+            for p in sh.text_frame.paragraphs:
+                yield sh, p
+        if getattr(sh, "has_table", False) and sh.has_table:
+            for r in sh.table.rows:
+                for c in r.cells:
+                    for p in c.text_frame.paragraphs:
+                        yield sh, p
+
+def rep(idx, old, new, count=1):
+    """Replace old with new on slide idx (1-based); run-level when possible."""
+    n = 0
+    for sh, p in paragraphs(S[idx - 1]):
+        full = "".join(r.text for r in p.runs)
+        if old not in full:
+            continue
+        done = False
+        for r in p.runs:
+            if old in r.text:
+                r.text = r.text.replace(old, new); done = True; break
+        if not done:
+            p.runs[0].text = full.replace(old, new)
+            for r in p.runs[1:]:
+                r.text = ""
+            FALLBACK.append((idx, old[:40]))
+        n += 1
+    assert n == count, (idx, old[:60], n)
+
+
+def rebuild(idx, startswith, parts):
+    """Rebuild a paragraph's runs: parts = [(text, bold, size_pt_or_None)], run[0] is the format template."""
+    for sh, para in paragraphs(S[idx - 1]):
+        full = "".join(r.text for r in para.runs)
+        if not full.startswith(startswith):
+            continue
+        tmpl = para.runs[0]._r
+        for r in para.runs[1:]:
+            r._r.getparent().remove(r._r)
+        for i, (txt, bold, size) in enumerate(parts):
+            el = tmpl if i == 0 else copy.deepcopy(tmpl)
+            if i > 0:
+                tmpl.getparent().append(el)
+        runs = para.runs
+        for r, (txt, bold, size) in zip(runs, parts):
+            r.text = txt; r.font.bold = bold
+            if size: r.font.size = Pt(size)
+        return
+    raise AssertionError((idx, startswith))
+
+def run_sizes(idx, startswith):
+    for sh, para in paragraphs(S[idx - 1]):
+        if "".join(r.text for r in para.runs).startswith(startswith):
+            return para.runs[0].font.size, para.runs[-1].font.size
+    raise AssertionError((idx, startswith))
+
+def footer(idx, text, y=6.62, h=0.5, size=9):
+    s = S[idx - 1]
+    box = s.shapes.add_textbox(Inches(0.67), Inches(y), Inches(11.5), Inches(h))
+    tf = box.text_frame; tf.word_wrap = True
+    tf.margin_left = tf.margin_right = Inches(0.1); tf.margin_top = tf.margin_bottom = Inches(0.05)
+    r = tf.paragraphs[0].add_run(); r.text = text
+    r.font.size = Pt(size); r.font.name = "Arial"; r.font.color.rgb = MUTED
+
+def notes(idx, text):
+    S[idx - 1].notes_slide.notes_text_frame.text = text
+
+# ---------------------------------------------------------------- slide 2: approach and success measures
+rep(2, "120d algo approach", "120-day gated approach")
+rep(2, "Our team gathers inputs, analysis, recommendations; CEO / CFO decide", "Our team recommends; the CEO and CFO decide.")
+rep(2, "Decks need to ships 7 days before the Board.", "The book ships 7 days before the Board, every quarter.")
+rep(2, "to drive (1) projects getting prioritized via methodology, (2) board meetings having an evolving, living agenda with "
+       "high-quality materials, (3) the HQ project is successfully coordinated, and (4) the team is seen as a value-adding "
+       "growth facilitator instead of corporate bureaucracy.",
+       "to drive (1) 100% of discretionary spend released against an approved case, with cycle time under 40 days; (2) a living "
+       "Board agenda, with the book out 7 days before every Board; (3) HQ gates 1 and 2 cleared by mid-December, nothing signed "
+       "between gates; (4) the team rated twice a year by the GMs as a growth facilitator, not corporate bureaucracy. Decisions "
+       "requested today: the $25M FY27 cap and its release schedule, the Board calendar, and the HQ gates.")
+
+for sh in S[1].shapes:
+    if sh.shape_type == 1 and abs(sh.top - Inches(4.8)) < Inches(0.05):
+        sh.top, sh.height = Inches(4.72), Inches(2.0)
+    if sh.has_text_frame and sh.text_frame.text.startswith("How will we measure"):
+        sh.top, sh.height = Inches(4.78), Inches(1.88)
+
+# ---------------------------------------------------------------- slide 3: hub
+rep(3, "CoS & GC team", "CoS & CG team")
+rep(3, "% of relevant spend with an approved business case", "100% of discretionary spend with an approved business case")
+rebuild(3, "KPIs:", [("KPIs", True, None), (": cycle time under 40 days, forecast accuracy, and 100% of discretionary spend with an approved case.", False, None)])
+for sh in S[2].shapes:
+    if abs(sh.top - Inches(1.75)) < Inches(0.02) and abs(sh.left - Inches(0.67)) < Inches(0.02) and sh.shape_type == 1:
+        sh.height = Inches(3.55)
+    if sh.has_text_frame and sh.text_frame.text.startswith("THE CENTRALIZED"):
+        sh.height = Inches(3.43)
+
+# ---------------------------------------------------------------- slide 6: schedule
+rep(6, "go/non-go", "go/no-go")
+rep(6, "decided on Q4 data;", "decided at the H1 close on H1 data, only from profit above plan, inside the efficiency-ratio "
+       "guide in force and with NPL 90+ on plan (the CFO decides; Risk can block);")
+rep(6, "deployed after Mteam validation", "deployed after MTeam validation")
+hs, bs = run_sizes(6, "$15M")
+hpt, bpt = (hs.pt if hs else None), (bs.pt if bs else None)
+rebuild(6, "$25M", [("$25M", True, hpt), (" - Released to Business units on track to beat the FY27 plan, decided at the H1 close on H1 data: only "
+    "from profit above plan, inside the efficiency-ratio guide in force, with NPL 90+ on plan (the CFO decides; Risk can block). Remedial spend "
+    "for units behind plan goes to the MTeam, with CFO prioritization.", False, bpt)])
+rebuild(6, "$5M", [("$5M", True, hpt), (" - Set aside for strategic imperatives, special projects, regulatory requirements or similar extraordinary "
+    "escalation factors, and deployed after MTeam validation.", False, bpt)])
+for sh in S[5].shapes:
+    if sh.has_chart:
+        ch = sh.chart
+        plot = ch.plots[0]
+        cats = list(plot.categories)
+        cd = CategoryChartData()
+        cd.categories = cats
+        cd.add_series("base", (0, 50, 25, 15, 0))
+        cd.add_series("value", (60, 5, 25, 10, 15))
+        ch.replace_data(cd)
+        assert [pt.data_label.text_frame.text for pt in plot.series[1].points] == ["$60M", "$5M", "$25M", "$10M", "$15M"]
+# re-space the three right-hand cards so the longer stage-gate text fits; keep the footer clear
+boxes = {}
+for sh in S[5].shapes:
+    if sh.has_text_frame and sh.text_frame.text.strip():
+        for key in ("FUND NOW", "STAGE-GATE", "DEFER"):
+            if sh.text_frame.text.startswith(key):
+                boxes[key] = sh
+rects = [sh for sh in S[5].shapes if sh.shape_type == 1 and not sh.text_frame.text.strip()]
+def rect_for(box):
+    return min(rects, key=lambda r: abs(r.top - box.top) + abs(r.left - box.left))
+geom = {"FUND NOW": (1.8, 1.45), "STAGE-GATE": (3.35, 1.95), "DEFER": (5.4, 1.1)}
+for key, (top, h) in geom.items():
+    box = boxes[key]; r = rect_for(box)
+    r.top, r.height = Inches(top), Inches(h)
+    box.top, box.height = Inches(top + 0.12), Inches(h - 0.17)
+footer(6, "The two releases ($25M) are the cap. The 2H checkpoint (up to $25M) and the reserve ($5M) sit outside the plan and open only "
+          "on the conditions stated; $5M of the $60M is not funded in FY27. The 70/30 split follows mature cohorts: ~$31 of monthly "
+          "ARPAC at eight years against $17.1 for the group (Q1'26 cohort data).", y=6.6, h=0.5)
+
+# ---------------------------------------------------------------- slide 7: ways of working
+rep(7, "CoS & GC lead", "CoS & CG lead")
+rep(7, "GC Team reports.", "The CoS & CG team reports.")
+
+# ---------------------------------------------------------------- slide 8: Board prep
+rep(8, "Today I issue the locked outline", "We issue the locked outline")
+rep(8, "The capital options memo settles the ranking and the 70/30 split with the CEO and CFO at T-16.",
+       "The options memo settles the capital priorities and the 70/30 core / new-bets split with the CEO and CFO at T-16.")
+rep(8, "Board assumed on Tue 17 Nov, four weeks from starting date. Q3'26 results should be due 12 Nov.",
+       "Board assumed on Tue 17 Nov, four weeks from today. Q3'26 results are due 12 Nov; Investor Day is 8 Dec 2026.")
+
+# ---------------------------------------------------------------- slide 9: friction
+rep(9, "decision-making process better even . GMs", "decision-making process better. GMs")
+
+# ---------------------------------------------------------------- slide 10: HQ assessment
+rep(10, "so the purpose survives Pillar Two", "so the incentive survives Pillar Two")
+rebuild(10, "4. Substance", [("4. ", False, None), ("Substance", True, None), (": real payroll and assets, so the incentive survives Pillar Two (Tax, People).", False, None)])
+footer(10, "Nu Holdings is Cayman-incorporated (Form 20-F). Nu is above the EUR 750M Pillar Two threshold; 15% minimum; the 2026 "
+           "carve-out is 9.4% of payroll and 7.4% of tangible assets (OECD GloBE, Art. 5.3 and 9.2). Brazil applies a domestic "
+           "minimum top-up tax from 2025. Jurisdiction open; no savings figure until a site is chosen.", y=6.93, h=0.45, size=8.5)
+
+# ---------------------------------------------------------------- slide 11: officers and leadership
+rep(11, "Decisions are made at the SteerCo level.", "Gate decisions are taken at the monthly SteerCo, chaired by the CFO.")
+rep(11, "Unresolved issues reach the CFO within 48 hours. Legal and Compliance retain legality vetoes.",
+        "When functions disagree, both views go in the log and reach the CFO within 48 hours with a recommendation; "
+        "Legal and Compliance keep legality vetoes.")
+for sh in S[10].shapes:
+    if sh.has_text_frame and sh.text_frame.text.startswith("CROSS-FUNCTIONAL"):
+        sh.height = Inches(3.42)
+rep(11, "CoS & CG leads cadence and delivery. Functions own specialist / technical advice.", "CoS & CG leads cadence and delivery; functions own the technical advice.")
+rep(11, "Weekly functional leads meeting, supported by one decision log; monthly SteerCo meetings, with senior-level engagement.",
+        "Weekly functional leads meeting with one decision log; monthly SteerCo.")
+
+# ---------------------------------------------------------------- slide 14
+rep(14, "Geographies abd Functions", "Geographies and Functions")
+
+# ---------------------------------------------------------------- slide 15: divider list
+for sh in S[14].shapes:
+    if sh.has_text_frame and "Full assumptions" in sh.text_frame.text:
+        ps = sh.text_frame.paragraphs
+        ps[0].runs[0].text = "A  Key assumptions   |   B  Statutory entity model   |   D  Sources"
+        for r in ps[0].runs[1:]: r.text = ""
+        ps[1].runs[0].text = "F  Day-by-day timeline   |   H  AI support   |   J  HQ site scorecard and risk register"
+        for r in ps[1].runs[1:]: r.text = ""
+        for p in ps[2:]:
+            for r in p.runs: r.text = ""
+
+# ---------------------------------------------------------------- backup A (16)
+rep(16, "inside the ~20% guide, NPL 90+ on plan", "inside the efficiency-ratio guide in force, NPL 90+ on plan")
+rep(16, "Option scores and weights are my judgment", "Option scores and weights are our judgment")
+rep(16, "Slide 4; backups C, D", "Slide 4; backup D")
+rep(16, "FY27 envelope: first release 1 Jan 2027, second at Q1 close (31 Mar), reserve at H1 close. Hub of 4-6 people.",
+        "FY27 envelope: first release 1 Jan 2027, second at Q1 close (decided on Q1 data), 2H checkpoint (up to $25M) and reserve ($5M) at H1 close. Hub of 4-6 people.")
+rep(16, "Calendar fiscal year; sizing is mine", "Calendar fiscal year; sizing is ours")
+rep(16, "the site scorecard weights are my judgment (backup J)", "the site scorecard weights are our judgment (backup J)")
+
+# ---------------------------------------------------------------- backup D (18)
+rep(18, "Slides 3, 4, 7; backup I", "Slides 4, 6; backup A")
+rep(18, "Slides 7, 9, 15; backup B", "Slides 8, 12; backup B")
+rep(18, "Slide 7; backup E", "Slide 6 (70/30 split)")
+rep(18, "Slides 6, 9, 12; backup H", "Slides 2, 3, 7, 13; backup H")
+
+# ---------------------------------------------------------------- backup F (19)
+rep(19, "Hub in place; finance partners embedded", "Hub in place; market and vertical finance teams aligned")
+rep(19, "Squad clinics running; $12M case track under way", "Bi-weekly stand-ups running; business cases in review")
+rep(19, "Gate 2: grant terms (24-month grace); one site dropped", "Gate 2: grant terms (12-24 months' grace); one site dropped")
+
+# ---------------------------------------------------------------- backup J (21)
+rep(21, "Proportional scaling and 24 months' grace", "Proportional scaling and 12-24 months' grace")
+rep(21, "Dependence on me", "Dependence on the CoS")
+rep(21, "gate packs the CFO can read without me", "gate packs the CFO can decide on without the lead")
+rep(21, "Me", "CoS & CG")
+rep(21, "Weights and mitigations are my proposals (A13).", "Weights and mitigations are our proposals.")
+
+# ---------------------------------------------------------------- page numbers
+for i, s in enumerate(S, 1):
+    for sh in s.shapes:
+        if sh.has_text_frame and sh.text_frame.text.strip().isdigit():
+            sh.text_frame.paragraphs[0].runs[0].text = str(i)
+
+# ---------------------------------------------------------------- speaker notes (one plain line each)
+N = {1: "Three problems at once; finance and governance as growth levers, adding the rigor scale requires without losing speed.",
+     2: "Ownership as the principle across all four deliverables; success measured in numbers; three decisions requested today.",
+     3: "A CoE hub of 4-6 people and three meetings; local finance owns the drivers, the hub standardizes and consolidates, the CFO decides.",
+     4: "$35M is about 0.2 points of efficiency ratio; what is broken is the process, so budgets work like Nu's credit: low-and-grow.",
+     5: "Mandatory obligations pass a separate gate; discretionary asks are scored on five weighted criteria; four-step decision process.",
+     6: "Fund now $25M (the cap), stage up to $25M at the 2H checkpoint on H1 data, $5M reserve; $5M of the $60M is not funded in FY27.",
+     7: "The lead aligns executives; the team runs the calendar and tracks actions; weekly CFO, monthly GMs, T-28 to T-7 before each Board.",
+     8: "Why the book is late, and the quarterly countdown that fixes it: outline at T-28, lock at T-16, book at T-7.",
+     9: "Four moves for executive friction: private first, beyond the numbers, people, build with not for; dissent but commit.",
+     10: "The HQ is a governance project: four hard tests before five criteria; two sites to term sheet; the CEO and CFO prioritize.",
+     11: "SMEs own the judgment, CoS & CG owns the process, the CFO owns the recommendation; disagreements reach the CFO within 48 hours.",
+     12: "Four decision gates in 120 days: can we, what may we offer, who may bind Nu, do we commit; nothing signed between them.",
+     13: "Trust, alignment, execution, learning. Initial boundaries (first 90 days): local-CFO decision rights in Mexico and Colombia, "
+         "credit-model governance and the IR calendar stay as they are. Commitments: quarterly keep / fix / drop review with the CFO; "
+         "GM feedback twice a year; every action with an owner and a date.",
+     14: "Who owns what across the three problems; propose, implement, assess; the function earns its place with the markets.",
+     15: "Not presented.", 20: "Backup."}
+for i, txt in N.items():
+    notes(i, txt)
+
+prs.save(DST)
+print("saved", DST, "slides", len(prs.slides), "fallback paragraphs:", FALLBACK)
