@@ -158,9 +158,9 @@ plainly, not as an apology. Pause before "A new bet judged on mature-market prof
 **Delivery.** Warm and practical. This is about people, not finance, so drop your pace and soften your voice. The example
 is the payoff: tell it as a story (situation, what you did, the result) and stop.
 
-### Slide 9: The Board book goes out 7 days before the meeting, after a lock at 16 days
+### Slide 9: Every quarter: the book goes out 7 days before the Board, after a lock at 16 days
 
-> Why is the Board book late? Because nothing is locked: no outline, no standard data tables, and units building rival decks. So the fix starts today, with the Corporate Secretary.
+> Why is the Board book late? Because nothing is locked: no outline, no standard data tables, and units building rival decks. So the fix starts today, with the Corporate Secretary, and the same countdown then runs for every Board after this one. That is the calendar I am asking you to approve.
 >
 > I am assuming the Board sits on Tuesday the seventeenth of November. Q3 results come out on the twelfth.
 >
@@ -207,7 +207,7 @@ CFO will remember. Don't name a city: the method is the answer.
 **Delivery.** Read across each row: gate, owner, exit, walk-away. Use your hands to count the gates. Say the walk-aways
 firmly; they are the risk management.
 
-### Slide 12: Experts own the judgment, I own the process, the CFO owns the residual risk
+### Slide 12: Experts own the judgment, I own the process, the CFO owns residual risk
 
 > Who signs? Licensed executives, after gate 3. Until then, signing stays central, which also avoids an accidental taxable presence. After it, dual signature above set limits, and powers of attorney limited in scope and time.
 >
@@ -222,7 +222,7 @@ firmly; they are the risk management.
 **Delivery.** Left column first, then right. "Nobody vetoes on price" is the line people remember; pause before it. Say
 "dependence on me" lightly, as self-awareness.
 
-### Slide 13: How I balance strategic influence with hands-on rigor
+### Slide 13: Influence with hands-on rigor: a few clear rules, published early
 
 > Deliverable 4 of 4: how I balance strategic influence with hands-on rigor.
 >
@@ -260,11 +260,11 @@ yourself (Q38 prepares the follow-up).
 **Delivery.** Point at the table row by row; it is the evidence for the claim on slide 13. The watch-out has to be true
 (see Q19 for how to choose one).
 
-### Slide 15: Next 90 days: Board by 17 Nov, first release on 1 January, and the ask
+### Slide 15: Next 90 days: the Board on 17 Nov, the first release on 1 Jan, and the ask
 
 > The next ninety days come down to three dates. The Board on the seventeenth of November. The hub and the PMO agent in place by late November. And the first release on the first of January.
 >
-> Three stop rules are public from today. A unit below plan on two of four indicators has its second-release share held. If the efficiency ratio runs above the FY26 guide at Q1 close, the second release is held for everyone. And if credit cost runs above plan, the reserve stays shut.
+> Three stop rules are public from today. A unit below plan on two of four indicators has its second-release share held. If the efficiency ratio runs above guidance at Q1 close, the second release is held for everyone. And if credit cost runs above plan, the reserve stays shut.
 >
 > So, the ask. Approve the twenty-five million FY27 cap in two releases. Approve the Board calendar. Approve the HQ charter.
 >
@@ -287,16 +287,16 @@ slide. End on the question, then stop talking.
 | 6. A lean hub and three meetings bring planning in-house | 239 | 1.8 | 9.3 |
 | 7. The capital dispute becomes one choice for the CEO: four uses, one test | 305 | 2.3 | 11.6 |
 | 8. When a senior GM pushes back: four moves, in the same order every time | 197 (incl. 40 story) | 1.5 | 13.1 |
-| 9. The Board book goes out 7 days before the meeting, after a lock at 16 days | 240 | 1.8 | 15.0 |
-| 10. The HQ is a governance project before it is a real-estate deal | 210 | 1.6 | 16.6 |
-| 11. Four decision gates in 120 days; nothing is signed between them | 260 | 2.0 | 18.6 |
-| 12. Experts own the judgment, I own the process, the CFO owns the residual risk | 230 | 1.8 | 20.4 |
-| 13. How I balance strategic influence with hands-on rigor | 267 (incl. 120 story) | 2.1 | 22.4 |
-| 14. How I work in a matrix: what I own, what experts own, what I leave alone | 189 (incl. 25 story) | 1.5 | 23.9 |
-| 15. Next 90 days: Board by 17 Nov, first release on 1 January, and the ask | 175 | 1.3 | 25.2 |
-| **Total** | **3280** | **25.2** | |
+| 9. Every quarter: the book goes out 7 days before the Board, after a lock at 16 days | 262 | 2.0 | 15.2 |
+| 10. The HQ is a governance project before it is a real-estate deal | 210 | 1.6 | 16.8 |
+| 11. Four decision gates in 120 days; nothing is signed between them | 260 | 2.0 | 18.8 |
+| 12. Experts own the judgment, I own the process, the CFO owns residual risk | 230 | 1.8 | 20.5 |
+| 13. Influence with hands-on rigor: a few clear rules, published early | 267 (incl. 120 story) | 2.1 | 22.6 |
+| 14. How I work in a matrix: what I own, what experts own, what I leave alone | 189 (incl. 25 story) | 1.5 | 24.1 |
+| 15. Next 90 days: the Board on 17 Nov, the first release on 1 Jan, and the ask | 173 | 1.3 | 25.4 |
+| **Total** | **3300** | **25.4** | |
 
-**Total: 3280 spoken words, 25.2 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
+**Total: 3300 spoken words, 25.4 minutes at 130 words per minute.** The story slots are counted at their stated length; a longer story comes out of the buffer. That leaves about five minutes of the 30 for the walk-in, two question pauses and one or two interruptions. A comfortable pace in an interview is often slower than 130, so time yourself once (board B8) and cut from the 'If you are behind' list rather than speaking faster.
 
 ## 3. Running the clock
 
@@ -304,7 +304,7 @@ slide. End on the question, then stop talking.
 6), "Deliverable 2 of 4" (slide 7), "Deliverable 3 of 4" (slide 10), "Deliverable 4 of 4" (slide 13), "So, the ask" (slide
 15). Signposts let a panel that interrupts you find their way back.
 
-**Clock checkpoints.** Start slide 7 by minute 10, slide 10 by minute 16, slide 13 by minute 21 and slide 15 by minute 24.
+**Clock checkpoints.** Start slide 7 by minute 10, slide 10 by minute 16, slide 13 by minute 21 and slide 15 by minute 24.5.
 Put a watch on the table, face up.
 
 **Two planned pauses for questions.** End of slide 6 (about minute 9) and end of slide 9 (about minute 14.5), so a tax

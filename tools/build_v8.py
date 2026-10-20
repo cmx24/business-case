@@ -276,18 +276,18 @@ add_text(s, 0.67, 1.4, 11.8, 0.65, [[("The same mechanism runs all three. ", Tru
          size=12.5, color=INK, where="through-line")
 tiles = [("DELIVERABLE 1  //  PLANNING", "$25M in two releases",
           "Every ask needs a business case. $15M on 1 January, $10M at Q1 close if the numbers hold. No flat cuts."),
-         ("DELIVERABLE 2  //  BOARD", "One capital ranking",
-          "Both executives' positions go through the same test. The plan locks 16 days before the Board; the book ships 7 days before."),
-         ("DELIVERABLE 3  //  HQ", "Four gates in 120 days",
-          "Tax, grant terms, officers and lease, each with an owner, an exit test and a walk-away. Licensed executives sign; I run the pod."),
+         ("DELIVERABLE 2  //  BOARD", "One test, one decision owner",
+          "Both executives' positions go into the memo; the CEO decides at the lock; the dissent is recorded. The book ships 7 days before the Board."),
+         ("DELIVERABLE 3  //  HQ", "Four decision gates in 120 days",
+          "Can we, what may we offer, who may bind Nu, do we commit: each the CFO's call on a pack I assemble. Licensed executives sign."),
          ("DELIVERABLE 4  //  LEADERSHIP", "Rigor inside the business",
-          "I work in the numbers with the GMs. The CFO gets the trade-offs and makes the call.")]
+          "I work in the numbers with the GMs. Experts own their judgment, I own the process, the CFO owns the decision and its risk.")]
 for i, (lab, head, body) in enumerate(tiles):
     card(s, 0.67 + i * 3.0, 2.2, 2.8, 2.4, lab, head, [body], body_size=12.5)
 band(s, 0.67, 4.8, 11.8, 1.5, [[("THE ASK  ", True, LILAC_TXT)],
      [("Approve the $25M FY27 cap in two releases, the Board calendar and the HQ charter. Up to $15M more is held in "
        "reserve, outside the plan: the CFO decides, and Risk can block it. I report back in 90 days.", True)]], size=15)
-notes(s, "Three problems, one way of deciding. Three decisions, each with a number; the reserve is stated up front, with its conditions.")
+notes(s, "One way of deciding, used three times. Three decisions, each with a number. The reserve is stated up front, with its conditions.")
 
 # ================================================================== 3. Assumptions (short form)
 s = new_slide(title="assumptions")
@@ -334,8 +334,9 @@ add_text(s, 4.3, bottom + 0.15, 8.2, 1.45, [[("Budgets should work like Nu's cre
          "grow when four indicators hold: activation, 30-day retention, CAC and unit cost against plan. That is smart efficiency, run by owners."],
          sizes=[14, 12], colors=[PURPLE, BODY], space_after=[3, 0], where="principle")
 footer(s, "Scores and weights are my judgment (A9); option 3 stays first if any single weight moves 10 points (backup C). Sources: Nu "
-          "Q2'26 release and 6-K (opex $806.2M; net revenue ~$4.1B), Q2'26 call, Form 20-F. Calculations: revenue ~$23.5B "
-          "annualized managerial; opex ~$3.2B annualized; efficiency ratio on Nu's denominator (NII plus fees).", y=6.72, h=0.6)
+          "Q2'26 release and 6-K (opex $806.2M; net revenue ~$4.1B a quarter), Q2'26 call, Form 20-F. Calculations: the 15 bps is on "
+          "managerial revenue, ~$23.5B annualized; the 1.1% is on opex, ~$3.2B annualized; the efficiency-ratio points are on Nu's "
+          "denominator (NII plus fees).", y=6.7, h=0.65)
 notes(s, "What is broken is the process, not the number. $35M is about 0.2 points of efficiency ratio; $25M is about 0.15.")
 
 # ================================================================== 5. Bridge, releases and reserve
@@ -411,8 +412,8 @@ rows = [["Meeting", "Who runs it", "Output"],
 bottom = table(s, 5.5, 1.75, [2.15, 2.25, 2.6], rows, size=10.5, header_size=11, row_min=0.42, max_bottom=3.75)
 band(s, 5.5, bottom + 0.12, 7.0, 5.2 - bottom - 0.12,
      [[("Capacity, not only money: ", True), ("every case states the headcount and engineering capacity it needs, and Engineering "
-       "confirms it at the lock, so a release never funds work the platform cannot staff. Partners recommend, GMs give input, "
-       "I assemble the pack, the CFO decides, the hub runs it.", False)]], size=11.5, dark=False)
+       "confirms it at the lock, so a release never funds work the platform cannot staff. Partners and GMs own the case and its "
+       "numbers; I assemble the pack and recommend; the CFO decides; the hub runs the release.", False)]], size=11.5, dark=False)
 risks6 = [("RISK", "GMs game the indicators", "Finance partners own the read-out; the review agent ties every figure to the data."),
           ("RISK", "The $8M platform estimate slips", "What Engineering cannot confirm moves to the case track; the cap does not grow."),
           ("RISK", "The hub becomes a cost GMs resent", "Net new cost is funded inside the cap and shown first (A12). If cycle time slips, simplify; do not hire.")]
@@ -446,7 +447,7 @@ band(s, 0.67, 5.3, 11.8, 1.3,
 footer(s, "Sources: Nu Q2'26 release (ROE 33%, ARPAC $17.1); Q1'26 cohort slide ($30.8 at 96 months vs $15.9 total); Nu "
           "announcements (Mexico 10 Jul and 6 Aug 2026; OCC 29 Jan 2026; buyback 4 Jun 2026); Nu IR (Investor Day 8 Dec 2026).",
        y=6.75, h=0.45)
-notes(s, "Equity by entity first, as options with one test; on opex the CEO chooses between three options, and I recommend 70/30.")
+notes(s, "Equity by entity first. On opex, both positions go in the memo as options; I recommend 70/30; the CEO decides and the dissent is recorded.")
 
 # ================================================================== 8. Pushback
 s = new_slide(title="pushback")
@@ -467,16 +468,17 @@ notes(s, "The same four moves every time; the GM keeps the goal and earns the ne
 
 # ================================================================== 9. Board rhythm, diagnosis and D2 risks
 s = new_slide(title="board")
-header(s, "DELIVERABLE 2  //  C-SUITE AND BOARD", "The Board book goes out 7 days before the meeting, after a lock at 16 days")
-add_text(s, 0.67, 1.62, 11.8, 0.45, [[("Why the book is late: ", True), ("no locked outline, no standard data tables, and units building "
-         "rival decks. The fix starts today, with the Corporate Secretary.", False)]], size=12, color=INK, where="diagnosis")
+header(s, "DELIVERABLE 2  //  C-SUITE AND BOARD", "Every quarter: the book goes out 7 days before the Board, after a lock at 16 days")
+add_text(s, 0.67, 1.6, 11.8, 0.62, [[("Why the book is late: ", True), ("no locked outline, no standard data tables, and units building "
+         "rival decks. The fix starts today, with the Corporate Secretary, and the same countdown then runs for every Board from the "
+         "Secretary's calendar. That calendar is the one the ask approves.", False)]], size=11.5, color=INK, where="diagnosis")
 weeks = [("T-28 TO T-21", "Outline locked", "Today I issue the locked outline and standard data tables, so units stop building rival decks."),
          ("T-20 TO T-14", "Executive lock", "One-to-ones at T-21. The capital options memo settles the ranking and the 70/30 split with the CEO and CFO at T-16."),
          ("T-13 TO T-7", "One pen", "Inputs freeze at T-10. Committee chairs are briefed at T-9. The book is on the portal at T-7."),
-         ("T-6 TO T-0", "Decisions, not read-outs", "Directors' data questions are answered in writing by T-3, so the meeting is spent on the capital plan.")]
+         ("T-6 TO T-0", "Decisions, not read-outs", "Directors' questions are answered in writing by T-3, so the meeting goes to the capital plan.")]
 for i, (lab, head, body) in enumerate(weeks):
-    card(s, 0.67 + i * 3.0, 2.12, 2.8, 1.95, lab, head, [body], body_size=11)
-band(s, 0.67, 4.2, 11.8, 0.82, [[("Two items cannot slip: ", True), ("the capital plan, because this is the last Board before "
+    card(s, 0.67 + i * 3.0, 2.27, 2.8, 1.85, lab, head, [body], body_size=11)
+band(s, 0.67, 4.24, 11.8, 0.8, [[("Two items cannot slip: ", True), ("the capital plan, because this is the last Board before "
      "Investor Day on 8 Dec, and the statutory items for new entities: open an entity only when a license or tax substance "
      "requires it; officers and signing follow the stage (backup B).", False)]], size=11.5, dark=False)
 risks9 = [("RISK", "Still no agreement at the lock", "Both positions go in the memo; the CEO decides; the dissent is recorded, so the Board sees one recommendation."),
@@ -544,11 +546,11 @@ band(s, 0.67, bottom + 0.15, 11.8, 1.2,
 footer(s, "Dates run from the charter signed today (D+0 = 20 Oct): gate 1 on 19 Nov, two days after the Board; gates 2-4 in mid-December, "
           "mid-January and mid-February (backup F). The 85% and 24-month terms are proposals. Q2'26 showed how real-estate timing "
           "moves the efficiency ratio, so the lease cost is phased.", y=6.72, h=0.6)
-notes(s, "Gate 0 is the charter; four decision gates follow: can we, what may we offer, who may bind Nu, do we commit. The CFO decides each one.")
+notes(s, "Gate 0 is the charter. Four decision gates: can we, what may we offer, who may bind Nu, do we commit. The CFO decides each on my pack; nothing is signed between them.")
 
 # ================================================================== 12. D3 statutory officers and interim leadership
 s = new_slide(title="hq-officers")
-header(s, "DELIVERABLE 3  //  HQ PROJECT", "Experts own the judgment, I own the process, the CFO owns the residual risk")
+header(s, "DELIVERABLE 3  //  HQ PROJECT", "Experts own the judgment, I own the process, the CFO owns residual risk")
 card(s, 0.67, 1.75, 5.8, 3.6, "STATUTORY OFFICER IMPLICATIONS", "Who signs, who sits, who carries the risk",
      ["Signing: central only until gate 3, which also avoids an accidental taxable presence; then dual signature above limits "
       "set by category, and powers of attorney limited in scope and time, reviewed annually.",
@@ -568,16 +570,16 @@ card(s, 6.67, 1.75, 5.8, 3.6, "LEADING AS AN INTERIM ACROSS FIVE FUNCTIONS", "On
      body_size=10.5)
 risks12 = [("RISK", "Tax residence moves", "Opinion at gate 1; meeting patterns unchanged; no early signing (Tax)."),
            ("RISK", "Officer approval runs late", "Files at gate 1; no activation before approval; the lease long-stop moves with it (Legal, People)."),
-           ("RISK", "Dependence on me", "A named deputy, the decision log, and gate packs the CFO can read without me.")]
+           ("RISK", "Dependence on me", "A named deputy, the decision log, and gate packs the CFO can decide on without me.")]
 for i, (lab, head, body) in enumerate(risks12):
     card(s, 0.67 + i * 3.95, 5.47, 3.85, 1.25, lab, head, [body], label_color=ORANGE, body_size=10.5, heading_size=12)
 footer(s, "Signing limits and the delegation model are proposals. If the hub sits inside an existing licensed entity, gate 3 shrinks to a "
           "powers-of-attorney update (backup B). Full HQ risk register and site scorecard: backup J.", y=6.85, h=0.45)
-notes(s, "Experts own the judgment, I own the process, the CFO owns the residual risk. Licensed executives sign; I hold no power of attorney.")
+notes(s, "Experts own the judgment, I own the process, the CFO owns the residual risk. Licensed executives sign; I hold no power of attorney. Disagreements get 48 hours, then both options go to the CFO with mine.")
 
 # ================================================================== 13. D4 three rules
 s = new_slide(title="leadership")
-header(s, "DELIVERABLE 4  //  LEADERSHIP STYLE AND OPERATING PHILOSOPHY", "How I balance strategic influence with hands-on rigor")
+header(s, "DELIVERABLE 4  //  LEADERSHIP STYLE AND OPERATING PHILOSOPHY", "Influence with hands-on rigor: a few clear rules, published early")
 rules = [("Publish the rule, then negotiate",
           ["People accept outcomes they argued against when the criteria were public first.",
            "I publish the scoring on day one and do not change it mid-cycle. Every GM sees the same four indicators."]),
@@ -592,7 +594,7 @@ for i, (head, body) in enumerate(rules):
 band(s, 0.67, 4.8, 11.8, 1.55, [[("Where I push back on the CFO: ", True), ("when a decision skips the published rule. ", False)],
      [("What I leave alone for 90 days: ", True), ("local-CFO decision rights in Mexico and Colombia, credit-model governance, "
        "and the IR calendar.", False)]], size=13)
-footer(s, "Fair process: Kim and Mauborgne (HBR). Examples from my own record follow in the talk.", y=6.55, h=0.35)
+footer(s, "Fair process: Kim and Mauborgne (HBR).", y=6.55, h=0.35)
 notes(s, "Three rules, each tied to a mechanism shown earlier.")
 
 # ================================================================== 14. D4 balance, problem by problem
@@ -611,11 +613,11 @@ band(s, 0.67, bottom + 0.25, 11.8, 1.45,
        "technical judgment. The accountable executive owns the decision and its residual risk.", False)],
       [("The team I build: ", True), ("I hire for modeling and plain-English writing; each hub member owns one market's release pack; "
        "a named deputy sits in the HQ pod, so by the second release nothing depends on me alone.", False)]], size=12)
-notes(s, "The same split in all three problems: I own the process and the recommendation, experts own the judgment, the accountable executive owns the decision.")
+notes(s, "The same split in all three problems: I own the model, the memo and the log; experts own their judgment; the accountable executive owns the decision and the signature.")
 
 # ================================================================== 15. Next 90 days, stop rules and the ask
 s = new_slide(title="ask")
-header(s, "NEXT 90 DAYS AND THE ASK", "Next 90 days: Board by 17 Nov, first release on 1 January, and the ask")
+header(s, "NEXT 90 DAYS AND THE ASK", "Next 90 days: the Board on 17 Nov, the first release on 1 Jan, and the ask")
 phases = [("NOW TO THE BOARD", "20 Oct to 19 Nov",
            ["Today: Board outline out, HQ charter signed, tax gate launched.",
             "Early Nov (T-16): capital options lock with the CEO, CFO and MTeam.",
@@ -631,13 +633,13 @@ phases = [("NOW TO THE BOARD", "20 Oct to 19 Nov",
 for i, (lab, head, body) in enumerate(phases):
     card(s, 0.67 + i * 4.0, 1.75, 3.8, 2.3, lab, head, body, body_size=11)
 band(s, 0.67, 4.2, 11.8, 0.95, [[("Stop rules, public from today: ", True), ("a unit below plan on two of four indicators has its "
-     "second-release share held. Efficiency ratio above the FY26 guide at Q1 close: the second release is held for every unit. "
+     "second-release share held. Efficiency ratio above the guide in force at Q1 close: the second release is held for every unit. "
      "Credit cost or NPL 90+ above plan: the reserve stays shut, and Risk can block it.", False)]], size=11.5, dark=False)
 band(s, 0.67, 5.3, 11.8, 1.35, [[("THE ASK  ", True, LILAC_TXT)],
      [("Approve the $25M FY27 cap in two releases, the Board calendar and the HQ charter.", True)],
      [("In 90 days (mid-January): every first-release dollar has an approved case; the Board book went out 7 days early; HQ gates 1 "
        "and 2 are cleared. You are approving one way of deciding, used three times, and I report on it in 90 days.", False)]], size=12.5)
-notes(s, "Three dates, three stop rules, the ask.")
+notes(s, "Three dates, three stop rules, the ask: one way of deciding, used three times, reported on in 90 days.")
 
 # ================================================================== BACKUP divider
 s = new_slide(title="backup")
@@ -813,9 +815,9 @@ s = new_slide(title="I")
 header(s, "BACKUP I", "The downside is handled by rules: miss Q1 and the second release waits")
 rows = [["", "Market slows", "Base plan", "H1 beats plan"],
         ["Funded spend vs the $25M cap", "$15.0M (second release held at Q1 close)", "$25.0M ($15M + $10M)", "$25.0M"],
-        ["H2 reserve", "$0", "$0 (not assumed)", "Up to $15.0M from H1 profit above plan, inside the ~20% FY26 guide"],
+        ["H2 reserve", "$0", "$0 (not assumed)", "Up to $15.0M from H1 profit above plan, inside the guide in force"],
         ["Stop rules", "A unit below plan on two of four indicators: its second-release share is held",
-         "Efficiency ratio above the FY26 guide at Q1 close: the second release is held for every unit",
+         "Efficiency ratio above the guide in force at Q1 close: the second release is held for every unit",
          "Credit cost or NPL 90+ above plan: the reserve stays shut; Risk can block it"],
         ["Top risks and owners", "GMs game the indicators: finance partners own the read-out",
          "Board book slips: the outline locked today decides what goes to the appendix",

@@ -82,3 +82,10 @@ rule examples, the derailer (B22) and your Visa specifics in Q38 are still yours
 | B26 | Hub and HQ net new cost against the cap | Inside the $25M (A12), funded before the GM releases; if material, the second release shrinks. Fable's "outside the cap" proposal rejected | slide 3, slide 6, backup A, Q49 |
 | B27 | HQ site choice | Four hard tests, then five weighted criteria (weights are proposals, A13); two sites to term sheet; the CEO and CFO pick; no site named | slide 10, backup J, Q42 |
 | B28 | Who signs for the HQ | Licensed executives after gate 3; the Chief of Staff holds no power of attorney; Legal and Compliance veto on legality only | slide 12, Q45, Q46 |
+
+**Added in the v8 build (TEST_08):**
+
+| # | Decision | Branch taken in v8 | Where |
+|---|---|---|---|
+| B29 | Deck thesis | "One way of deciding, used three times": published rule, named owner, dated decision, recorded dissent, exceptions only | slides 2, 15; talk opening and close |
+| B30 | D3 and D4 framing | D3 gates are decisions (gate 0 = charter); posture "experts own the judgment, I own the process, the CFO owns residual risk"; D4 slide 14 = how the work splits in a matrix | slides 11, 12, 14 |
