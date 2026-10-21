@@ -11,7 +11,8 @@
 - **Section 0 is rebuilt.** It now covers pace and pauses, a tone arc, emphasis, words and habits to avoid, Nu's culture as a lens, a playbook for using "I don't know" on purpose, and a five-beat structure for every answer.
 - **Section 1 scripts are fuller.** Each slide has stress and pause marks, a pace and tone cue, points to make, a landing phrase, and what to say if interrupted.
 - **Section 2 timing is recomputed** from the real script (word count at 130 wpm plus marked pauses), not estimated.
-- **Section 4 Q&A grows from 16 to 93 questions** in nine themes. Each answer is tagged by type, with a delivery cue. There is also a bank of strategic "I don't know" phrasings, a landmine list, and questions to ask the panel.
+- **Section 4 Q&A grows from 16 to 95 questions** in ten themes. Each answer is tagged by type, with a delivery cue. There is also a bank of strategic "I don't know" phrasings, a landmine list, and questions to ask the panel.
+- **Second playbook review.** Slide 1 now says why now (Investor Day three weeks after the Board). Slide 5 names who pays for the speed trade-off and adds the opex share. Slide 15 now ends on the ask and states that the CFO makes the funding call. Q94-Q95 cover decision rights and first-cycle realism.
 - **Street and market context.** Two short callouts in the talk (slides 5 and 9), Q89-Q93 on the Street, Investor Day and the Monzo episode, and section 9 with dated sources and corrections to a pasted summary.
 - **Outside authorities.** Section 0.12 sets a rule for citing McKinsey, HBR, Gartner and others aloud, and Q85-Q88 cover method and evidence. The ask is now named inside the first minute (slide 1).
 - **v10 errors fixed.** The v10 Q&A pointed to "backup J" and "backup K". The deck has backups A-G. The HQ scorecard is backup F and the AI slide is backup G.
@@ -24,7 +25,7 @@ The funding numbers are unchanged from v10. This file still replaces the v9 talk
 - [0. How to deliver it](#0-how-to-deliver-it): pace, tone, emphasis, words to avoid, Nu's culture, using "I don't know" on purpose, the five-beat answer
 - [1. Talk track, slide by slide](#1-talk-track-slide-by-slide)
 - [2. Timing](#2-timing-computed-from-the-script) and [3. Keeping on track](#3-keeping-on-track)
-- [4. Q&A](#4-qa-for-v11): the twelve to rehearse, 93 questions in nine themes, questions to ask the panel, the "I don't know" index, landmines
+- [4. Q&A](#4-qa-for-v11): the twelve to rehearse, 95 questions in ten themes, questions to ask the panel, the "I don't know" index, landmines
 - [5. Numbers to have ready](#5-numbers-to-have-ready)
 - [6. Fix before you present](#6-fix-before-you-present-or-use-the-prepared-answer)
 - [7. Sources and verification status](#7-sources-and-verification-status)
@@ -337,7 +338,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 ### Slide 1: Chief of Staff to the CFO & Global Corporate Governance
 
-**Time** 1.5 min · **Pace** steady, warm · **Tone** calm, composed
+**Time** 1.6 min · **Pace** steady, warm · **Tone** calm, composed
 **Land this:** three problems at once, and finance and governance as growth levers.
 **Landing phrase:** "finance and governance as **growth levers**"
 
@@ -356,7 +357,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 >
 > **One.** Sixty million dollars of growth asks / against a **twenty-five million** cap. //
 >
-> **Two.** A Board meeting in **four weeks**, / with two executives who see capital differently. //
+> **Two.** A Board meeting in **four weeks**, / about three weeks before Nu's first Investor Day, / with two executives who see capital differently. //
 >
 > **Three.** A new regional headquarters that cuts across Legal, Tax, Compliance, People and Workplace, / and nobody who owns all of it. //
 >
@@ -481,26 +482,26 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 ### Slide 5: Prioritized staged deployment > flat cuts across the board
 
-**Time** 2.4 min · **Pace** **slow** on the scale numbers, steady after · **Tone** plain, calm, no drama
+**Time** 2.6 min · **Pace** **slow** on the scale numbers, steady after · **Tone** plain, calm, no drama
 **Land this:** $35M is small for Nu; the precedent is what matters, so budgets work like Nu's credit.
 **Landing phrase:** "Start small. **Grow on evidence.**"
 
 **Points to make**
 
-- Scale first, in plain numbers: about 15 bps of revenue, about 0.2 points of efficiency ratio. This is a precedent, not a rescue.
+- Scale first, in plain numbers: about 15 bps of revenue, about 1% of opex, about 0.2 points of efficiency ratio. This is a precedent, not a rescue.
 - What's broken: asks are one number with no shared format.
-- Three options, one recommendation, an honest cost (speed).
+- Three options, one recommendation, an honest cost: speed, and a proper case up front from the GMs.
 - Nu's own principle, low-and-grow, applied to budgets.
 
 **Script**
 
-> First, **scale**. // Thirty-five million dollars is about **fifteen basis points** of annualized revenue. / About **two tenths of a point** on the efficiency ratio. // So this is not really about the money. / It is about the **precedent**. //
+> First, **scale**. // Thirty-five million dollars is about **fifteen basis points** of annualized revenue. / About **one percent** of annual opex. / And about **two tenths of a point** on the efficiency ratio. // So this is not really about the money. / It is about the **precedent**. //
 >
 > Where Nu stands. / The efficiency ratio was seventeen point six percent in Q1 and nineteen point five in Q2, / and management guides to about **twenty percent** for the year. / That guide is public, / so how we spend inside it is part of the equity story. / Cost to serve is about **one dollar** a month, / against **seventeen** of ARPAC. / That gap is worth protecting. / It stays wide only if central costs grow slower than customers. //
 >
 > What is broken today is simple. / Asks arrive as **one number**, / with no shared format to assess them. / And whatever we reward this cycle / is what we will get next cycle. //
 >
-> We looked at three ways to close the gap. / An **equal cut** is fast, / but it teaches everyone to pad. / **Core markets first** is simple, / but it starves the new bets. / We recommend **staged release on business-case readiness**. / It wins on growth return and ownership, / and we accept the trade-off on speed. //
+> We looked at three ways to close the gap. / An **equal cut** is fast, / but it teaches everyone to pad. / **Core markets first** is simple, / but it starves the new bets. / We recommend **staged release on business-case readiness**. / It wins on growth return and ownership. / The price is **speed**: / it asks the GMs for a proper case up front, / instead of a fast, blunt cut. //
 >
 > The principle comes from Nu itself. / The 20-F describes **low-and-grow**: / small credit limits, raised on behavior. / Budgets can work the same way. / **Start small. / Grow on evidence.**
 
@@ -607,7 +608,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 **Pause on:** after "own the content"
 **Point at:** the three accountability boxes, then the four-row cadence table
 **Avoid:** "I resolve executive differences". The slide's subtitle says the lead "resolves executive differences"; don't read it. Say "we bring options; the CFO and CEO decide."
-**If interrupted here:** Q49 (turf with the Corporate Secretary or Chair), Q58 (a GM going around you).
+**If interrupted here:** Q49 (turf with the Corporate Secretary or Chair), Q58 (a GM going around you), Q94 (who decides what), Q95 (can this work for this Board).
 **Bridge:** "Here is the countdown for this Board."
 
 ---
@@ -816,7 +817,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 ### Slide 15: Working with the markets: who owns what, and how we learn
 
-**Time** 1.4 min · **Pace** steady; **slow** on the ask · **Tone** firm, brief, grateful
+**Time** 1.5 min · **Pace** steady; **slow** on the ask · **Tone** firm, brief, grateful
 **Land this:** the function earns its place with the markets; then the ask.
 **Landing phrase:** "**Keep it, fix it, or drop it.**" and "finance and governance as **growth levers**"
 
@@ -824,13 +825,16 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 - The split is the same across all three problems: the team owns the process; GMs and local CFOs own numbers, narrative and decisions.
 - A kill switch: a quarterly keep, fix or drop review.
-- The ask: three decisions and a 90-day report.
+- The CFO makes the funding call; the team never does.
+- Close on the ask, in this order: the thread (growth levers), then the three decisions, then the 90-day report. Nothing after it.
 
 **Script**
 
-> Across all three problems, / the split is the same. / The team owns the **process**: / the model, the calendar, the decision log. / We **influence** through one-to-ones and the prep. / And the GMs and local CFOs own **their numbers, their narrative, and their decisions**. //
+> Across all three problems, / the split is the same. / The team owns the **process**: / the model, the calendar, the decision log. / We **influence** through one-to-ones and the prep. / And the GMs and local CFOs own **their numbers, their narrative, and their local decisions**. / The global CFO makes the **funding call**. //
 >
 > Every quarter, with the CFO, / we review what is working. / **Keep it, fix it, or drop it.** / The function earns its place with the markets, / instead of ruling from headquarters. //
+>
+> Finance and governance as **growth levers**, / with the rigor that scale needs, / and the speed Nu already has. //
 >
 > So, **three decisions**. //
 > The **twenty-five million cap**, in two releases. //
@@ -839,8 +843,6 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 >
 > We would report back in **ninety days**. //
 >
-> Finance and governance as **growth levers**, / with the rigor that scale needs, / and the speed Nu already has. //
->
 > Happy to take questions.
 
 **Stress:** process · their numbers · keep it, fix it, or drop it · three decisions · twenty-five million cap · Board calendar · HQ gates · ninety days
@@ -848,7 +850,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 **Point at:** the table once, left to right; then stop pointing and look at the CFO for the ask
 **Avoid:** ending on "thank you" alone. The ask comes first. Don't add new content after the ask.
 **After you finish:** go back to slide 2 for Q&A. It holds the measures and the decisions on one page.
-**If interrupted here:** Q1 (one more layer), Q51 (is the Board better off), Q80 (90-day success).
+**If interrupted here:** Q1 (one more layer), Q51 (is the Board better off), Q80 (90-day success), Q94 (who decides what).
 
 ---
 
@@ -858,26 +860,26 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 
 | Slide | Words | Speech (min) | Pauses (min) | Total (min) | Cumulative (min) |
 |---|---|---|---|---|---|
-| 1. Chief of Staff to the CFO & Global Corporate Governance | 132 | 1.0 | 0.5 | 1.5 | 1.5 |
-| 2. Establishing principle-based structure for each deliverable | 183 | 1.4 | 0.5 | 1.9 | 3.4 |
-| 3. A lean hub and three meetings to centralize planning | 170 | 1.3 | 0.5 | 1.8 | 5.3 |
-| 4. Hub of 4-6: 2-3 in the countries, 2-3 central in the US, in two waves | 149 | 1.1 | 0.5 | 1.6 | 6.9 |
-| 5. Prioritized staged deployment > flat cuts across the board | 220 | 1.7 | 0.7 | 2.4 | 9.3 |
-| 6. Proposed investment and spend prioritization framework | 152 | 1.2 | 0.5 | 1.7 | 11.0 |
-| 7. Proposed path: fund now + stage, assess, go/no-go | 165 | 1.3 | 0.6 | 1.9 | 12.8 |
-| 8. CoS & CG: Ways of Working | 104 | 0.8 | 0.3 | 1.1 | 13.9 |
-| 9. Board Prep Target: Every quarter the book goes out 7d before the Board | 167 | 1.3 | 0.5 | 1.8 | 15.7 |
-| 10. Managing different viewpoints and friction at the executive level | 186 (incl. 40 story) | 1.4 | 0.5 | 1.9 | 17.6 |
-| 11. The HQ is a governance project as much as a real-estate deal | 164 | 1.3 | 0.5 | 1.7 | 19.4 |
-| 12. SMEs own the judgment, CoS & CG owns the process, the CFO owns ultimate recommendations | 119 | 0.9 | 0.4 | 1.3 | 20.6 |
-| 13. Proposal: Four decision gates in 120 days; nothing signed between them | 142 | 1.1 | 0.5 | 1.6 | 22.2 |
-| 14. Leadership approach: trust, accountability and follow-through | 129 (incl. 40 story) | 1.0 | 0.3 | 1.3 | 23.5 |
-| 15. Working with the markets: who owns what, and how we learn | 118 | 0.9 | 0.5 | 1.4 | 25.0 |
-| **Total** | **2,300** | **17.7** | **7.3** | **25.0** | |
+| 1. Chief of Staff to the CFO & Global Corporate Governance | 140 | 1.1 | 0.5 | 1.6 | 1.6 |
+| 2. Establishing principle-based structure for each deliverable | 183 | 1.4 | 0.5 | 1.9 | 3.5 |
+| 3. A lean hub and three meetings to centralize planning | 170 | 1.3 | 0.5 | 1.8 | 5.4 |
+| 4. Hub of 4-6: 2-3 in the countries, 2-3 central in the US, in two waves | 149 | 1.1 | 0.5 | 1.6 | 7.0 |
+| 5. Prioritized staged deployment > flat cuts across the board | 240 | 1.8 | 0.7 | 2.6 | 9.5 |
+| 6. Proposed investment and spend prioritization framework | 152 | 1.2 | 0.5 | 1.7 | 11.2 |
+| 7. Proposed path: fund now + stage, assess, go/no-go | 165 | 1.3 | 0.6 | 1.9 | 13.1 |
+| 8. CoS & CG: Ways of Working | 104 | 0.8 | 0.3 | 1.1 | 14.2 |
+| 9. Board Prep Target: Every quarter the book goes out 7d before the Board | 167 | 1.3 | 0.5 | 1.8 | 16.0 |
+| 10. Managing different viewpoints and friction at the executive level | 186 (incl. 40 story) | 1.4 | 0.5 | 1.9 | 17.9 |
+| 11. The HQ is a governance project as much as a real-estate deal | 164 | 1.3 | 0.5 | 1.7 | 19.7 |
+| 12. SMEs own the judgment, CoS & CG owns the process, the CFO owns ultimate recommendations | 119 | 0.9 | 0.4 | 1.3 | 20.9 |
+| 13. Proposal: Four decision gates in 120 days; nothing signed between them | 142 | 1.1 | 0.5 | 1.6 | 22.5 |
+| 14. Leadership approach: trust, accountability and follow-through | 129 (incl. 40 story) | 1.0 | 0.3 | 1.3 | 23.8 |
+| 15. Working with the markets: who owns what, and how we learn | 126 | 1.0 | 0.5 | 1.5 | 25.3 |
+| **Total** | **2,336** | **18.0** | **7.3** | **25.3** | |
 
-**Read this honestly.** The talk is about **25 minutes** with every marked pause taken. Speech alone is about 17.7 minutes. The pauses are generous (about 29% of the total); in a live run, beats are often shorter than a second. If a run-through comes in under 20 minutes, you are rushing. Slow down, and don't add words.
+**Read this honestly.** The talk is about **25 minutes** with every marked pause taken. Speech alone is about 18.0 minutes. The pauses are generous (about 29% of the total); in a live run, beats are often shorter than a second. If a run-through comes in under 20 minutes, you are rushing. Slow down, and don't add words.
 
-**Spare time.** 30 minutes minus 25.0 leaves about 5.0 minutes for the two planned question breaks (cap each at 90 seconds), pointing and clicks. If you run two breaks of 90 seconds, you finish at about 28 minutes.
+**Spare time.** 30 minutes minus 25.3 leaves about 4.7 minutes for the two planned question breaks (cap each at 90 seconds), pointing and clicks. If you cap each break at 60 seconds instead, you gain a minute. If you run two breaks of 90 seconds, you finish at about 28.5 minutes.
 
 ### Checkpoints (with both question breaks at 90 seconds)
 
@@ -885,9 +887,9 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 |---|---|
 | Start of slide 3 | 3.5 |
 | Start of slide 8 (after break 1) | 14.5 |
-| Start of slide 11 (after break 2) | 20.5 |
-| Start of slide 14 | 25 |
-| Finished, with the ask delivered | 28, and **never later than 28.5** |
+| Start of slide 11 (after break 2) | 21 |
+| Start of slide 14 | 25.5 |
+| Finished, with the ask delivered | 28.5, and **never later than 29** |
 
 ---
 
@@ -904,6 +906,7 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
   | Slide 14, the story | 0.5 min | Go straight to the four habits |
   | Slide 3, the closing risk lines | 0.2 min | End at "The CFO decides." |
   | Slide 9, the countdown | 0.6 min | Give it as one sentence: "28, 21, 16, 10 and 7 days out; the book is on the portal a week early." |
+  | Slide 5, the "where Nu stands" paragraph | 0.6 min | Say only: "management guides to about twenty percent, and that guide is public" |
   | Slide 6 | 0.7 min | Say only the first and last paragraphs |
   | Slide 12, the risk line | 0.2 min | End at "No one else has a veto." |
   | **Never skip** | | Slide 15's ask. The three decisions and the 90-day report. |
@@ -1352,6 +1355,22 @@ Public-market context is sensitive in a Nu room: the panel knows it better than 
 
 ---
 
+### Theme J: Decision rights and timing (Q94-Q95)
+
+**Q94. Walk me through who decides what.** `[A]` · Slides 6, 8, 12, 15
+*Testing:* whether the decision rights are clear enough to survive a turf question.
+> Five owners. / The **Board** approves the plan and appoints officers. / The **CEO** settles strategic trade-offs, decides when executives still disagree at the lock, and selects the HQ site. / The **CFO** approves funding within the cap, owns the recommendations, and chairs the monthly steering committee. / **Local finance and the GMs** own their numbers, drivers and local decisions. // And two narrow ones: Legal and Compliance can veto on legality, and Risk can block the 2H checkpoint. // We own the process: the calendar, the model, the log. We never make a funding call.
+
+*Delivery:* count them on your fingers. Don't improvise extra vetoes; if asked about one that isn't here, "That isn't in the case; I'd ask the CFO."
+
+**Q95. The Board is about four weeks away. Can the countdown really work for this cycle?** `[BU]` · Slides 9, backup D
+*Testing:* realism about a first cycle.
+> Not in full, and I would say so. This first cycle is a compressed pilot. // What matters for this Board is the short list: the outline locked, one-to-ones with each executive at twenty-one days out, the options memo locked at sixteen, and the book on the portal at seven. The standard templates and the written-questions routine would mature from the next quarter. // I don't know how much of the outline is already locked, and that is the first thing I would check this week. If we are behind, we cut the appendix, not the lock.
+
+*Delivery:* calm, practical. The "cut the appendix, not the lock" line shows judgment about what is non-negotiable (slide 9 risk: the locked outline decides).
+
+---
+
 ### Questions to ask the panel
 
 You'll likely be invited to ask. Pick two. They should show curiosity and humility, not test the panel.
@@ -1391,6 +1410,7 @@ These are the questions where `[BU]` is the strongest honest answer. The shape i
 | Q85 | Whether the scorecard weights are right | Rank-sensitivity test on first-release cases; weights changeable before first submission |
 | Q89 | What investors hear and watch | Public sources only; ask IR what they hear |
 | Q90 | What Nu plans for Investor Day | Ask the CFO and IR; answer on process |
+| Q95 | How much of the outline is locked | Check this week; if behind, cut the appendix, not the lock |
 
 **Pairing rule.** Never use two `[BU]` answers in a row. After one, give a firm answer next.
 
@@ -1550,7 +1570,7 @@ These are places where the deck contradicts itself or this talk track. I did not
 
 **Taken from the deck and v10 without re-pulling:** the Q2'26 KPIs, the opex and revenue figures, the cohort data, the Mexico, US and buyback dates, and the Pillar Two parameters.
 
-**Re-computed this session:** every ratio in section 5, the T-minus and gate weekdays, the 25.0-minute timing, and the 30.8 ÷ 15.9 and 31 ÷ 17.1 cohort ratios.
+**Re-computed this session:** every ratio in section 5, the T-minus and gate weekdays, the 25.3-minute timing, and the 30.8 ÷ 15.9 and 31 ÷ 17.1 cohort ratios.
 
 **Panel unknown.** I don't know who is on your panel. The Q&A covers CFO, CEO, Board and governance, Tax and Legal, FP&A, GM and People angles.
 
@@ -1578,6 +1598,26 @@ A list of ten principles was assessed against the deck and this talk track. Seve
 - "Backup H": the deck has backups A-G only. AI is backups E and G.
 - "Enforcing a dissent-but-commit culture": disagree and commit is an outcome you invite, not one you enforce. Say "disagree and commit".
 - "Studies prove" and "dictate" about McKinsey, HBR, NACD, Deloitte and Gartner: these could not be verified and are context only (section 0.12). I confirmed Kim and Mauborgne's three elements (engagement, explanation, expectation clarity) from secondary sources this session; the authors argue the case, and a 2020 study found mixed support for the explanation element.
+
+
+### 8.2 A second list of ten principles (the "executive playbook")
+
+Assessed against the current deck and talk track. Five points led to edits, three were already covered, and two should not be adopted as written.
+
+| # | Principle | Verdict | What changed or why not |
+|---|---|---|---|
+| 1 | Front-load the ask | **Edit made earlier, kept.** Slide 1 names the three decisions in the first minute. Slide 2 repeats them. | No reordering of slide 2: bookending the ask on slides 1, 2 and 15 is deliberate. |
+| 2 | "Why now" anchor | **Edit.** Slide 1 now adds that the Board is about three weeks before Nu's first Investor Day. | Q3 results and the Board date stay on slide 9. Don't put Q3 in the opening. |
+| 3 | Name the trade-off upfront | **Edit.** Slide 5 now says the price is speed and that it asks GMs for a proper case up front. | |
+| 4 | Frame the envelope with exact figures | **Edit, on slide 5 only.** Added "about one percent of opex" so all three denominators are spoken. | Not moved to the opening: the opening carries the problem and the ask, and slide 5 shows the numbers. |
+| 5 | Tie the 30% to cohort data | Already covered (slide 7; Q24). **Not adopted as written.** The list pairs $30.8 with $17.1, which mixes periods (the like-for-like pair is $30.8 against $15.9; Q37). It also says the data "proves" the split; Q24 correctly calls it a judgment. | |
+| 6 | Transparency on dissent | Already covered (slide 9; Q46, Q48). | The lock dispute is between executives, not GMs. Say "disagree and commit". |
+| 7 | Governance as a growth enabler | Already covered (slide 3; Q1, Q55). **Not adopted as written.** It credits AI agents with keeping cycle time under 40 days. There is no baseline (Q15), and AI is not the main defense against bureaucracy (section 8, item 9). | |
+| 8 | Decision rights | **Edit.** Slide 15 now says the global CFO makes the funding call. **Q94 added.** | The list misdescribes slide 15's columns: they are "owns", "influences" and "GMs and local CFOs own", with no CFO column. |
+| 9 | Walk-away criteria | Already covered (slide 13; Q64, Q88). | |
+| 10 | Close on a single ask | **Edit.** Slide 15 closed on the ask and then added the growth-levers line, which broke rule 0.1.7. The thread now comes first and the ask is last. | **Do not use the list's suggested closing sentence.** It says the 70/30 is a "release schedule" (it is the core and new-bets split; the release schedule is $15M then $10M), and it asks the panel to approve the 70/30 today, but the deck gives that call to the CEO and CFO at the lock. It also has a typo ("$25ynth") and calls the Board calendar "T-28". |
+
+**New in Q&A:** Q94 (who decides what) and Q95 (can the countdown work for this Board, a bounded unknown).
 
 ---
 
