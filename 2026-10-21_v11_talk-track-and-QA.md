@@ -11,7 +11,8 @@
 - **Section 0 is rebuilt.** It now covers pace and pauses, a tone arc, emphasis, words and habits to avoid, Nu's culture as a lens, a playbook for using "I don't know" on purpose, and a five-beat structure for every answer.
 - **Section 1 scripts are fuller.** Each slide has stress and pause marks, a pace and tone cue, points to make, a landing phrase, and what to say if interrupted.
 - **Section 2 timing is recomputed** from the real script (word count at 130 wpm plus marked pauses), not estimated.
-- **Section 4 Q&A grows from 16 to 88 questions** in eight themes. Each answer is tagged by type, with a delivery cue. There is also a bank of strategic "I don't know" phrasings, a landmine list, and questions to ask the panel.
+- **Section 4 Q&A grows from 16 to 93 questions** in nine themes. Each answer is tagged by type, with a delivery cue. There is also a bank of strategic "I don't know" phrasings, a landmine list, and questions to ask the panel.
+- **Street and market context.** Two short callouts in the talk (slides 5 and 9), Q89-Q93 on the Street, Investor Day and the Monzo episode, and section 9 with dated sources and corrections to a pasted summary.
 - **Outside authorities.** Section 0.12 sets a rule for citing McKinsey, HBR, Gartner and others aloud, and Q85-Q88 cover method and evidence. The ask is now named inside the first minute (slide 1).
 - **v10 errors fixed.** The v10 Q&A pointed to "backup J" and "backup K". The deck has backups A-G. The HQ scorecard is backup F and the AI slide is backup G.
 - **Section 6 is new.** It lists places where the deck contradicts itself or the talk track. Fix them before you present, or use the prepared answers.
@@ -23,11 +24,12 @@ The funding numbers are unchanged from v10. This file still replaces the v9 talk
 - [0. How to deliver it](#0-how-to-deliver-it): pace, tone, emphasis, words to avoid, Nu's culture, using "I don't know" on purpose, the five-beat answer
 - [1. Talk track, slide by slide](#1-talk-track-slide-by-slide)
 - [2. Timing](#2-timing-computed-from-the-script) and [3. Keeping on track](#3-keeping-on-track)
-- [4. Q&A](#4-qa-for-v11): the twelve to rehearse, 88 questions in eight themes, questions to ask the panel, the "I don't know" index, landmines
+- [4. Q&A](#4-qa-for-v11): the twelve to rehearse, 93 questions in nine themes, questions to ask the panel, the "I don't know" index, landmines
 - [5. Numbers to have ready](#5-numbers-to-have-ready)
 - [6. Fix before you present](#6-fix-before-you-present-or-use-the-prepared-answer)
 - [7. Sources and verification status](#7-sources-and-verification-status)
 - [8. Review of the ten advisory principles](#8-review-of-the-ten-executive-advisory-principles)
+- [9. Wall Street and market context](#9-wall-street-and-market-context)
 
 **Legend used in the scripts**
 
@@ -187,6 +189,8 @@ Keep "I" for three moments only: your personal stories, "where I'd push back", a
 - Don't call the **$25M "the budget"**. It is the cap.
 - Don't call the Q1-to-Q2 efficiency-ratio move (17.6% to 19.5%) a **trend**. Management guides to about 20% for FY26.
 - Don't present **weights, levels or dates** as final. They are proposals.
+- Don't quote **price targets, ratings or consensus** as your own view, and don't forecast Q3. Use the Street only as labeled outsider context (section 9).
+- Don't say Investor Day **will announce targets, dividends or buybacks**. Nu's announcement doesn't say so.
 - Don't **name a city** for the HQ, and don't claim an HQ saving.
 - Don't imply you would **sign** or sit as an officer.
 - Don't say **AI decides** anything. AI supports; people validate and decide.
@@ -477,7 +481,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 ### Slide 5: Prioritized staged deployment > flat cuts across the board
 
-**Time** 2.2 min · **Pace** **slow** on the scale numbers, steady after · **Tone** plain, calm, no drama
+**Time** 2.4 min · **Pace** **slow** on the scale numbers, steady after · **Tone** plain, calm, no drama
 **Land this:** $35M is small for Nu; the precedent is what matters, so budgets work like Nu's credit.
 **Landing phrase:** "Start small. **Grow on evidence.**"
 
@@ -492,7 +496,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 > First, **scale**. // Thirty-five million dollars is about **fifteen basis points** of annualized revenue. / About **two tenths of a point** on the efficiency ratio. // So this is not really about the money. / It is about the **precedent**. //
 >
-> Where Nu stands. / The efficiency ratio was seventeen point six percent in Q1 and nineteen point five in Q2, / and management guides to about **twenty percent** for the year. / Cost to serve is about **one dollar** a month, / against **seventeen** of ARPAC. / That gap is worth protecting. / It stays wide only if central costs grow slower than customers. //
+> Where Nu stands. / The efficiency ratio was seventeen point six percent in Q1 and nineteen point five in Q2, / and management guides to about **twenty percent** for the year. / That guide is public, / so how we spend inside it is part of the equity story. / Cost to serve is about **one dollar** a month, / against **seventeen** of ARPAC. / That gap is worth protecting. / It stays wide only if central costs grow slower than customers. //
 >
 > What is broken today is simple. / Asks arrive as **one number**, / with no shared format to assess them. / And whatever we reward this cycle / is what we will get next cycle. //
 >
@@ -504,7 +508,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 **Pause on:** after each scale number; after "precedent"; before "Start small"
 **Point at:** the big "$35M" figure, then the three-row options table
 **Avoid:** overselling the $35M. Say the small numbers calmly; don't apologize for them or dramatize them. Don't call the 17.6% to 19.5% move a trend.
-**If interrupted here:** Q31 (why spend time on $35M), Q32 (why the ratio rose), Q33 (cost to serve vs ARPAC), Q34 (where low-and-grow breaks), Q25 (why not an equal cut).
+**If interrupted here:** Q31 (why spend time on $35M), Q32 (why the ratio rose), Q33 (cost to serve vs ARPAC), Q34 (where low-and-grow breaks), Q25 (why not an equal cut), Q89 (what the Street is watching).
 **Bridge:** "How a case gets scored and decided."
 
 ---
@@ -574,7 +578,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 **Pause on:** after "twenty-five million cap"; after "Risk can block it"; before "Nobody"
 **Point at:** the staircase, from the bottom bar upward as you read it; the three boxes on the right
 **Avoid:** implying the full $60M is approved. Only $25M is in the plan. Don't say "budget" for the cap. Don't read the "decided on Q4 data" wording on the slide aloud; say "at the half-year close" and see section 6.
-**If interrupted here:** Q21 ($60M approved?), Q22 (reserve padding), Q23-24 (70/30), Q27-29 (checkpoint mechanics), Q41 (slide says Q4).
+**If interrupted here:** Q21 ($60M approved?), Q22 (reserve padding), Q23-24 (70/30), Q27-29 (checkpoint mechanics), Q41 (slide says Q4), Q92 (what if credit normalizes).
 **Bridge:** "That's the money. Deliverable 2 of 4: the C-suite and the Board." **Pause here for questions.**
 
 ---
@@ -629,7 +633,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 >
 > We have assumed the Board on Tuesday the seventeenth of November, / with Q3 results on the twelfth / and Investor Day on the eighth of December. //
 >
-> Two things cannot slip. / The **capital plan**, because this is the last Board before Investor Day. / And the **statutory items** for new entities. //
+> Two things cannot slip. / The **capital plan**, because this is the last Board before Nu's **first** Investor Day. / And the **statutory items** for new entities. //
 >
 > And if the two executives still disagree at the lock: / both positions go in the memo, / the CEO decides, / and the dissent is recorded. / The Board sees **one recommendation**.
 
@@ -637,7 +641,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 **Pause on:** after each day count; after "read-outs"; before "one recommendation"
 **Point at:** the four timeline boxes left to right; then the red risk boxes only if asked
 **Avoid:** "T-minus" jargon out loud. Say "days out". Don't state the weekday of the lock days (see section 6; some fall on a weekend).
-**If interrupted here:** Q42 (why is it late), Q43 (why seven days), Q44 (weekends), Q45 (Q3 results timing), Q46 (executives disagree), Q54 (AI drafting).
+**If interrupted here:** Q42 (why is it late), Q43 (why seven days), Q44 (weekends), Q45 (Q3 results timing), Q46 (executives disagree), Q54 (AI drafting), Q90 (what to commit at Investor Day).
 **Bridge:** "Which brings us to the people side of disagreement."
 
 ---
@@ -858,29 +862,29 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 | 2. Establishing principle-based structure for each deliverable | 183 | 1.4 | 0.5 | 1.9 | 3.4 |
 | 3. A lean hub and three meetings to centralize planning | 170 | 1.3 | 0.5 | 1.8 | 5.3 |
 | 4. Hub of 4-6: 2-3 in the countries, 2-3 central in the US, in two waves | 149 | 1.1 | 0.5 | 1.6 | 6.9 |
-| 5. Prioritized staged deployment > flat cuts across the board | 204 | 1.6 | 0.7 | 2.2 | 9.1 |
-| 6. Proposed investment and spend prioritization framework | 152 | 1.2 | 0.5 | 1.7 | 10.8 |
-| 7. Proposed path: fund now + stage, assess, go/no-go | 165 | 1.3 | 0.6 | 1.9 | 12.7 |
-| 8. CoS & CG: Ways of Working | 104 | 0.8 | 0.3 | 1.1 | 13.8 |
-| 9. Board Prep Target: Every quarter the book goes out 7d before the Board | 165 | 1.3 | 0.5 | 1.8 | 15.6 |
-| 10. Managing different viewpoints and friction at the executive level | 186 (incl. 40 story) | 1.4 | 0.5 | 1.9 | 17.5 |
-| 11. The HQ is a governance project as much as a real-estate deal | 164 | 1.3 | 0.5 | 1.7 | 19.2 |
-| 12. SMEs own the judgment, CoS & CG owns the process, the CFO owns ultimate recommendations | 119 | 0.9 | 0.4 | 1.3 | 20.5 |
-| 13. Proposal: Four decision gates in 120 days; nothing signed between them | 142 | 1.1 | 0.5 | 1.6 | 22.1 |
-| 14. Leadership approach: trust, accountability and follow-through | 129 (incl. 40 story) | 1.0 | 0.3 | 1.3 | 23.4 |
-| 15. Working with the markets: who owns what, and how we learn | 118 | 0.9 | 0.5 | 1.4 | 24.8 |
-| **Total** | **2,282** | **17.6** | **7.2** | **24.8** | |
+| 5. Prioritized staged deployment > flat cuts across the board | 220 | 1.7 | 0.7 | 2.4 | 9.3 |
+| 6. Proposed investment and spend prioritization framework | 152 | 1.2 | 0.5 | 1.7 | 11.0 |
+| 7. Proposed path: fund now + stage, assess, go/no-go | 165 | 1.3 | 0.6 | 1.9 | 12.8 |
+| 8. CoS & CG: Ways of Working | 104 | 0.8 | 0.3 | 1.1 | 13.9 |
+| 9. Board Prep Target: Every quarter the book goes out 7d before the Board | 167 | 1.3 | 0.5 | 1.8 | 15.7 |
+| 10. Managing different viewpoints and friction at the executive level | 186 (incl. 40 story) | 1.4 | 0.5 | 1.9 | 17.6 |
+| 11. The HQ is a governance project as much as a real-estate deal | 164 | 1.3 | 0.5 | 1.7 | 19.4 |
+| 12. SMEs own the judgment, CoS & CG owns the process, the CFO owns ultimate recommendations | 119 | 0.9 | 0.4 | 1.3 | 20.6 |
+| 13. Proposal: Four decision gates in 120 days; nothing signed between them | 142 | 1.1 | 0.5 | 1.6 | 22.2 |
+| 14. Leadership approach: trust, accountability and follow-through | 129 (incl. 40 story) | 1.0 | 0.3 | 1.3 | 23.5 |
+| 15. Working with the markets: who owns what, and how we learn | 118 | 0.9 | 0.5 | 1.4 | 25.0 |
+| **Total** | **2,300** | **17.7** | **7.3** | **25.0** | |
 
-**Read this honestly.** The talk is about **25 minutes** with every marked pause taken. Speech alone is about 17.6 minutes. The pauses are generous (about 29% of the total); in a live run, beats are often shorter than a second. If a run-through comes in under 20 minutes, you are rushing. Slow down, and don't add words.
+**Read this honestly.** The talk is about **25 minutes** with every marked pause taken. Speech alone is about 17.7 minutes. The pauses are generous (about 29% of the total); in a live run, beats are often shorter than a second. If a run-through comes in under 20 minutes, you are rushing. Slow down, and don't add words.
 
-**Spare time.** 30 minutes minus 24.8 leaves about 5.2 minutes for the two planned question breaks (cap each at 90 seconds), pointing and clicks. If you run two breaks of 90 seconds, you finish at about 28 minutes.
+**Spare time.** 30 minutes minus 25.0 leaves about 5.0 minutes for the two planned question breaks (cap each at 90 seconds), pointing and clicks. If you run two breaks of 90 seconds, you finish at about 28 minutes.
 
 ### Checkpoints (with both question breaks at 90 seconds)
 
 | You should be at | Target minute (plus or minus 0.5) |
 |---|---|
 | Start of slide 3 | 3.5 |
-| Start of slide 8 (after break 1) | 14 |
+| Start of slide 8 (after break 1) | 14.5 |
 | Start of slide 11 (after break 2) | 20.5 |
 | Start of slide 14 | 25 |
 | Finished, with the ask delivered | 28, and **never later than 28.5** |
@@ -1112,7 +1116,7 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 *Delivery:* straightforward. 30.8 ÷ 15.9 = 1.94; 31 ÷ 17.1 = 1.81.
 
 **Q38. What if Investor Day guidance changes the envelope?** `[A]` · Slides 7, 9
-> The Board approves the capital plan before Investor Day, so the plan shouldn't depend on it. // If guidance moves the envelope afterward, the CFO takes it back through the same method: the same criteria and the same releases. IR sets what is disclosed and when.
+> The Board approves the capital plan before Investor Day, so the plan shouldn't depend on it. Nu's announcement says the day covers long-term strategy, growth opportunities and value drivers; I haven't seen anything confirming numeric targets. // If guidance moves the envelope afterward, the CFO takes it back through the same method: the same criteria and the same releases. IR sets what is disclosed and when.
 
 **Q39. What if we told you the cap is $15M, not $25M?** `[A]` · Slide 7
 > Then the first release is the cap, and the second release and the checkpoint become conditional on the same evidence. // The method doesn't change. What changes is which asks we hold, and we would say that publicly and say why. A smaller cap makes the published criteria matter more, not less.
@@ -1285,7 +1289,7 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 
 **Q83. What is Nu's biggest challenge in the next 12 months?** `[BU]`
 *Testing:* judgment, and humility about the limits of an outside view.
-> I don't have the internal view, so this is an outsider's list. // The credit cycle in Brazil. Execution in Mexico as the bank scales. Credit models in the US maturing while the product is live through a partner bank since September. And keeping the efficiency ratio near twenty percent while funding all three. // The one this function touches is the last: spend discipline as Nu scales.
+> I don't have the internal view, so this is an outsider's list. The sell-side debate, as I read it, is whether Q2 credit performance is durable: BofA's Sell makes the case that it was flattered, while Needham and JPMorgan are Buys. // The credit cycle in Brazil. Execution in Mexico as the bank scales. Credit models in the US maturing while the product is live through a partner bank since September. And keeping the efficiency ratio near twenty percent while funding all three. // The one this function touches is the last: spend discipline as Nu scales.
 
 **Q84. How would you work with the CFO day to day?** `[A]` · Slides 8, 14
 > Weekly, one-to-one: alignment on strategic topics, the finance agenda and the MTeam and Board priorities. No surprises in either direction. // I bring recommendations, not menus. I disagree in private and back the call in public. And I tell the CFO what isn't working before anyone else does.
@@ -1311,6 +1315,40 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 
 **Q88. What stops sunk cost taking over the HQ project?** `[A]` · Slide 13
 > Setting the walk-aways before anything is spent. They are written into the gates: a site that moves tax residence is out, a cliff-edge clawback is out, and no lease commitment is made before the incentive is signed. // And nothing is signed between gates, so there is little to be sunk. The MTeam decides at each gate on the exit test, not on how far we have come. // I would also ask at every gate review, out loud: what would make us stop?
+
+---
+
+### Theme I: The Street, Investor Day and market sentiment (Q89-Q93)
+
+Public-market context is sensitive in a Nu room: the panel knows it better than you do. These answers use only public, dated sources (section 9), label them as an outsider's read, and keep your view on the **process**, not on the stock. Everything here is a late-October 2026 snapshot; re-check on the day.
+
+**Q89. What is the Street watching right now, and how does your plan relate to it?** `[BU]` · Slides 5, 7
+*Testing:* IR awareness, with humility about the limits of an outside view.
+> From public sources, sentiment is constructive but split. The consensus rating is Buy, with targets running from a Sell at ten dollars to the low twenties. The debate is the quality of Q2 earnings: whether lower provisioning and one-offs flattered them, and how durable Brazilian credit is. And in late September the stock fell about ten percent in a day on a rumor of a large acquisition. // That connects to the plan in two places. The checkpoint opens only with credit on plan, which is what that debate is about. It also opens only inside the efficiency guide, and that guide is public, so how Nu spends inside it is part of the equity story. // I'm reading public sources; I don't know what IR hears from investors.
+
+*Delivery:* "from public sources" and "as I read it", every time. Never quote a price target as your own view.
+
+**Q90. What should Nu commit to at Investor Day, and what should it not?** `[BU]` · Slide 9
+*Testing:* judgment, and humility about what you don't know.
+> I haven't seen the plan for the day. Nu says it is its first Investor Day and covers long-term strategy, growth opportunities and value drivers; I have seen nothing confirming numeric targets. // So my answer is about process, not content. Say publicly only what the approved plan supports: that is why the Board approves the capital plan before the eighth of December. Commit to measures Nu already reports and can defend, such as the efficiency ratio and risk-adjusted margin. And leave out anything that depends on an FY27 decision not yet taken. // The CFO and IR own what is said. Our job is that the numbers behind it tie out.
+
+**Q91. The stock fell about 10% on a Monzo rumor, then recovered after the denial. What does that tell you?** `[P]` · Slide 5
+*Testing:* judgment, and whether you speculate on M&A.
+> Two things, and I would stay away from the deal itself. // First, investors watch capital allocation closely. Nu's statement on the thirtieth of September said it was not pursuing a transaction and that its capital allocation framework was unchanged, and the shares rose after hours. // Second, for this function it is an argument for published rules and a recorded rationale: the same discipline, whether the question is a billion-dollar deal or a thirty-five-million-dollar gap. // I have no view on whether talks happened; Nu didn't address that.
+
+*Delivery:* factual and brief. If pressed on the deal: "That's outside this case, and I only know what is public."
+
+**Q92. Bears say Q2 was flattered by lower provisioning and one-offs. What happens to your plan if credit normalizes?** `[C]` · Slide 7
+*Testing:* robustness of the money design. The best of the new questions: it turns the bear case into a point for the staged design.
+> It's a fair concern, and the design assumes it could be right. // If credit costs rise, the checkpoint stays closed: it opens only with credit losses on plan, and Risk can block it. What is left is the twenty-five million cap, released in two steps, the second on Q1 data. So if the bears are right, the thirty-five million doesn't open, and we haven't spent it. // If they are wrong, the checkpoint opens for units beating plan. Either way, the spending follows the evidence, which is the low-and-grow principle.
+
+*Delivery:* concede first ("it's a fair concern"), then show the structure absorbs it. Don't argue with the bear's numbers.
+
+**Q93. Do you have a view on the stock, the price targets or what Q3 will show?** `[P]`
+*Testing:* discipline. A trap.
+> No. I wouldn't speculate on results; the Board book holds non-public Q3 numbers, and IR sets what is said. // The Street's views are useful context for the CFO's framing. They aren't an input to our spending rule, which has to hold whatever the share price does.
+
+*Delivery:* short, light, no apology.
 
 ---
 
@@ -1351,6 +1389,8 @@ These are the questions where `[BU]` is the strongest honest answer. The shape i
 | Q69 | Where Pillar Two rules land | Ask Tax what they are watching |
 | Q83 | Nu's internal view of its risks | Outsider's list, labeled as such |
 | Q85 | Whether the scorecard weights are right | Rank-sensitivity test on first-release cases; weights changeable before first submission |
+| Q89 | What investors hear and watch | Public sources only; ask IR what they hear |
+| Q90 | What Nu plans for Investor Day | Ask the CFO and IR; answer on process |
 
 **Pairing rule.** Never use two `[BU]` answers in a row. After one, give a firm answer next.
 
@@ -1360,6 +1400,11 @@ These are the questions where `[BU]` is the strongest honest answer. The shape i
 
 | Don't say | Why | Say instead |
 |---|---|---|
+| "Nu has 140 million customers." | Q2'26 was 138.9M. | "About 139 million." |
+| "Investor Day will announce dividends or buybacks / multi-year targets." | Nu's announcement says strategy, growth and value drivers; no targets are confirmed. | "I haven't seen anything confirming targets." |
+| "Analysts have a $X target, so…" | You are borrowing a view and inviting a valuation debate. | Leave it out, or "the consensus is Buy, as I read it." |
+| "I think Q3 will show…" | A forecast; the Board book holds non-public Q3 numbers. | "I won't speculate on results." |
+| "Nu was right / wrong about Monzo." | You don't know whether talks happened. | "Nu said it is not pursuing it." |
 | "The $60M is approved." | Only $25M is in the plan. | "Twenty-five in the plan; thirty-five conditional." |
 | "It's a $25M budget." | It is a cap. | "The cap." |
 | "The efficiency ratio is rising." | One quarter isn't a trend; guide is about 20%. | "Management guides to about twenty percent for the year." |
@@ -1433,7 +1478,7 @@ These are the questions where `[BU]` is the strongest honest answer. The shape i
 | 3 | 14 Nov | **Sat** | Fri 13 Nov |
 | 0 | 17 Nov (assumed) | Tue | |
 
-Other dates: Q3'26 results Thu 12 Nov. Investor Day Tue 8 Dec 2026.
+Other dates: Q3'26 results Thu 12 Nov (after the close, per one aggregator). Investor Day Tue 8 Dec 2026, Nu's **first**, in New York, in person and virtual (Nu announcement, 2 Sep 2026).
 
 **HQ gates (counting from Tue 20 Oct as day 0):**
 
@@ -1505,7 +1550,7 @@ These are places where the deck contradicts itself or this talk track. I did not
 
 **Taken from the deck and v10 without re-pulling:** the Q2'26 KPIs, the opex and revenue figures, the cohort data, the Mexico, US and buyback dates, and the Pillar Two parameters.
 
-**Re-computed this session:** every ratio in section 5, the T-minus and gate weekdays, the 24.8-minute timing, and the 30.8 ÷ 15.9 and 31 ÷ 17.1 cohort ratios.
+**Re-computed this session:** every ratio in section 5, the T-minus and gate weekdays, the 25.0-minute timing, and the 30.8 ÷ 15.9 and 31 ÷ 17.1 cohort ratios.
 
 **Panel unknown.** I don't know who is on your panel. The Q&A covers CFO, CEO, Board and governance, Tax and Legal, FP&A, GM and People angles.
 
@@ -1533,3 +1578,75 @@ A list of ten principles was assessed against the deck and this talk track. Seve
 - "Backup H": the deck has backups A-G only. AI is backups E and G.
 - "Enforcing a dissent-but-commit culture": disagree and commit is an outcome you invite, not one you enforce. Say "disagree and commit".
 - "Studies prove" and "dictate" about McKinsey, HBR, NACD, Deloitte and Gartner: these could not be verified and are context only (section 0.12). I confirmed Kim and Mauborgne's three elements (engagement, explanation, expectation clarity) from secondary sources this session; the authors argue the case, and a 2020 study found mixed support for the explanation element.
+
+---
+
+## 9. Wall Street and market context
+
+**Purpose.** A summary of recent Nu news and Street sentiment was assessed against the deck and against what I could verify. This section records what holds up, what to correct, how it links to your case, and what went into the materials. **Everything about the Street is a late-October 2026 snapshot from public sources. I could not open the aggregator or Nu pages directly from this environment (network blocked), so I relied on search summaries. Re-check on the day.**
+
+### 9.1 The pasted summary: what holds up and what to correct
+
+| Claim in the summary | Status | Use in your materials |
+|---|---|---|
+| First $1B+ profit quarter; $1.1B net income, +49% FXN | Holds. Net income was $1,061.1M (the deck says $1.06B). | Say "about $1.06 billion" or "just over a billion". |
+| $5.9B "gross revenue" | Holds on Nu's **managerial** basis ($5,875.7M). Accounting revenue was $5,513.2M. Aggregator "beat" figures may mix bases. | Say "revenue, managerial basis". Don't quote beat percentages. |
+| "Over 140 million customers" | **Wrong for Q2.** The release says 138.9M (Brazil about 118M, Mexico about 16M, Colombia over 5M sum to about 139M). | "About 139 million." |
+| Over 60% of Brazil's adult population | Not verified. | Leave out. |
+| ROE 33%, "record" | 33% holds. "Record" is not verified. | "33%". |
+| NIM 22.9% "up 180 bps QoQ" | 22.9% holds. The 180 bps is not verified. Risk-adjusted NIM of 12.4% is better supported (up 2.9 points; sources differ on whether the comparison is Q1 or a year earlier). | Use the 12.4% figure, no basis-point change. |
+| Deposits $45.3B, +18% YoY, Mexico loan-to-deposit 35% | $45.3B holds. The +18% and 35% are not verified. | "$45.3 billion". |
+| US entry via Lead Bank "avoiding the multi-year wait for a standalone charter" | **Misleading.** Nu holds OCC conditional approval for its own national bank (29 Jan 2026); FDIC and Federal Reserve steps and capitalization remain. Lead Bank is the launch route while that completes. | Backup B already states it correctly. |
+| Nu Global: USDC and EURC, 35+ countries | Holds per Nu's 10 Sep 2026 launch (as noted in my reference material; not re-opened this session). | Optional context only. |
+| Monzo: "$8B-$10B", management denial | **The denial holds; the size does not.** Sky News (26 Sep) reported a valuation of up to **£10B**. Nu filed an SEC statement on 30 Sep: not pursuing a transaction, capital allocation framework unchanged. | See Q91. |
+| Banco Porto Real license | Per my reference material (20 Jul 2026, BCB approval pending). Not re-verified; peripheral. | Not used. |
+| Mexico "is completing" the move from SOFIPO to a bank | **Out of date.** Your deck (backup C) has the authorization on 10 Jul 2026 and operation from 6 Aug. | Use the deck's wording. |
+| Investor Day 8 Dec will "unveil multi-year targets, dividend or buyback roadmaps" | **Unsupported.** Nu's announcement says its first Investor Day will cover long-term strategy, growth opportunities and value drivers. I found no analyst previews. | Say only what Nu said (Q90). |
+| Q3 on 12 Nov; the catalyst is risk-adjusted NIM above 12% and card delinquency | The date holds. The "catalyst" is a reasonable inference, not a sourced Street expectation. I found no consensus on those metrics. | Don't forecast Q3 (Q93). |
+
+### 9.2 Street snapshot (public sources, late October 2026; sources disagree)
+
+- **Consensus:** Buy or Moderate Buy. Average 12-month target about **$16-19** depending on provider and date (TipRanks about $16-17; MarketBeat via Ad Hoc $17.94 on 15 Oct; Investing.com about $17.98; Yahoo $18.88 after a UBS update on 20 Oct). Range about **$10 to $22-23**.
+- **Q2 print (13 Aug):** a beat. Adjusted EPS about $0.22 against roughly $0.19-0.20 expected. A TipRanks headline put the stock up **14%** on the day.
+- **The bear case:** BofA, **Sell, $10** (the Street low). The argument: the beat leaned on lower provisioning and one-off benefits from government credit renegotiation programs (Desenrola).
+- **The bull and middle cases:** Needham Buy ($19), JPMorgan Buy ($20), UBS Buy ($18.20 raised to $20.50 on 20 Oct), Susquehanna Hold ($16, raised from $13). Investing.com lists recent downgrades to Hold at Citi and Susquehanna; dates not confirmed. Itaú BBA moved to Market Perform on 16 Sep with an $18 target, citing Brazil's consumer environment.
+- **The Monzo episode:** reported by Sky News on 26 Sep. The stock fell about **10%** on 28 Sep, to $12.23 at the close (one source says about 8% in the morning). Nu's SEC statement on 30 Sep said it is not pursuing a transaction. Shares rose about **6%** after hours. Needham defended the stock during the drop. I found no sell-side commentary framing it as a capital-discipline issue.
+- **Q3 (12 Nov):** consensus EPS about **$0.20-0.22**; revenue estimates **$5.4-5.9B** depending on provider. That spread is itself a caution: don't quote either.
+- **Investor Day (8 Dec):** no analyst previews found.
+
+**What this says about sentiment.** Constructive but not uniform. The shares sit well below average targets (at $12.23 on 28 Sep against an average target near $18), and the live debate is the quality and durability of Q2 credit performance, plus sensitivity to anything that looks like capital-allocation drift. That is my reading of the sources, not a Street consensus.
+
+### 9.3 How it links to your case
+
+| Street theme | Where it meets your case | Where it is used |
+|---|---|---|
+| Efficiency ratio guide of about 20% is public | $35M is about 0.2 points. Spend inside the guide is part of the equity story. | Slide 5 script (one sentence); Q89 |
+| Credit quality and "earnings quality" (the BofA bear case) | The 2H checkpoint opens only with credit losses on plan and inside the efficiency guide; Risk can block it. If the bears are right, the $35M stays closed. | Slide 7 notes; Q92 |
+| Sensitivity to capital-allocation signals (Monzo, -10% then +6%) | Published rules, recorded rationale, staged release: the same discipline at any size | Q91 |
+| First Investor Day, 8 Dec | The Board approves the FY27 capital plan before it, so what Nu says publicly ties to an approved plan | Slide 9 script ("Nu's first Investor Day"); Q38, Q90 |
+| Q3 results on 12 Nov, after the Board book goes out | The book holds non-public results; portal only; IR sets what directors may discuss | Slide 9 (already there); Q45, Q93 |
+| Brazil consumer environment (Itaú BBA's downgrade) | The core-versus-new-bets split protects the core; 70/30 | Q83 (labeled outsider context) |
+
+### 9.4 What I did and did not add
+
+**Added, lightly:** one sentence on slide 5 and one word on slide 9 in the talk; notes cues on slides 5, 7 and 9; Q89-Q93; edits to Q38 and Q83; five landmine rows; two content-trap bullets; this section.
+
+**Deliberately not added:**
+
+- Price targets, ratings or consensus numbers in the talk. They date quickly, they invite a valuation debate, and the panel knows them better than you do.
+- Anything about Q3 expectations, or Investor Day content beyond what Nu announced.
+- Any slide content. If you want a slide callout, the natural place is a single line on slide 7: "The checkpoint conditions mirror what investors watch: credit quality and the efficiency guide." I would hold off, because it ties a spending rule to market sentiment in writing.
+
+**One sensitivity.** Your slide-10 optional line names Itaú BBA as a place slowed by committees. Itaú BBA also publishes research on Nu (the 16 Sep Market Perform). Naming it in a room that discusses Street sentiment makes the line riskier. Describe the pattern, not the institution.
+
+### 9.5 Sources and verification status
+
+Search summaries only; the pages were not opened.
+
+- Monzo rumor and denial: [American Banker](https://www.americanbanker.com/news/nubank-shuts-down-rumors-its-buying-monzo), [FinTech Futures](https://www.fintechfutures.com/m-a/nubank-parent-dismisses-monzo-takeover-speculation), [Hargreaves Lansdown](https://www.hl.co.uk/shares/stock-market-news/company--news/nubank-rules-out-multi-billion-pound-tie-up-with-monzo), [TIKR on the 10% drop](https://www.tikr.com/blog/nu-holdings-stock-fell-10-in-a-day-on-reported-monzo-talks-heres-what-a-deal-would-mean-for-shareholders), [Stocktwits on the after-hours move](https://stocktwits.com/news-articles/markets/equity/nu-stock-pops-after-hours-monzo-deal-scare-meets-company-denial/cZMFVYbRBLj).
+- Analyst reaction to Q2: [TipRanks](https://www.tipranks.com/news/nu-holdings-stock-soars-14-on-a-q2-earnings-beat-and-analyst-updates), [Yahoo Finance](https://finance.yahoo.com/quote/NU/), [Investing.com consensus](https://uk.investing.com/equities/nu-holdings-consensus-estimates), [Ad Hoc News (MarketBeat data)](https://www.ad-hoc-news.de/boerse/news/nebenwerte/fifteen-analysts-assign-nu-holdings-stock-a-usd-17-94-average-target/70349312).
+- Investor Day announcement: [Nu newsroom](https://nu.com/en/newsroom/company/nu-holdings-announces-investor-day-for-december-8-2026).
+- Q3 consensus: [Earnings Whispers](https://beta.earningswhispers.com/go/w/NU), [Benzinga](https://kr.benzinga.com/quote/NU/earnings-forecasts).
+- Q2 call transcript (not opened): [Investing.com](https://www.investing.com/news/transcripts/earnings-call-transcript-nubank-tops-1-billion-in-q2-2026-net-income-93CH-4859540).
+
+**Not verified, so not used:** the Brazil adult-population share, the 180 bps NIM change, the +18% deposit growth, the 35% Mexico loan-to-deposit ratio, and any Street expectation for Q3 risk-adjusted NIM or delinquency.
