@@ -11,7 +11,8 @@
 - **Section 0 is rebuilt.** It now covers pace and pauses, a tone arc, emphasis, words and habits to avoid, Nu's culture as a lens, a playbook for using "I don't know" on purpose, and a five-beat structure for every answer.
 - **Section 1 scripts are fuller.** Each slide has stress and pause marks, a pace and tone cue, points to make, a landing phrase, and what to say if interrupted.
 - **Section 2 timing is recomputed** from the real script (word count at 130 wpm plus marked pauses), not estimated.
-- **Section 4 Q&A grows from 16 to 84 questions** in seven themes. Each answer is tagged by type, with a delivery cue. There is also a bank of strategic "I don't know" phrasings, a landmine list, and questions to ask the panel.
+- **Section 4 Q&A grows from 16 to 88 questions** in eight themes. Each answer is tagged by type, with a delivery cue. There is also a bank of strategic "I don't know" phrasings, a landmine list, and questions to ask the panel.
+- **Outside authorities.** Section 0.12 sets a rule for citing McKinsey, HBR, Gartner and others aloud, and Q85-Q88 cover method and evidence. The ask is now named inside the first minute (slide 1).
 - **v10 errors fixed.** The v10 Q&A pointed to "backup J" and "backup K". The deck has backups A-G. The HQ scorecard is backup F and the AI slide is backup G.
 - **Section 6 is new.** It lists places where the deck contradicts itself or the talk track. Fix them before you present, or use the prepared answers.
 
@@ -22,10 +23,11 @@ The funding numbers are unchanged from v10. This file still replaces the v9 talk
 - [0. How to deliver it](#0-how-to-deliver-it): pace, tone, emphasis, words to avoid, Nu's culture, using "I don't know" on purpose, the five-beat answer
 - [1. Talk track, slide by slide](#1-talk-track-slide-by-slide)
 - [2. Timing](#2-timing-computed-from-the-script) and [3. Keeping on track](#3-keeping-on-track)
-- [4. Q&A](#4-qa-for-v11): the twelve to rehearse, 84 questions in seven themes, questions to ask the panel, the "I don't know" index, landmines
+- [4. Q&A](#4-qa-for-v11): the twelve to rehearse, 88 questions in eight themes, questions to ask the panel, the "I don't know" index, landmines
 - [5. Numbers to have ready](#5-numbers-to-have-ready)
 - [6. Fix before you present](#6-fix-before-you-present-or-use-the-prepared-answer)
 - [7. Sources and verification status](#7-sources-and-verification-status)
+- [8. Review of the ten advisory principles](#8-review-of-the-ten-executive-advisory-principles)
 
 **Legend used in the scripts**
 
@@ -312,6 +314,17 @@ Two slots in the talk and four in the Q&A are marked `[YOUR STORY]`. Fill them b
 - **Watch.** Put it face up on the table. The checkpoints are in section 3.
 - **If you are on video.** Camera at eye level, slow down about 10%, and hold pauses a beat longer because of latency.
 
+### 0.12 Citing outside authorities
+
+Generic claims such as "McKinsey and HBR show that flat cuts destroy morale" or "Gartner warns that planning hubs ossify" are easy to say and hard to defend. The deck already labels McKinsey, Deloitte, Gartner, NACD and similar sources as **context only** (backup C).
+
+- **Name at most two outside sources aloud:** Kim and Mauborgne's fair-process work (already footnoted on slides 10 and 14) and Nu's own 20-F on low-and-grow (slide 5). Both are on the slides, so a question about them has an answer.
+- **Never say "studies show", "research proves" or "best-in-class"** unless you can name the source and what it found. A name-drop invites "which study?", and the conversation moves from your judgment to a source you may not have read closely.
+- **Prefer your own evidence.** Nu's own data (ARPAC, cost to serve, cohort curves) and the case's numbers carry more weight in a room that values owning the answer. This is my read of Nu's culture, not a statement from Nu.
+- **Preferred form:** "The pattern we would use is X. We haven't tested it at Nu."
+- **If challenged:** Q87.
+
+
 ---
 
 ## 1. Talk track, slide by slide
@@ -320,7 +333,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 ### Slide 1: Chief of Staff to the CFO & Global Corporate Governance
 
-**Time** 1.3 min · **Pace** steady, warm · **Tone** calm, composed
+**Time** 1.5 min · **Pace** steady, warm · **Tone** calm, composed
 **Land this:** three problems at once, and finance and governance as growth levers.
 **Landing phrase:** "finance and governance as **growth levers**"
 
@@ -329,6 +342,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 - Name the three problems in the order on the slide, one sentence each.
 - Name the thread: growth levers, not a brake.
 - Promise the rigor *and* the speed. That is the whole tension of the role.
+- Name the ask inside the first minute: three decisions by the end. The panel then listens for what they are being asked to decide.
 
 **Script**
 
@@ -344,10 +358,10 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 >
 > Three different problems. / **One thread**: finance and governance as **growth levers**, not a brake. / The job is to add the rigor that scale needs, / **without losing the speed** that got Nu here. //
 >
-> Four deliverables. / Here is how we would approach them.
+> Four deliverables. / And by the end we will ask you for **three decisions**: / the cap, / the Board calendar, / and the HQ gates. // Here is how we would approach them.
 
 **Stress:** sixty days in · twenty-five million · four weeks · growth levers · without losing the speed
-**Pause on:** after "cap", after "four weeks", before "One thread"
+**Pause on:** after "cap", after "four weeks", before "One thread", after "three decisions"
 **Point at:** each of the three cards as you name it, then look back at the panel
 **Avoid:** reading the three cards. The panel can read them. Don't open with your background or a long thank-you.
 **If interrupted here:** a quick clarifying question is fine. Answer in one sentence and say "We'll cover that in Deliverable N."
@@ -524,7 +538,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 **Pause on:** after "separate gate"; after "It does not make it"
 **Point at:** the scorecard table (run a finger down the weights); then the four steps left to right
 **Avoid:** walking through the scoring formula. Point at it. Don't read the evidence column.
-**If interrupted here:** Q26 (does readiness reward storytellers), Q27 (sandbagging), Q30 (mandatory spend above the cap).
+**If interrupted here:** Q26 (does readiness reward storytellers), Q27 (sandbagging), Q30 (mandatory spend above the cap), Q85 (why these weights).
 **Bridge:** "And here is how the money flows through the year."
 
 ---
@@ -630,7 +644,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 ### Slide 10: Managing different viewpoints and friction at the executive level
 
-**Time** 1.8 min · **Pace** steady; slower and lower on the story · **Tone** personal, respectful, humble
+**Time** 1.9 min · **Pace** steady; slower and lower on the story · **Tone** personal, respectful, humble
 **Land this:** without line authority, the rules are public, the hard conversations are private, and sign-off is joint.
 **Landing phrase:** "**Rules public. Conversations private. Sign-off joint.**"
 
@@ -651,13 +665,13 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 >
 > *[Optional, if it is true to you and you phrase it as a pattern:]* I have seen fast, agile companies slowed down by growing committees. / Consensus everywhere, all the time, is not a reasonable expectation. //
 >
-> So why can this work without authority? / The rules are **public** from day one. / The hard conversations are **private**. / And the sign-off is **joint**. / Disagree and commit is a good outcome.
+> So why can this work without authority? / The rules are **public** from day one. / The hard conversations are **private**. / And the sign-off is **joint**. / In Kim and Mauborgne's fair-process terms: / engagement, explanation, and clear expectations. / Disagree and commit is a good outcome.
 
 **Stress:** healthy · privately · what would prove this ask works · with them · public · private · joint
 **Pause on:** after "decision"; after the story; between public, private and joint
 **Point at:** the four step cards left to right; then the bottom box
 **Avoid:** "I win them over". The framing is helping leaders decide well, not persuading them. Don't say "synergy". Don't criticize a former employer in the pattern line.
-**If interrupted here:** Q56 (GM won't accept), Q57 (leverage without authority), Q55 (governance slows fast companies), Q59 (no commitment).
+**If interrupted here:** Q56 (GM won't accept), Q57 (leverage without authority), Q55 (governance slows fast companies), Q59 (no commitment), Q86 (the framework behind it).
 **Bridge:** "Deliverable 3 of 4: the HQ." **Pause here for questions.**
 
 ---
@@ -731,7 +745,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 
 ### Slide 13: Proposal: Four decision gates in 120 days; nothing signed between them
 
-**Time** 1.4 min · **Pace** **slow** on the four questions and the walk-away · **Tone** crisp, firm
+**Time** 1.6 min · **Pace** **slow** on the four questions and the walk-away · **Tone** crisp, firm
 **Land this:** four decisions, each with an owner, an exit test and a walk-away.
 **Landing phrase:** "**Nothing signed between gates.**"
 
@@ -751,7 +765,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 > **Gate three**, day ninety: **who may bind Nu?** / Officers named and approved. //
 > **Gate four**, day one-twenty: **do we commit?** / The lease, inside the plan, with a break option. //
 >
-> Every gate has a **walk-away**. / For example: any site that moves tax residence is out, / **whatever the incentive**. / A cliff-edge clawback is out. //
+> Every gate has a **walk-away**. / For example: any site that moves tax residence is out, / **whatever the incentive**. / A cliff-edge clawback is out. / We set these **before** we have spent anything, / so sunk cost does not get a vote. //
 >
 > **Nothing is signed between gates.** / The team acts as the project office. / The decisions stay with the MTeam.
 
@@ -759,7 +773,7 @@ Each slide has: time, pace and tone; the one thing to land; the points to make; 
 **Pause on:** after each gate; after "whatever the incentive"; after "between gates"
 **Point at:** the "Gate" column top to bottom; then the "Walk-away" column once
 **Avoid:** reading every cell. Give the four questions, then one walk-away.
-**If interrupted here:** Q64 (grant walk-away), Q66 (120 days realistic), Q67 (residence moves for both sites), Q73 (lease cost before the incentive).
+**If interrupted here:** Q64 (grant walk-away), Q66 (120 days realistic), Q67 (residence moves for both sites), Q73 (lease cost before the incentive), Q88 (sunk cost).
 **Bridge:** "Deliverable 4 of 4: how this function works."
 
 ---
@@ -840,26 +854,26 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 
 | Slide | Words | Speech (min) | Pauses (min) | Total (min) | Cumulative (min) |
 |---|---|---|---|---|---|
-| 1. Chief of Staff to the CFO & Global Corporate Governance | 112 | 0.9 | 0.4 | 1.3 | 1.3 |
-| 2. Establishing principle-based structure for each deliverable | 183 | 1.4 | 0.5 | 1.9 | 3.2 |
-| 3. A lean hub and three meetings to centralize planning | 170 | 1.3 | 0.5 | 1.8 | 5.0 |
-| 4. Hub of 4-6: 2-3 in the countries, 2-3 central in the US, in two waves | 149 | 1.1 | 0.5 | 1.6 | 6.6 |
-| 5. Prioritized staged deployment > flat cuts across the board | 204 | 1.6 | 0.7 | 2.2 | 8.9 |
-| 6. Proposed investment and spend prioritization framework | 152 | 1.2 | 0.5 | 1.7 | 10.6 |
-| 7. Proposed path: fund now + stage, assess, go/no-go | 165 | 1.3 | 0.6 | 1.9 | 12.4 |
-| 8. CoS & CG: Ways of Working | 104 | 0.8 | 0.3 | 1.1 | 13.5 |
-| 9. Board Prep Target: Every quarter the book goes out 7d before the Board | 165 | 1.3 | 0.5 | 1.8 | 15.3 |
-| 10. Managing different viewpoints and friction at the executive level | 175 (incl. 40 story) | 1.3 | 0.4 | 1.8 | 17.1 |
-| 11. The HQ is a governance project as much as a real-estate deal | 164 | 1.3 | 0.5 | 1.7 | 18.8 |
-| 12. SMEs own the judgment, CoS & CG owns the process, the CFO owns ultimate recommendations | 119 | 0.9 | 0.4 | 1.3 | 20.1 |
-| 13. Proposal: Four decision gates in 120 days; nothing signed between them | 126 | 1.0 | 0.5 | 1.4 | 21.5 |
-| 14. Leadership approach: trust, accountability and follow-through | 129 (incl. 40 story) | 1.0 | 0.3 | 1.3 | 22.8 |
-| 15. Working with the markets: who owns what, and how we learn | 118 | 0.9 | 0.5 | 1.4 | 24.3 |
-| **Total** | **2,235** | **17.2** | **7.1** | **24.3** | |
+| 1. Chief of Staff to the CFO & Global Corporate Governance | 132 | 1.0 | 0.5 | 1.5 | 1.5 |
+| 2. Establishing principle-based structure for each deliverable | 183 | 1.4 | 0.5 | 1.9 | 3.4 |
+| 3. A lean hub and three meetings to centralize planning | 170 | 1.3 | 0.5 | 1.8 | 5.3 |
+| 4. Hub of 4-6: 2-3 in the countries, 2-3 central in the US, in two waves | 149 | 1.1 | 0.5 | 1.6 | 6.9 |
+| 5. Prioritized staged deployment > flat cuts across the board | 204 | 1.6 | 0.7 | 2.2 | 9.1 |
+| 6. Proposed investment and spend prioritization framework | 152 | 1.2 | 0.5 | 1.7 | 10.8 |
+| 7. Proposed path: fund now + stage, assess, go/no-go | 165 | 1.3 | 0.6 | 1.9 | 12.7 |
+| 8. CoS & CG: Ways of Working | 104 | 0.8 | 0.3 | 1.1 | 13.8 |
+| 9. Board Prep Target: Every quarter the book goes out 7d before the Board | 165 | 1.3 | 0.5 | 1.8 | 15.6 |
+| 10. Managing different viewpoints and friction at the executive level | 186 (incl. 40 story) | 1.4 | 0.5 | 1.9 | 17.5 |
+| 11. The HQ is a governance project as much as a real-estate deal | 164 | 1.3 | 0.5 | 1.7 | 19.2 |
+| 12. SMEs own the judgment, CoS & CG owns the process, the CFO owns ultimate recommendations | 119 | 0.9 | 0.4 | 1.3 | 20.5 |
+| 13. Proposal: Four decision gates in 120 days; nothing signed between them | 142 | 1.1 | 0.5 | 1.6 | 22.1 |
+| 14. Leadership approach: trust, accountability and follow-through | 129 (incl. 40 story) | 1.0 | 0.3 | 1.3 | 23.4 |
+| 15. Working with the markets: who owns what, and how we learn | 118 | 0.9 | 0.5 | 1.4 | 24.8 |
+| **Total** | **2,282** | **17.6** | **7.2** | **24.8** | |
 
-**Read this honestly.** The talk is about **24 minutes** with every marked pause taken. Speech alone is about 17 minutes. The pauses are generous (about 29% of the total); in a live run, beats are often shorter than a second. If a run-through comes in under 20 minutes, you are rushing. Slow down, and don't add words.
+**Read this honestly.** The talk is about **25 minutes** with every marked pause taken. Speech alone is about 17.6 minutes. The pauses are generous (about 29% of the total); in a live run, beats are often shorter than a second. If a run-through comes in under 20 minutes, you are rushing. Slow down, and don't add words.
 
-**Spare time.** 30 minutes minus 24.3 leaves about 5.7 minutes for the two planned question breaks (cap each at 90 seconds), pointing and clicks. If you run two breaks of 90 seconds, you finish at about 27.5 minutes.
+**Spare time.** 30 minutes minus 24.8 leaves about 5.2 minutes for the two planned question breaks (cap each at 90 seconds), pointing and clicks. If you run two breaks of 90 seconds, you finish at about 28 minutes.
 
 ### Checkpoints (with both question breaks at 90 seconds)
 
@@ -867,9 +881,9 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 |---|---|
 | Start of slide 3 | 3.5 |
 | Start of slide 8 (after break 1) | 14 |
-| Start of slide 11 (after break 2) | 20 |
-| Start of slide 14 | 24.5 |
-| Finished, with the ask delivered | 27.5, and **never later than 28** |
+| Start of slide 11 (after break 2) | 20.5 |
+| Start of slide 14 | 25 |
+| Finished, with the ask delivered | 28, and **never later than 28.5** |
 
 ---
 
@@ -1278,6 +1292,28 @@ Method: spoken words at **130 words a minute**, plus the pauses marked in the sc
 
 ---
 
+### Theme H: Method, evidence and frameworks (Q85-Q88)
+
+**Q85. Why these weights: 30, 25, 20, 15, 10? How do you know they are right?** `[BU]` · Slide 6
+*Testing:* whether you defend a judgment as if it were a model.
+> They are my judgment, not a calibrated model, and the slide says proposal. // Economic value is highest because the cap binds, and the question is which dollars earn the most. The weights are published before anyone submits, so the argument is about evidence. // What I have not done is run the ranking on real cases. The first test is simple: does the top-ranked case change if any weight moves ten points? If it does, the weights are doing the deciding and we should look harder. If not, the debate over thirty versus twenty-five isn't worth having. // We would run that on the first-release cases, and the CFO can change a weight before the first submission, not after.
+
+*Delivery:* a clean `[BU]` with a concrete test. Don't claim the sensitivity has been run on the cases; slide 6 describes it as a step Finance performs.
+
+**Q86. What is the framework behind how you handle executive disagreement? Is there evidence for it?** `[A]` · Slides 10, 14
+> The slides cite Kim and Mauborgne's fair-process work in Harvard Business Review. Three ideas: engagement, explanation and clarity of expectations. // Here that means people are consulted privately before a decision, which is engagement. The rationale and any dissent are written down, which is explanation. And the criteria and rules are public before anyone submits, which is expectation clarity. // The argument is that people commit to decisions they disagreed with when the process feels fair. I would hold it loosely: it is a framework, not a guarantee, and I haven't tested it at Nu.
+
+*Delivery:* say "the argument is", never "research proves". One 2020 study of an organization found mixed support, with explanation the weakest of the three.
+
+**Q87. Which parts of this are evidence-based, and which are your judgment? What does "best practice" say?** `[C]` · Backups A, C
+*Testing:* intellectual honesty about borrowed authority.
+> Backup A labels each one. Nu's Q2'26 numbers are fact. The sixty million, the twenty-five million cap, the hub size, the weights and the site scorecard are the case's figures or my judgment. // The outside sources in backup C, McKinsey, Deloitte, Gartner, HBR, are context. They shaped the questions I asked; they don't prove the answers. // So where I say "best practice" I mean "common practice", and I wouldn't defend any single number by citing it. I would rather defend it with Nu's own data, and test it in the first quarter.
+
+**Q88. What stops sunk cost taking over the HQ project?** `[A]` · Slide 13
+> Setting the walk-aways before anything is spent. They are written into the gates: a site that moves tax residence is out, a cliff-edge clawback is out, and no lease commitment is made before the incentive is signed. // And nothing is signed between gates, so there is little to be sunk. The MTeam decides at each gate on the exit test, not on how far we have come. // I would also ask at every gate review, out loud: what would make us stop?
+
+---
+
 ### Questions to ask the panel
 
 You'll likely be invited to ask. Pick two. They should show curiosity and humility, not test the panel.
@@ -1314,6 +1350,7 @@ These are the questions where `[BU]` is the strongest honest answer. The shape i
 | Q45 | Close timetable versus the book date | Confirm with Accounting |
 | Q69 | Where Pillar Two rules land | Ask Tax what they are watching |
 | Q83 | Nu's internal view of its risks | Outsider's list, labeled as such |
+| Q85 | Whether the scorecard weights are right | Rank-sensitivity test on first-release cases; weights changeable before first submission |
 
 **Pairing rule.** Never use two `[BU]` answers in a row. After one, give a firm answer next.
 
@@ -1468,6 +1505,31 @@ These are places where the deck contradicts itself or this talk track. I did not
 
 **Taken from the deck and v10 without re-pulling:** the Q2'26 KPIs, the opex and revenue figures, the cohort data, the Mexico, US and buyback dates, and the Pillar Two parameters.
 
-**Re-computed this session:** every ratio in section 5, the T-minus and gate weekdays, the 24.3-minute timing, and the 30.8 ÷ 15.9 and 31 ÷ 17.1 cohort ratios.
+**Re-computed this session:** every ratio in section 5, the T-minus and gate weekdays, the 24.8-minute timing, and the 30.8 ÷ 15.9 and 31 ÷ 17.1 cohort ratios.
 
 **Panel unknown.** I don't know who is on your panel. The Q&A covers CFO, CEO, Board and governance, Tax and Legal, FP&A, GM and People angles.
+
+---
+
+## 8. Review of the ten "executive advisory principles"
+
+A list of ten principles was assessed against the deck and this talk track. Seven describe what the deck already does, so they add no new content. Four additions were worth making and are now in v11. Three claims should not be used.
+
+| # | Principle | Already in the deck? | Action |
+|---|---|---|---|
+| 1 | Lead with the decision | Partly. The ask first appears on slide 2, about 2 minutes in. | **Added:** slide 1 now names the three decisions inside the first minute. |
+| 2 | Treat discretionary capital like risk-managed credit | Yes. Slide 5, low-and-grow. | None. |
+| 3 | Build intellectual humility into the weighting model | Partly. Weights are published, and Finance tests ranking sensitivity. | **Added:** Q85 (why these weights), with a concrete sensitivity test. |
+| 4 | Separate operational autonomy from central governance | Yes. Slides 3 and 15. | None. |
+| 5 | Rigorous deadlines for Board prep | Yes. Slide 9. | None. Do not use the word "weaponize". |
+| 6 | Fair process | Cited in footnotes, never named in the talk. | **Added:** one clause on slide 10 and Q86. Say "the argument is", not "proves". |
+| 7 | Non-financial complexity as a hard gate | Yes. Slides 11 and 13. | None. |
+| 8 | Enforceable walk-away criteria | Yes. Slide 13. | **Added:** the sunk-cost line on slide 13 and Q88. |
+| 9 | Scale agility without bureaucracy | Yes, through structure. | **Do not claim AI neutralizes bureaucracy.** The defenses are three meetings, a small hub, public rules and a kill switch. AI is a supporting tool. |
+| 10 | Anchor to unit-level reality | Partly. Slides 5 and 7 use cost to serve, ARPAC and the efficiency ratio. | None. Do not say every ask is validated against them; slides 3, 4 and 8-15 are not. |
+
+**Claims in that list that should not be repeated**
+
+- "Backup H": the deck has backups A-G only. AI is backups E and G.
+- "Enforcing a dissent-but-commit culture": disagree and commit is an outcome you invite, not one you enforce. Say "disagree and commit".
+- "Studies prove" and "dictate" about McKinsey, HBR, NACD, Deloitte and Gartner: these could not be verified and are context only (section 0.12). I confirmed Kim and Mauborgne's three elements (engagement, explanation, expectation clarity) from secondary sources this session; the authors argue the case, and a 2020 study found mixed support for the explanation element.
